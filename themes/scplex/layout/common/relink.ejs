@@ -1,0 +1,61 @@
+<%
+var arraySection = [
+  {
+    "alias": "cause",
+    "aliasPlural": "causes",
+    "aliasTab": "causes-tab",
+    "url": "\/recovery\/causes\/",
+    "nameTab": "Причины потери данных",
+    "title": "Причины, после которых мы восстанавливаем данные",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. In molestias suscipit adipisci consequatur laudantium assumenda  odit inventore, nemo, ipsa earum reiciendis mollitia impedit, quaerat fugiat!"
+  },
+  {
+    "alias": "data-type",
+    "aliasPlural": "data-types",
+    "aliasTab": "data-types-tab",
+    "url": "\/recovery\/data-types\/",
+    "nameTab": "Типы данных",
+    "title": "Типы данных, кторые мы восстанавливаем",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda deserunt laborum laboriosam magnam excepturi porro odio ipsa aperiam ducimus nemo necessitatibus unde reiciendis dolores nobis maiores culpa doloribus, pariatur ipsum non ex ullam recusandae nam."
+  },
+  {
+    "alias": "system",
+    "aliasPlural": "systems",
+    "aliasTab": "systems-tab",
+    "url": "\/recovery\/systems\/",
+    "nameTab": "Операционные системы",
+    "title": "Операционные системы, данные в которых мы восстанавливаем",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus libero eos atque error voluptatibus non, sequi sint est laboriosam similique nihil nostrum."
+  }
+]
+%>
+
+<% for (let index = 0; index < arraySection.length; index++) {
+  let section = arraySection[index];
+}
+%>
+<div class="relink">
+  <nav class="relink__nav nav" id="nav-tab" role="tablist">
+    
+    <% for (let index = 0; index < arraySection.length; index++) { %>
+      <% let section = arraySection[index]; %>
+      <a class="relink__nav-item nav-item<% if (index == 0) { %> active<% } %>" id="<%= section.aliasTab %>" data-toggle="tab" href="#<%= section.aliasPlural %>" role="tab" aria-controls="causes"
+      aria-selected="true"><%= section.nameTab %></a>
+    <% } %>
+
+  </nav>
+  <div class="relink__tab-content tab-content" id="nav-tabContent">
+    <% for (let index = 0; index < arraySection.length; index++) { %>
+      <% let section = arraySection[index]; %>
+      <div class="relink__tab-pane tab-pane fade<% if (index == 0) { %> show active<% } %>" id="<%= section.aliasPlural %>" role="tabpanel" aria-labelledby="<%= section.aliasTab %>" itemscope itemtype="http://schema.org/ListItem">
+        <link href="<%= section.url %>" itemprop="url" />
+        <meta itemprop="name" content="<%= section.title %> <%= config.subdomain.inCity %>" />
+        <div class="relink__description" itemprop="description">
+          <%= section.description %>
+        </div>
+        <%- partial('relink/relink-list', {type: section.alias}) %>
+      </div>
+    <% } %>
+
+  </div>
+</div>

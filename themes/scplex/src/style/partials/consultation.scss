@@ -1,0 +1,66 @@
+.consultation {
+    &__form {
+        @extend .box-block;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    &__title {
+        flex: 0 0 100%;
+        flex-wrap: wrap;
+        font-size: 1.5em;
+        color: #666;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+        padding-bottom: 3px;
+        margin-bottom: 35px;
+        text-align: center;
+        // border-bottom: 1px solid #aaa;
+    }
+    &__contacts {
+        // @extend .box-block;
+        // background-color: $main-color;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px 15px 35px 15px;
+        // margin-bottom: 25px;
+    }
+    &__question {
+        // @extend .box-block;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px 15px 35px 15px;
+        // margin-bottom: 25px;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &_33 {
+            flex: 0 0 33%;
+            padding: 0 25px;
+            @include media-breakpoint-down(md) {
+                flex: 0 0 100%;
+                margin-bottom: 30px;
+                padding: 0 10px;
+            }
+        }
+        &_100 {
+            flex: 0 0 100%;
+            padding: 0 35px;
+            @include media-breakpoint-down(md) {
+                padding: 0 10px;
+            }
+        }
+    }
+    &__footer {
+        padding: 25px;
+        // border-top: 1px solid #dedede;
+        display: flex;
+        justify-content: center;
+    }
+    
+}

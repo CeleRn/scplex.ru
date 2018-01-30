@@ -1,0 +1,70 @@
+<%- partial('common/breadcrumb', {display: true}) %>
+<%- partial('common/main-title', {area: false}) %>
+
+  <div class="description-block">
+    <%- markdown(page.content) %>
+  </div>
+
+  <div class="consultation">
+    <form action="/consultations/" class="consultation__form" name="Consultation" data-netlify="true" method="POST">
+      <div class="consultation__question">
+        <h2 class="consultation__title">Ваш вопрос</h2>
+        <div class="consultation__block consultation__block_100">
+          <div class="form-input mb-5">
+            <input class="form-input__input" name="question-header" id="question-header" type="text" required>
+            <label class="form-input__label" for="question-header">Тема вопроса</label>
+            <div class="form-input__border-bottom"></div>
+            <div class="form-input__message" data-error="Обязательное поле" data-success="Принято"></div>
+          </div>
+          <div class="form-input">
+            <textarea class="form-input__input" name="question-text" id="question-text" type="text" rows="4" required></textarea>
+            <label class="form-input__label" for="question-text">Текст вопроса</label>
+            <div class="form-input__border-bottom"></div>
+            <div class="form-input__message" data-error="Обязательное поле" data-success="Принято"></div>
+          </div>
+        </div>
+      </div>
+      <div class="consultation__contacts">
+        <h2 class="consultation__title">Как с вами связаться, для ответа?</h2>
+        <div class="consultation__block consultation__block_33">
+          <div class="form__input-block form__input-block_with-icon">
+            <%- partial('common/svg-sprite-element', {icon: "person", cssSelector: "form__icon"}) %>
+              <div class="form-input">
+                <input class="form-input__input" name="name" id="name" type="text" required>
+                <label class="form-input__label" for="name">Ваше имя</label>
+                <div class="form-input__border-bottom"></div>
+                <div class="form-input__message" data-error="Обязательное поле" data-success="Принято"></div>
+              </div>
+          </div>
+        </div>
+
+        <div class="consultation__block consultation__block_33">
+          <div class="form__input-block form__input-block_with-icon">
+            <%- partial('common/svg-sprite-element', {icon: "mobile", cssSelector: "form__icon"}) %>
+              <div class="form-input">
+                <input class="form-input__input" name="phone" id="phone" type="tel">
+                <label class="form-input__label" for="phone">Номер телефона</label>
+                <div class="form-input__border-bottom"></div>
+                <div class="form-input__message" data-error="Введите корректный номер телефона"></div>
+              </div>
+          </div>
+        </div>
+
+        <div class="consultation__block consultation__block_33">
+          <div class="form__input-block form__input-block_with-icon">
+            <%- partial('common/svg-sprite-element', {icon: "mail", cssSelector: "form__icon"}) %>
+              <div class="form-input">
+                <input class="form-input__input" name="email" id="email" type="email" required>
+                <label class="form-input__label" for="email" data-error="Обязательное поле" data-success="Принято">Email</label>
+                <div class="form-input__border-bottom"></div>
+                <div class="form-input__message" data-error="Введите корректный email"></div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="consultation__footer">
+        <button class="form__submit" type="submit">Отправить заявку</button>
+      </div>
+    </form>
+  </div>

@@ -1,0 +1,23 @@
+<%
+// Фильтр постов текущей категории
+function filterByTypePost(obj) {
+  if (obj.typePost == type) {
+    return true;
+  } else {
+    return false;
+  }
+}
+var postsList = site.posts.filter(filterByTypePost);
+%>
+
+<ul class="relink-list">
+  <% postsList.each(function (post, i) { %>
+    <li class="relink-list__item" itemprop="item" itemscope itemtype="http://schema.org/Service">
+      <meta itemprop="name" content="<%= post.longtitle %> <%= config.subdomain.inCity %>" />
+      <a href="<%= post.path %>" class="relink-list__link" itemprop="url">
+        <%- partial('common/svg-sprite-element', {icon: post.alias, cssSelector: "relink-list__icon"}) %>
+        <span><%= post.title %></span>
+      </a>
+    </li>
+  <% }); %>
+</ul>

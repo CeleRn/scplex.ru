@@ -1,0 +1,108 @@
+<!-- Блок с хлебными крошками -->
+<%- partial('common/breadcrumb', {display: true}) %>
+
+<div class="service" itemscope itemtype="http://schema.org/Service">
+  <meta itemprop="serviceType" content="Recovery data" />
+  <meta itemprop="serviceType" content="Восстановление данных" />
+
+  <!-- Блок с заголовком -->
+  <%- partial('common/main-title', {area: true}) %>
+
+  <div class="service__info">
+
+    <!-- Блок со списками параметров для SEO -->
+    <% if(typeof page.seoList != "undefined") { %>
+      <div class="service__list-desc list-desc">
+        <% for(var index in page.seoList) { %>
+          <h2 class="list-desc__title"><%= page.seoList[index].name %></h2>
+          <ul class="list-desc__list">
+            <% for(var item in page.seoList[index].items) { %>
+              <li class="list-desc__list-item"><%= page.seoList[index].items[item].text %></li>
+            <% } %>
+          </ul>
+        <% } %>
+      </div>
+    <% } %>
+
+    <!-- Блок с описанием и картинкой -->
+    <div class="service__description service-desc">
+      <!-- Блок с текстом -->
+      <div class="service-desc__content" itemprop="description">
+        <div class="service-desc__cost service-cost">
+          <h3 class="service-cost__title">Цена</h3>
+          <div class="service-cost__price">
+            от <span class="service-cost__price-number"><%= minPrice(page.offers) %></span> <span class="service-cost__currency">₽</span>  
+          </div>
+          <a href="#cost" class="service-cost__more-link" id="cost-more-link">Подробнее</a>
+        </div>
+        <div class="service-desc__text">
+          <div>
+              <%- markdown(page.content) %>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Блок с картинкой -->
+      <div class="service-desc__image" data-src-img="<%= page.banner %>">
+        <link href="<%= page.banner %>" itemprop="image" />
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Блок с предложением позвонить -->
+  <%- partial('common/call-to-action/phone') %>
+
+  <div class="service__price price">
+  
+    <!-- Блок с таблицей цен -->
+    <% if(typeof page.offers != "undefined") { %>
+      <div class="price__cost cost" id="cost" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
+        
+        <h2 class="cost__title">Стоимость восстановления данных</h2>
+        <%  
+          for (let index in page.offers) { 
+            let offer = page.offers[index];
+        %>
+          <div class="cost-list" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
+            <meta itemprop="name" content="<%= offer.name %> <%= config.subdomain.inCity %>">
+            <span itemprop="areaServed" itemscope="" itemtype="http://schema.org/City">
+              <meta itemprop="name" content="<%= config.subdomain.city %>">
+            </span>
+            <div class="cost-list__text"><%= offer.name %></div>
+            <div class="cost-list__price">от
+              <span itemprop="lowPrice"><%= offer.price %></span>
+              <span itemprop="priceCurrency" content="RUB">₽</span>
+            </div>
+          </div>
+        <% } %>
+        <meta itemprop="lowPrice" content="<%= minPrice(page.offers) %>">
+        <meta itemprop="priceCurrency" content="RUB">
+      </div>
+    <% } %>
+    <!-- Блок со способами оплаты -->
+    <div class="price__payment payment">
+      <h2 class="payment__title">Способы оплаты</h2>
+      <ul class="payment-methods-list">
+        <% for (let index in site.data.company.paymentMethods) { %>
+          <li class="payment-methods-list__item"><%= site.data.company.paymentMethods[index].name %></li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Блок с предложением заказать -->
+<%- partial('common/call-to-action/order') %>
+
+<!-- Блок со слайдером производителей -->
+<%- partial('common/vendors') %>
+
+<!-- Блок со списками услуг -->
+<%- partial('common/relink') %>
+
+<!-- Блок с предложением получить консультацию -->
+<%- partial('common/call-to-action/consulting') %>
+

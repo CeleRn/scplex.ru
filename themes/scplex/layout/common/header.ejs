@@ -1,0 +1,23 @@
+<header class="header">
+  <div class="header__top navbar navbar-expand-lg">
+    <div class="container">
+      <%- partial('header/top-menu', {button: true, menu:false}) %>
+      <%- partial('header/top-panel') %>
+      
+      <%- partial('header/top-menu', {button: false, menu: true}) %>
+    </div>
+  </div>
+  <div class="header__middle">
+    <div class="container">
+      <%- partial('header/logo') %>
+      <%- partial('header/main-menu') %>
+    </div>
+  </div>
+  <div class="header__bottom">
+    <div class="container">
+      <div class="header__bottom-bg-white"></div>
+      <%- partial('header/second-menu') %>
+      <%- partial('header/action-button') %>
+    </div>
+  </div>
+</header>

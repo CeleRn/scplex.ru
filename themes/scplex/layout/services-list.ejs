@@ -1,0 +1,23 @@
+<%
+// Фильтр постов текущей категории
+function filterByTypePost(obj) {
+  if (obj.typePost == page.typePost) {
+    return true;
+  } else {
+    return false;
+  }
+}
+var postsList = site.posts.filter(filterByTypePost);
+%>
+<%- partial('common/breadcrumb', {display: true}) %>
+<%- partial('common/main-title', {area: true}) %>
+
+<%- markdown(page.content) %>
+
+<ul class="posts-list">
+  <% postsList.each(function (post, i) { %>
+    <li class="posts-list-item">
+      <a href="<%= post.path %>" class="posts-list-item__link"><%= post.title %></a>
+    </li>
+  <% }); %>
+</ul>

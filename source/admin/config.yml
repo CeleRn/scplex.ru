@@ -1,0 +1,102 @@
+backend:
+  name: github
+  repo: CeleRn/back-way.ru # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+production:
+  backend:
+    name: github
+    repo: CeleRn/back-way.ru
+    branch: master
+media_folder: "source/assets/images" # Folder where user uploaded files should go
+public_folder: "source"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "cause" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Проблема"
+    folder: "/source/_posts/causes" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template
+    fields: # The fields each document in this collection have
+      - {label: "Тип поста", name: "typePost", widget: "hidden", default: "cause"}
+      - {label: "Шаблон", name: "layout", widget: "hidden", default: "service"}
+      - {label: "Директория", name: "section", widget: "hidden", default: "/recovery"}
+      - {label: "Хлебные крошки", name: "breadcrumbs", widget: "hidden", default: "[{name: Восстановление данных, url: /recovery/},{name: Причины, url: /recovery/causes/}]"}
+      - {label: "Текущая страница в хлебных крошек", name: "breadcrumbCurrent", widget: "boolean", default: "true"}
+      - {label: "Краткое название проблемы", name: "title", widget: "string"}
+      - {label: "Полное название проблемы", name: "longtitle", widget: "string"}
+      - {label: "Главная картинка", name: "banner", widget: "image", required: false}
+      - label: "Дополнительные списки"
+        name: "seoList"
+        widget: "list"
+        fields:
+          - {label: "Название", name: "name", widget: "string"}
+          - label: "Элементы списка"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Текст", name: "text", widget: "string"}
+      - label: "Строка таблицы прайса"
+        name: "offers"
+        widget: "list"
+        fileds: 
+          - {label: "Название", name: "name", widget: "string"}
+          - label: "Тип цены"
+            name: "type"
+            widget: "select"
+            options: 
+              - { label: "от", value: "low" }
+              - { label: "равно", value: "eq" }
+              - { label: "до", value: "high" }
+      - label: "SEO параметры страницы"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Тег Title", name: "title", widget: "string"}
+          - {label: "Тег h1", name: "h1", widget: "string"}
+          - {label: "Тег Keywords", name: "keywords", widget: "string"}
+          - {label: "Тег Description", name: "description", widget: "string"}
+  - name: "system" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Проблема"
+    folder: "/source/_posts/systems" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template
+    fields: # The fields each document in this collection have
+      - {label: "Тип поста", name: "typePost", widget: "hidden", default: "system"}
+      - {label: "Шаблон", name: "layout", widget: "hidden", default: "service"}
+      - {label: "Директория", name: "section", widget: "hidden", default: "/recovery"}
+      - {label: "Хлебные крошки", name: "breadcrumbs", widget: "hidden", default: "[{name: Восстановление данных, url: /recovery/},{name: Операционные системы, url: /recovery/systems/}]"}
+      - {label: "Текущая страница в хлебных крошек", name: "breadcrumbCurrent", widget: "boolean", default: "true"}
+      - {label: "Краткое название проблемы", name: "title", widget: "string"}
+      - {label: "Полное название проблемы", name: "longtitle", widget: "string"}
+      - {label: "Главная картинка", name: "banner", widget: "image", required: false}
+      - label: "Дополнительные списки"
+        name: "seoList"
+        widget: "list"
+        fields:
+          - {label: "Название", name: "name", widget: "string"}
+          - label: "Элементы списка"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Текст", name: "text", widget: "string"}
+      - label: "Строка таблицы прайса"
+        name: "offers"
+        widget: "list"
+        fileds: 
+          - {label: "Название", name: "name", widget: "string"}
+          - label: "Тип цены"
+            name: "type"
+            widget: "select"
+            options: 
+              - { label: "от", value: "low" }
+              - { label: "равно", value: "eq" }
+              - { label: "до", value: "high" }
+      - label: "SEO параметры страницы"
+        name: "seo"
+        widget: "object"
+        fields:
+          - {label: "Тег Title", name: "title", widget: "string"}
+          - {label: "Тег h1", name: "h1", widget: "string"}
+          - {label: "Тег Keywords", name: "keywords", widget: "string"}
+          - {label: "Тег Description", name: "description", widget: "string"}
