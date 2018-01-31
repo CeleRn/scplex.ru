@@ -1,8 +1,10 @@
-logo: /assets/images/logo_backway.svg
-name: Back Way
+logo: /assets/images/logo_plex.svg
+altLogo: Компьютерный сервис Plex 
+name: СЦ "PLEX"
+slogan: Компьютерный сервис
 # image: /assets/images/uploads/logo-artmusicpro.svg
-phone: 88006234599
-email: info@back-way.ru
+phone: 84956234567
+email: info@scplex.ru
 city: г. Москва
 address: Ленинградское шоссе, 52Б
 paymentMethods:

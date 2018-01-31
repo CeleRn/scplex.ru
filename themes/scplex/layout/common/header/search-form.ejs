@@ -1,0 +1,10 @@
+<div class="header__search-form collapse" id="search">
+  <form action="/" class="search-form">
+    <input type="text" name="query" id="query" class="search-form__input"/>
+    <label class="search-form__label" for="query">Поиск по сайту</label>
+    <div class="search-form__border-bottom"></div>
+    <button class="search-form__submit" type="submit">
+      <%- partial('../svg-sprite-element', {icon: "search", cssSelector: "search-form__icon"}) %>
+    </button>
+  </form>
+</div>

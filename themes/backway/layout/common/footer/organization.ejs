@@ -1,0 +1,11 @@
+<div class="footer-block organization">
+  <h3 class="footer-block__title">Back Way</h3>
+  <!-- <span class="footer-block__subtitle">Возвращаем прошлое</span> -->
+  <p class="organization__description">Лаборатория по восстановлению данных</p>
+  <address class="organization__address">
+    <span class="organization__city"><%= site.data.company.city %></span>
+    <span class="organization__street"><%= site.data.company.address %></span>
+  </address>
+  <span class="organization__phone"><%- formatPhone(site.data.company.phone) %></span>
+  <a href="mailto:<%= site.data.company.email %>" class="organization__email"><%= site.data.company.email %></a>
+</div>

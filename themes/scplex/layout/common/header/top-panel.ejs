@@ -1,43 +1,32 @@
 <ul class="header__top-panel top-panel">
   <li class="top-panel__item">
-    <a href="#" class="top-panel-link">
-      <%- partial('../svg-sprite-element', {icon: "place", cssSelector: "top-panel-link__icon"}) %>
-        <span class="top-panel-link__text">Москва</span>
+    <a href="#" class="top-panel__link">
+      <%- partial('../svg-sprite-element', {icon: "place", cssSelector: "top-panel__icon"}) %>
+        <span class="top-panel__text">Москва</span>
     </a>
   </li>
   <li class="top-panel__item">
-    <a href="mailto:<%= site.data.company.email %>" class="top-panel-link">
-      <%- partial('../svg-sprite-element', {icon: "mail", cssSelector: "top-panel-link__icon"}) %>
-        <span class="top-panel-link__text">
+    <a href="mailto:<%= site.data.company.email %>" class="top-panel__link">
+      <%- partial('../svg-sprite-element', {icon: "mail", cssSelector: "top-panel__icon"}) %>
+        <span class="top-panel__text">
           <%= site.data.company.email %>
         </span>
     </a>
   </li>
   <li class="top-panel__item">
-    <a href="tel:<%= site.data.company.phone %>" class="top-panel-link top-panel-link_phone">
-      <%- partial('../svg-sprite-element', {icon: "phone", cssSelector: "top-panel-link__icon"}) %>
-        <span class="top-panel-link__text">
+    <a href="tel:<%= site.data.company.phone %>" class="top-panel__link top-panel__link_phone">
+      <%- partial('../svg-sprite-element', {icon: "phone", cssSelector: "top-panel__icon"}) %>
+        <span class="top-panel__text">
           <%- formatPhone(site.data.company.phone) %>
         </span>
     </a>
   </li>
   <li class="top-panel__item">
-    <a href="#" class="top-panel-link top-panel-link_search collapsed" data-toggle="collapse" data-target="#search" aria-controls="search"
+    <a href="#" class="top-panel__link top-panel__link_search collapsed" data-toggle="collapse" data-target="#search" aria-controls="search"
       aria-expanded="false" aria-label="Панель поиска">
-      <%- partial('../svg-sprite-element', {icon: "search", cssSelector: "top-panel-link__icon top-panel-link__icon_close"}) %>
-      <%- partial('../svg-sprite-element', {icon: "close", cssSelector: "top-panel-link__icon top-panel-link__icon_open"}) %>
+      <%- partial('../svg-sprite-element', {icon: "search", cssSelector: "top-panel__icon top-panel__icon_close"}) %>
+      <%- partial('../svg-sprite-element', {icon: "close", cssSelector: "top-panel__icon top-panel__icon_open"}) %>
     </a>
   </li>
 </ul>
-<div class="header__search search collapse" id="search">
-  <form action="/" class="search__form">
-    <div class="input-group mb-3">
-      <input type="text" class="search__input form-control" placeholder="Поиск по сайту" aria-label="Поиск по сайту" name="q">
-      <div class="input-group-append">
-        <button class="search__submit form-control input-group-text" type="submit">
-          <%- partial('../svg-sprite-element', {icon: "search", cssSelector: "search__submit-icon"}) %>
-        </button>
-      </div>
-    </div>
-  </form>
-</div>
+<%- partial('search-form') %>

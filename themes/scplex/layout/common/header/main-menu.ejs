@@ -1,5 +1,11 @@
-<nav class="main-menu">
-  <a href="/recovery/" class="main-menu__link">Восстановление данных</a>
-  <a href="/consultations/" class="main-menu__link">Бесплатные консультации</a>
-  <a href="/price/" class="main-menu__link">Цены</a>
+<button class="header__main-menu-toggle main-menu-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="top-menu-content" aria-expanded="false" aria-label="Toggle main menu">
+  <%- partial('../svg-sprite-element', {icon: "menu", cssSelector: "top-menu-toggle__icon top-menu-toggle__icon_close"}) %>
+  <%- partial('../svg-sprite-element', {icon: "close", cssSelector: "top-menu-toggle__icon top-menu-toggle__icon_open"}) %>
+</button>
+
+<nav class="main-menu" id="main-menu">
+  <% var mainMenu = site.data.menu.main
+  for(item in mainMenu) { %>
+    <a href="<%= mainMenu[item].url %>" class="main-menu__item"><%= mainMenu[item].name %></a>
+  <% } %>
 </nav>

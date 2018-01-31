@@ -1,0 +1,23 @@
+top:
+  - name: Сервис
+    url: /service-center/
+  - name: Клиентам
+    url: /cients/
+    childs:
+      - name: Оплата
+        url: /clients/payment/
+      - name: Гарантия
+        url: /clients/payment/
+  - name: Прайс лист
+    url: /services/price/
+  - name: Контакты
+    url: /service-center/contacts/
+main:
+  - name: Ремонт устройств
+    url: /services/repair/
+  - name: Компьютерная помощь
+    url: /services/help/
+  - name: Восстановление данных
+    url: /services/recovery/
+  - name: Сети и интернет
+    url: /services/net/

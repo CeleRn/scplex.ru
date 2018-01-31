@@ -1,9 +1,10 @@
 <div class="logo">
 <% if (is_home()) { %>
-  <img src="/assets/images/logo_backway.svg" alt="Back way - восстановление данных" class="logo__image" />
+  <img src="<%= site.data.company.logo %>" alt="<%= site.data.company.altLogo %>" class="logo__image" />
 <% } else { %>
   <a href="/" class="logo__link">
-    <img src="/assets/images/logo_backway.svg" alt="Back way - восстановление данных" class="logo__image" />
+    <img src="<%= site.data.company.logo %>" alt="<%= site.data.company.altLogo %>" class="logo__image" />
   </a>
 <% } %>
+  <span class="logo__text"><%= site.data.company.slogan %></span>
 </div>
