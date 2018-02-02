@@ -15,9 +15,43 @@ top:
 main:
   - name: Ремонт устройств
     url: /services/repair/
+    itemsName: Устройства
+    childs: 
+      - name: Ноутбук
+        url: /services/repair/notebook/
+      - name: Компьютер
+        url: /services/repair/computer/
   - name: Компьютерная помощь
     url: /services/help/
+    itemsName: Услуги
+    childs: 
+      - name: Установка программ
+        url: /services/help/install/
+      - name: Настройка программного обеспечения
+        url: /services/help/config/
+      - name: Удаление вирусов и программ
+        url: /services/help/remove/
+      - name: Сборка комьютера под заказ
+        url: /services/help/build/
+      - name: Обслуживание
+        url: /services/help/maintenance/
   - name: Восстановление данных
     url: /services/recovery/
+    itemsName: Услуги
+    childs: 
+      - name: Устройства
+        url: /services/recovery/devices/
+      - name: Виды данных
+        url: /services/recovery/data-types/
+      - name: Проишествия
+        url: /services/recovery/causes/
   - name: Сети и интернет
     url: /services/net/
+    itemsName: Услуги
+    childs: 
+      - name: Прокладка сетей
+        url: /services/net/build/
+      - name: Настройка
+        url: /services/net/build/
+      - name: Исправление проблем
+        url: /services/net/troubleshoot/

@@ -3,11 +3,9 @@
   <%- partial('common/head') %>
   <body>
     <%- partial('common/header') %>
-
     <main class="main">
-      <div class="container">
-        <%- body %>
-      </div>
+      <%- partial('common/main-title', {area: true}) %>
+      <%- body %>
     </main>
     <%! partial('common/footer') %>
     <script src="/assets/js/commons.js"></script>
