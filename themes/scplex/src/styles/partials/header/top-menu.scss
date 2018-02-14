@@ -1,0 +1,91 @@
+.top-menu-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    transition: background 0.1s ease-in-out 0s;
+    margin-left: 15px;
+    &.collapsed {
+        display: none;
+        @include media-breakpoint-down(md) {
+            display: flex;
+        }
+    }
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        .top-menu-toggle__icon {
+            fill: rgba(255, 255, 255, 1);
+        }
+    }
+    &__icon {
+        width: 18px;
+        height: 18px;
+        fill: rgba(255, 255, 255, 0.75);
+        &_open {
+            display: block;
+            .collapsed & {
+                display: none;
+            }
+        }
+        &_close {
+            display: none;
+            .collapsed & {
+                display: block;
+            }
+        }
+    }
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 5px 0;
+    &.collapsing {
+        height: 0;
+        @include media-breakpoint-down(md) {
+            display: flex;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+    } // &.collapse {
+    //   display: flex;
+    // }
+    &__item {
+        .dropdown-menu {
+            background-color: $main-color;
+        }
+        .dropdown-item {
+            color: #ffffff;
+            font-size: 12px;
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+        }
+    }
+    &__link {
+        display: block;
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 5px 15px;
+        @include media-breakpoint-down(md) {
+            text-align: left;
+        }
+        &:hover {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+}

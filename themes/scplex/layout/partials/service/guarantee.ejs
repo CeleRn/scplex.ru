@@ -1,0 +1,10 @@
+<div class="guarantee">
+  <% for (let index in page.guarantee) { 
+      let guarantee = page.guarantee[index]; %>
+      <h3 class="guarantee__title"><%= guarantee.title %></h3>
+      <p class="guarantee__text"><%= guarantee.text %></p>
+      <% if(typeof page.guarantee != "") { %>
+        <p class="guarantee__description"><%= guarantee.description %></p>
+      <% } %>
+  <% } %>
+</div>

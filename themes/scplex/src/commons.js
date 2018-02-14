@@ -75,6 +75,7 @@ import './js/my-stcripts.js';
 
 // main
 require('./icons/arrow-down.svg');
+require('./icons/car.svg');
 require('./icons/menu.svg');
 require('./icons/home.svg');
 require('./icons/mail.svg');

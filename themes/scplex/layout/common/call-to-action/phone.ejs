@@ -1,0 +1,9 @@
+<div class="call-to-action">
+    <div class="call-to-action__icon-block call-to-action__icon-block_bg_second">
+        <%- partial('../svg-sprite-element', {icon: "phone", cssSelector: "call-to-action__icon"}) %>
+    </div>
+    <div class="call-to-action__content">
+        <h2 class="call-to-action__title">Звоните</h2>
+        <span class="call-to-action__phone"><%- formatPhone(site.data.company.phone) %></span>
+    </div>
+</div>

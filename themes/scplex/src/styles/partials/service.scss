@@ -1,0 +1,254 @@
+.service {}
+
+.service-info {
+    display: flex;
+    flex-wrap: wrap;
+    &__left {
+        @extend .box-block;
+        flex-basis: 500px;
+        flex-grow: 1;
+        margin-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        @include media-breakpoint-down(md) {
+            flex-basis: 100%;
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+        @include media-breakpoint-down(sm) {
+            flex-direction: column;
+        }
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 280px;
+        flex-grow: 0;
+        flex-shrink: 1;
+        @include media-breakpoint-down(md) {
+            flex-basis: 100%;
+            flex-direction: row;
+        }
+        @include media-breakpoint-down(sm) {
+            flex-wrap: wrap;
+        }
+    }
+    &__description {
+        padding: 15px;
+        flex-basis: 60%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        font-weight: 300;
+        color: #333333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include media-breakpoint-down(sm) {
+            flex-basis: auto;
+            font-size: .95em;
+            line-height: 1.35em;
+        }
+    }
+    &__image {
+        flex-basis: 40%;
+        flex-grow: 1;
+        flex-shrink: 1;
+        background-image: url('/assets/images/upload/chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka.jpg');
+        background-position: center center;
+        background-repeat: no-repeat no-repeat;
+        background-size: cover;
+        @include media-breakpoint-down(sm) {
+            flex-basis: auto;
+            min-height: 180px;
+        }
+    }
+}
+
+.service-block {
+    @extend .box-block;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    @include media-breakpoint-down(md) {
+        flex-basis: 50%;
+    }
+    @include media-breakpoint-down(sm) {
+        flex-basis: 100%;
+    }
+    &+& {
+        margin-top: 15px;
+        @include media-breakpoint-only(md) {
+            margin-top: 0;
+            margin-left: 15px;
+        }
+    }
+    &__title {
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #666666;
+    }
+    &__text {
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    &__more {
+        display: inline-block;
+        width: 150px;
+        border: 1px solid rgba($accent-color, 0.5);
+        color: rgba($accent-color, 0.5);
+        text-transform: uppercase; // font-weight: 300;
+        padding: 0.5em;
+        text-align: center;
+        &:hover {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: $accent-color;
+            text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+.more-nav {
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+        flex-grow: 1;
+        padding: 10px;
+        text-align: center;
+        color: #666666;
+        text-transform: uppercase;
+        transition: all .2s easy 0s;
+        &:hover {
+            text-decoration: none;
+            color: #333333;
+        }
+        &.active {
+            @extend .box-block;
+            z-index: -1;
+            font-weight: 700;
+            
+        }
+    }
+}
+.tab-content {
+    @extend .box-block;
+}
+.tab-pane {
+    padding: 25px 15px;
+}
+.offers {
+    
+    &__list {
+
+    }
+}
+.offer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+    &:before {
+        position: absolute;
+        display: block;
+        content: "";
+        bottom: 11px;
+        border-bottom: 1px dashed #dedede;
+        height: 1px;
+        width: 100%;
+        z-index: 1;
+    }
+    &:hover {
+        &:before {
+            border-bottom-color: #999;
+        }
+    }
+    &__text {
+        background-color: #ffffff;
+        z-index: 2;
+        padding-right: 2px;
+    }
+    &__price {
+        background-color: #ffffff;
+        z-index: 2;
+        padding-left: 2px;
+    }
+}
+.guarantee {
+    &__title {
+        font-size: 18px;
+        margin-top: 35px;
+        margin-bottom: 5px;
+        color: #666666;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    &__text {
+        font-size: 24px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 0;
+    }
+    &__description {
+        color: #888;
+        font-size: .9em;
+        font-weight: 300;
+    }
+}
+
+.scheme {
+    margin: 40px 0;
+    padding: 25px 0;
+    &__title {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 700;
+        color: #555;
+        @include media-breakpoint-down(sm) {
+            font-size: 24px;
+        }
+    }
+    &__list {
+        display: flex;
+    }
+    &__item {
+        flex-basis: 10%;
+        flex-grow: 1;
+    }
+}
+
+.scheme-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    &:nth-child(2n) {
+        .scheme-item__number {
+            order: 2;
+        }
+        > div {
+            order: 1;
+        }
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    &__number {
+
+    }
+    &__description {
+        font-size: .8em;
+        color: #888888;
+        line-height: 1.2;
+    }
+    &__link {
+        &_accent {
+
+        }
+    }
+}

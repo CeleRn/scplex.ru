@@ -52,6 +52,8 @@ main:
       - name: Прокладка сетей
         url: /services/net/build/
       - name: Настройка
-        url: /services/net/build/
+        url: /services/net/config/
+      - name: Помощь
+        url: /services/net/help/
       - name: Исправление проблем
         url: /services/net/troubleshoot/

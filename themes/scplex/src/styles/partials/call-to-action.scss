@@ -1,0 +1,86 @@
+.call-to-action {
+    @extend .box-block;
+    margin: 40px 0;
+    display: flex;
+    @include media-breakpoint-down(sm) {
+        flex-direction: column;
+        margin: 30px 0;
+    }
+    &__icon-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0;
+        flex-basis: 100px;
+        padding: 40px 0;
+        @include media-breakpoint-down(sm) {
+            padding: 15px 0;
+            flex-basis: auto;
+        }
+        &_bg_second {
+            background-color: $second-color;
+        }
+        &_bg_accent {
+            background-color: $accent-color;
+        }
+    }
+    &__icon {
+        width: 50px;
+        height: 50px;
+        fill: #fff;
+        @include media-breakpoint-down(sm) {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    &__content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+        @include media-breakpoint-down(sm) {
+            padding: 25px 0;
+        }
+    }
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        color: #555;
+        @include media-breakpoint-down(sm) {
+            font-size: 24px;
+        }
+    }
+    &__phone {
+        font-size: 40px;
+        color: #666;
+        font-weight: 300;
+        @include media-breakpoint-down(sm) {
+            font-size: 30px;
+        }
+    }
+    &__text {
+        text-align: center;
+        font-size: 1.1em;
+        font-weight: 300;
+        margin-bottom: 30px;
+        color: #666666;
+        @include media-breakpoint-down(sm) {
+            font-size: 1em;
+        }
+    }
+    &__button {
+        display: inline-block;
+        padding: 0.5em 1.5em;
+        border: 1px solid $accent-color;
+        color: $accent-color;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+            background-color: $accent-color;
+            color: #ffffff;
+            text-shadow: -1px 1px 1px rgba(0,0,0,0.2);
+        }
+    }
+}

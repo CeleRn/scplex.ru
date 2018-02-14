@@ -1,10 +1,12 @@
 ---
 layout: index
-title: Замена матрицы ноутубка
+title: Замена матрицы ноутбука
 breadcrumbs:
   - name: Услуги
     url: /services/
   - name: Ремонт устройств
     url: /services/device/
-breadcrumbCurrent: true
+  - name: Ноутбук
+    url: /services/device/notebook/
+breadcrumbCurrent: false
 ---

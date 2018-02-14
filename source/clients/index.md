@@ -2,7 +2,8 @@
 layout: clients
 title: Клиентам
 breadcrumbCurrent: true
+area: false
 seo:
-  title: Информация для клиентов | Back Way
+  title: Информация для клиентов | СЦ 'Plex'
   h1: Информация для клиентов
 ---

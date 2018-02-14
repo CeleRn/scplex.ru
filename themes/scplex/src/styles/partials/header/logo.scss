@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    &__link {}
+    &__image {
+        width: 159px;
+        height: 46px;
+        @include media-breakpoint-down(sm) {
+            width: auto;
+            height: 35px;
+        }
+    }
+    &__text {
+        margin-top: 10px;
+        color: #666666;
+        font-weight: 300;
+        @include media-breakpoint-down(sm) {
+            font-size: .8em;
+        }
+    }
+}

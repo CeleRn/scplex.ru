@@ -12,3 +12,4 @@ paymentMethods:
   - name: MasterCard
   - name: Yandex Деньги
   - name: Qiwi
+defaultPrice: По договоренности

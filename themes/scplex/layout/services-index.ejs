@@ -1,0 +1,25 @@
+<%
+// Фильтр постов текущей категории
+function filterByTypePost(obj) {
+  if (obj.inIndexServices) {
+    return true;
+  } else {
+    return false;
+  }
+}
+var pagesList = site.pages.filter(filterByTypePost);
+%>
+
+<%- markdown(page.content) %>
+
+<%- partial('common/main-title', {area: true}) %>
+
+<div class="container">
+    <ul class="posts-list">
+        <% pagesList.each(function (post, i) { %>
+          <li class="posts-list-item">
+            <a href="<%= url_for(post.path) %>" class="posts-list-item__link"><%= post.title %></a>
+          </li>
+        <% }); %>
+      </ul>
+</div>
