@@ -85,7 +85,7 @@ $mf-input-color: #333 !default;
 $mf-border-color: #999 !default;
 $mf-label-color: lighten($mf-border-color, 10%) !default;
 $mf-active-color: darken($mf-border-color, 10%) !default;
-$mf-focus-color: $main-color !default;
+$mf-focus-color: $second-color !default;
 $mf-error-color: $accent-color !default;
 // Animation
 $mf-transition-speed: 0.28s !default;

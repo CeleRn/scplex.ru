@@ -10,13 +10,10 @@ banner: /assets/images/upload/chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka.jpg
 offers:
   - name: Чистка от пыли с частичной разборкой
     type: eq
-    price: 1300
+    price: 1500
   - name: Чистка от пыли с полной разборкой
     type: eq
     price: 2200
-  - name: Чистка от пыли с полной разборкой и заменой комплектующих
-    type: eq
-    price: 2800
 guarantee:
   - title: Гарантия на работы
     text: 1 месяц
@@ -25,24 +22,26 @@ guarantee:
     text: До 6 месяцев
 scheme:
   - name: Заявка
-    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat suscipit, rerum tenetur minima necessitatibus?
+    description: Вы оформляете заявку на ремонт
     link:
       name: Оформить заявку
       url: /order/
       accent: true
   - name: Выезд
-    description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia.
+    description: Мастер выезжает сразу после согласования заказа.
   - name: Диагностика
-    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat suscipit.
+    description: Диагностируем ноутбук, чтобы исключить или найти дополнительные неисправности, которые могли быть вызваны перегревом.
     link:
       name: Подробнее
       url: /services/repair/notebook/diagnostika-neispravnostei-noutbuka.html
   - name: Работа
-    description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia.
+    description: Проводиться квалифицированая очистка системы охлаждения ноутбука.
   - name: Прием работы
-    description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia.
+    description: Вы принимаете работающее устройство, мастер отчитывается о проделанных работах.
+  # - name: Прием работы
+  #   description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia.
   - name: Оплата
-    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat suscipit.
+    description: Оплачиваете выполненную работу удобным для Вас способом.
     link:
       name: Способы оплаты
       url: /clients/payment/

@@ -130,3 +130,7 @@ require('./images/favicons/ms-icon-70x70.png');
 require('./images/favicons/ms-icon-144x144.png');
 require('./images/favicons/ms-icon-150x150.png');
 require('./images/favicons/ms-icon-310x310.png');
+
+
+// Фоновые изображения
+require('./images/way.jpg');

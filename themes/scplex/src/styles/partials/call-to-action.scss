@@ -41,6 +41,40 @@
         align-items: center;
         padding: 40px 0;
         @include media-breakpoint-down(sm) {
+            .call-to-action__icon-block_bg_second + &{
+                background-color: $second-color;
+                color: #fff;
+                padding: 15px 0 40px 0;
+                .call-to-action__title {
+                    color: #ffffff;
+                    // text-transform: uppercase;
+                }
+                .call-to-action__phone {
+                    color: #ffffff;
+                }
+            }
+            .call-to-action__icon-block_bg_accent + &{
+                background-color: $accent-color;
+                color: #fff;
+                padding: 15px 0 40px 0;
+                .call-to-action__title {
+                    color: #ffffff;
+                    // text-transform: uppercase;
+                }
+                .call-to-action__text {
+                    color: #ededed;
+                }
+                .call-to-action__button {
+                    border-color: #fff;
+                    color: #fff;
+                    &:hover {
+                        background-color: rgba(0,0,0,0.1);
+                    }
+                }
+            }
+        }
+        
+        @include media-breakpoint-down(sm) {
             padding: 25px 0;
         }
     }

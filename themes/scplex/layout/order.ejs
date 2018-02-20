@@ -1,2 +1,173 @@
 <%- partial('common/main-title', {area: true}) %>
-<%= page.longtitle %>
+
+  <div class="container">
+    <div class="description-block">
+      <%- markdown(page.content) %>
+    </div>
+    <div class="order">
+      <form class="order__form" action="/order/" name="Order" data-netlify="true" method="POST">
+        <div class="bo-field-block">
+          <input type="email" class="bo-field" name="bo-field" id="bo-field" />
+        </div>
+        <div class="order__contacts">
+          <h2 class="order__title">Как с вами связаться?</h2>
+          <div class="order__block order__block_33">
+            <div class="form__input-block form__input-block_with-icon">
+              <%- partial('common/svg-sprite-element', {icon: "person", cssSelector: "form__icon"}) %>
+                <div class="form-input">
+                  <input class="form-input__input" name="name" id="name" type="text" required>
+                  <label class="form-input__label" for="name">Ваше имя</label>
+                  <div class="form-input__border-bottom"></div>
+                  <div class="form-input__message" data-error="Обязательное поле" data-success="Принято"></div>
+                </div>
+            </div>
+          </div>
+          <div class="order__block order__block_33">
+            <div class="form__input-block form__input-block_with-icon">
+              <%- partial('common/svg-sprite-element', {icon: "mobile", cssSelector: "form__icon"}) %>
+                <div class="form-input">
+                  <input class="form-input__input" name="phone" id="phone" type="tel" required>
+                  <label class="form-input__label" for="phone" data-error="Обязательное поле" data-success="Принято">Номер телефона</label>
+                  <div class="form-input__border-bottom"></div>
+                  <div class="form-input__message" data-error="Введите корректный номер телефона"></div>
+                </div>
+            </div>
+          </div>
+          <div class="order__block order__block_33">
+            <div class="form__input-block form__input-block_with-icon">
+              <%- partial('common/svg-sprite-element', {icon: "mail", cssSelector: "form__icon"}) %>
+                <div class="form-input">
+                  <input class="form-input__input" name="email" id="email" type="email" required>
+                  <label class="form-input__label" for="email" data-error="Обязательное поле" data-success="Принято">Email</label>
+                  <div class="form-input__border-bottom"></div>
+                  <div class="form-input__message" data-error="Введите корректный email"></div>
+                </div>
+            </div>
+          </div>
+          <div class="order__block order__block_100">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="legal" value="true" required />
+                <i class="helper"></i>Я принимаю
+                <a href="/terms-of-use.html" target="_blank">соглашение сайта</a> об обработке персональных данных.
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="collapse" id="more-clients-info">
+          <div class="order__address">
+            <h2 class="order__title">Адрес, на котором находиться устройство</h2>
+            <div class="order__block order__block_50">
+              <div class="form-input">
+                  <select class="form-input__input" name="clients-city" id="clients-city">
+                      <option disabled >Выберите город</option>
+                      <option value="moscow" selected>Москва</option>
+                      <option value="khimki">Химки</option>
+                      <option value="korolev">Королев</option>
+                    </select>
+                    <label class="form-input__label form-input__label_in-top" for="clients-city">Город</label>
+                <div class="form-input__border-bottom"></div>
+              </div>
+            </div>
+            <div class="order__block order__block_50">
+              <div class="form-input">
+                <input class="form-input__input" name="clients-address" id="clients-address" type="text">
+                <label class="form-input__label" for="clients-address">Улица, дом, подъезд, этаж, квартира</label>
+                <div class="form-input__border-bottom"></div>
+              </div>
+            </div>
+          </div>
+          <div class="order__cause">
+              <h2 class="order__title">Причина обращения</h2>
+              <div class="order__block order__block_100">
+                <div class="form-input">
+                  <textarea class="form-input__input" name="cause" id="cause" type="text" rows="4"></textarea>
+                  <label class="form-input__label" for="cause">Опишите проблему, и что Вы ждете от нас</label>
+                  <div class="form-input__border-bottom"></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="order__more-link">
+          <a href="#more-clients-info" class="order__button collapsed" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="more-clients-info">дополнительную информацию</a>
+        </div>
+        <!-- <div class="order__limit">
+        <h2 class="order__title">Как Быстро вам нужны данные?</h2>
+        <div class="order__block order__block_33">
+          <div class="limit limit_checked form-radio">
+            <div class="radio limit__radio">
+              <label>
+                <input type="radio" name="radio" value="from 14 days" checked="checked" />
+                <i class="helper"></i>От 14 дней
+              </label>
+              <div class="limit__description">Я хочу восстановить информацию как можно дешевле</div>
+            </div>
+          </div>
+        </div>
+        <div class="order__block order__block_33">
+          <div class="limit form-radio">
+            <div class="radio limit__radio">
+              <label>
+                <input type="radio" name="radio" value="7 days" />
+                <i class="helper"></i>До 7 дней
+              </label>
+              <div class="limit__description">Данные нужно восстановить в течении недели</div>
+            </div>
+          </div>
+        </div>
+        <div class="order__block order__block_33">
+          <div class="limit form-radio">
+            <div class="radio limit__radio">
+              <label>
+                <input type="radio" name="radio" value="hot"/>
+                <i class="helper"></i>Срочно
+              </label>
+              <div class="limit__description">Срочное восстановление файлов, стоимость не имеет значения</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order__cause">
+        <h2 class="order__title">Укажите устройство и проблему</h2>
+        <div class="order__block order__block_50">
+          <div class="form-input">
+            <select class="form-input__input" name="type-device" id="type-device" required>
+              <option disabled selected>Выберите тип носителя</option>
+              <option value="hdd">Жесткий диск</option>
+              <option value="flash">Флешка</option>
+              <option value="card">Карта памяти</option>
+              <option value="external-hdd">Внешний жесткий диск</option>
+              <option value="ssd">SSD (Твердотельный накопитель)</option>
+              <option value="raid">RAID массив</option>
+              <option value="nas">Сетевое хранилище (NAS, DAS, SAN)</option>
+              <option value="laptop">Ноутбук</option>
+              <option value="mobile">Мобильное устройство, планшет</option>
+              <option value="other">Другое устройство</option>
+            </select>
+            <label class="form-input__label form-input__label_in-top" for="type-device">Тип носителя</label>
+            <div class="form-input__border-bottom"></div>
+            <div class="form-input__message" data-error="Обязательное поле" data-success="Принято"></div>
+          </div>
+          <div class="form-input">
+            <input class="form-input__input" name="vendor" id="vendor" type="text">
+            <label class="form-input__label" for="vendor">Производитель (необязательно)</label>
+            <div class="form-input__border-bottom"></div>
+            <div class="form-input__message" data-error="Обязательное поле" data-success="Принято"></div>
+          </div>
+        </div>
+        <div class="order__block order__block_50">
+          <div class="form-input">
+            <textarea class="form-input__input" name="cause" id="cause" type="text" rows="4" required></textarea>
+            <label class="form-input__label" for="cause">Опишите проблему, и что Вы ждете от нас</label>
+            <div class="form-input__border-bottom"></div>
+            <div class="form-input__message" data-error="Обязательное поле" data-success="Принято"></div>
+          </div>
+        </div>
+      </div> -->
+
+        <div class="order__footer">
+          <button class="form__submit" type="submit">Отправить заявку</button>
+        </div>
+      </form>
+    </div>
+  </div>

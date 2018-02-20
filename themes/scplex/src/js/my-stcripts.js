@@ -1,5 +1,81 @@
+//Функция плавное перемещения и открыть Таб "Стоимость" при нажатии на ссылку
+$("#more-prices-link").click(function (event) {
+    //отменяем стандартную обработку нажатия по ссылке
+    event.preventDefault();
+    //узнаем высоту от начала страницы до блока на который ссылается якорь
+    var topTab = $('#more-nav').offset().top - 5;
+    //анимируем переход на расстояние - top за 1500 мс
+    $('body,html').animate({ scrollTop: topTab }, 800);
+    //Открываем вкладку
+    $('#prices-tab').tab('show');
+});
+$("#more-guarantee-link").click(function (event) {
+    //отменяем стандартную обработку нажатия по ссылке
+    event.preventDefault();
+    //узнаем высоту от начала страницы до блока на который ссылается якорь
+    var topTab = $('#more-nav').offset().top - 5;
+    //анимируем переход на расстояние - top за 1500 мс
+    $('body,html').animate({ scrollTop: topTab }, 800);
+    //Открываем вкладку
+    $('#guarantee-tab').tab('show');
+});
+
+// Высота в схеме работы
+function paddingScheme() {
+    var paddingScheme = '150px';
+    var paddingTopScheme = '150px';
+    var paddingBottomScheme = '150px';
+    var minHeight = 150;
+    console.log($(window).innerWidth());
+    if ($(window).outerWidth() > 1199) {
+        $('#scheme-list .scheme-item .scheme-item__content').each( function() {
+            if ((parseInt(paddingScheme) -20) < $(this).outerHeight()) {
+                paddingScheme = parseInt($(this).outerHeight()) + 20;
+            }
+        });
+        // $('#scheme-list .scheme-item:nth-child(odd) .scheme-item__content').each( function() {
+        //     if ((parseInt(paddingTopScheme) -20) < $(this).outerHeight()) {
+        //         paddingTopScheme = parseInt($(this).outerHeight()) + 20;
+        //     }
+        // })
+        // $('#scheme-list .scheme-item:nth-child(even) .scheme-item__content').each( function() {
+        //     if ((parseInt(paddingBottomScheme) -20) < $(this).outerHeight()) {
+        //         paddingBottomScheme = parseInt($(this).outerHeight()) + 20;
+        //     }
+        // });
+        $('#scheme-list .scheme-item').css('height', 'auto');
+        // $('#scheme-list .scheme-item').css('padding-top', paddingTopScheme).css('padding-bottom', paddingBottomScheme);
+        $('#scheme-list .scheme-item').css('padding-top', paddingScheme).css('padding-bottom', paddingScheme);
+    } else {
+        if ($(window).outerWidth() > 692) {
+            $('#scheme-list .scheme-item .scheme-item__content').each( function() {
+                if ((minHeight) < $(this).outerHeight()) {
+                    minHeight = parseInt($(this).outerHeight());
+                }
+            });
+            console.log(minHeight);
+            $('#scheme-list .scheme-item').css('min-height', minHeight)
+            $('#scheme-list .scheme-item').css('padding-top', 0).css('padding-bottom', 0);
+        } else {
+            $('#scheme-list .scheme-item').css('min-height', 'auto')
+        }
+        
+    }
+    
+}
+$(document).ready(function () {
+    paddingScheme();
+});
+$(window).resize(function() {
+    paddingScheme();
+});
+
 // $('.description__image').attr('data-src-img')
 
+
+///////////////////////////////////
+///////////////////////////////////
+///////////////////////////////////
 
 $(document).ready(function () {
     if ($('.service-desc__image')) {
@@ -9,7 +85,6 @@ $(document).ready(function () {
         console.log('Нет элемента для обработки')
     }
 });
-
 
 
 

@@ -16,36 +16,38 @@
       <div class="service-info__right">
         <div class="service-block">
           <h3 class="service-block__title">Стоимость</h3>
-          <span class="service-block__text">от 1300 ₽</span>
-          <a href="#prices" class="service-block__more" id="more-prices">Подробнее</a>
+          <span class="service-block__text">от 1500 ₽</span>
+          <a href="#prices" class="service-block__more" id="more-prices-link">Подробнее</a>
         </div>
         <div class="service-block">
           <h3 class="service-block__title">Гарантия</h3>
-          <span class="service-block__text">от 6 месяцев</span>
-          <a href="#" class="service-block__more">Подробнее</a>
+          <span class="service-block__text">от 1 месяца</span>
+          <a href="#guarantee" class="service-block__more" id="more-guarantee-link">Подробнее</a>
         </div>
       </div>
     </div>
-    <%- partial('common/call-to-action/phone') %>
+      <%- partial('common/call-to-action/phone') %>
 
-    <nav class="nav more-nav" id="myTab" role="tablist">
-      <a class="more-nav__item active" id="prices-tab" data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="true">Цены</a>
-      <% if(typeof page.guarantee != "undefined") { %>
-        <a class="more-nav__item" id="guarantee-tab" data-toggle="tab" href="#guarantee" role="tab" aria-controls="guarantee" aria-selected="false">Гарантия</a>
-      <% } %>
-    </nav>
-    <div class="tab-content" id="more-content">
-      <div class="tab-pane fade show active" id="prices" role="tabpanel" aria-labelledby="prices-tab">
-        <%- partial('partials/service/offers') %>
-      </div>
-      <% if(typeof page.guarantee != "undefined") { %>
-        <div class="tab-pane fade" id="guarantee" role="tabpanel" aria-labelledby="guarantee-tab">
-          <%- partial('partials/service/guarantee') %>
+      <nav class="nav more-nav" id="more-nav" role="tablist">
+        <a class="more-nav__item active" id="prices-tab" data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="true">Цены</a>
+        <% if(typeof page.guarantee != "undefined") { %>
+          <a class="more-nav__item" id="guarantee-tab" data-toggle="tab" href="#guarantee" role="tab" aria-controls="guarantee" aria-selected="false">Гарантия</a>
+        <% } %>
+      </nav>
+      <div class="tab-content" id="more-content">
+        <div class="tab-pane fade show active" id="prices" role="tabpanel" aria-labelledby="prices-tab">
+          <%- partial('partials/service/offers') %>
         </div>
-      <% } %>
+        <% if(typeof page.guarantee != "undefined") { %>
+          <div class="tab-pane fade" id="guarantee" role="tabpanel" aria-labelledby="guarantee-tab">
+            <%- partial('partials/service/guarantee') %>
+          </div>
+        <% } %>
+      </div>
     </div>
-    
     <%- partial('partials/service/scheme') %>
-    <%- partial('common/call-to-action/order') %>
-  </div>
+    <div class="container">
+      <%- partial('common/call-to-action/order') %>
+    </div>
+  
 </main>
