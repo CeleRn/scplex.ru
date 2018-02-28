@@ -20,12 +20,13 @@ guarantee:
     description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellat suscipit, rerum tenetur minima necessitatibus?
   - title: Гарантия на комплектующие
     text: До 6 месяцев
+
 scheme:
   - name: Заявка
     description: Вы оформляете заявку на ремонт
     link:
       name: Оформить заявку
-      url: /order/
+      url: /services/order/
       accent: true
   - name: Выезд
     description: Мастер выезжает сразу после согласования заказа.

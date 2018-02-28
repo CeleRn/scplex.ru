@@ -2,10 +2,8 @@
     <!-- Блок с таблицей цен -->
     <% if(typeof page.offers != "undefined") { %>
         <div class="offers__list" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
-
-        <!-- <h3 class="offers__title">Стоимость восстановления данных</h3> -->
         <% for (let index in page.offers) { 
-            let offer = page.offers[index];         %>
+            let offer = page.offers[index]; %>
 
             <% switch (offer.type) {
               case 'low': 

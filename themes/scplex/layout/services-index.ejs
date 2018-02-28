@@ -10,16 +10,20 @@ function filterByTypePost(obj) {
 var pagesList = site.pages.filter(filterByTypePost);
 %>
 
-<%- markdown(page.content) %>
-
-<%- partial('common/main-title', {area: true}) %>
-
 <div class="container">
-    <ul class="posts-list">
-        <% pagesList.each(function (post, i) { %>
-          <li class="posts-list-item">
-            <a href="<%= url_for(post.path) %>" class="posts-list-item__link"><%= post.title %></a>
-          </li>
-        <% }); %>
-      </ul>
+  <div class="sections-list">
+    <%- partial('common/main-title', {area: true, container: false}) %>
+    <div class="sections-list__description"><%- markdown(page.content) %></div>
+    <% pagesList.each(function (post, i) { %>
+      <div class="sections-list-item">
+        <a href="<%= url_for(post.path) %>" class="sections-list-item__link">
+          <img class="sections-list-item__image" src="<%= post.thumbnail %>" alt="<%= post.title %> <%= config.subdomain.inCity %>"/>
+          <span class="sections-list-item__title"><%= post.title %></span>
+        </a>
+      </div>
+    <% }); %>
+  </div>
+
+  <%- partial('common/call-to-action/phone') %>
+
 </div>

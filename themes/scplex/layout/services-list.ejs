@@ -10,16 +10,29 @@ function filterByTypePost(obj) {
 var postsList = site.posts.filter(filterByTypePost);
 %>
 
-<%- markdown(page.content) %>
-
-<%- partial('common/main-title', {area: true}) %>
-
-<div class="container">
-    <ul class="posts-list">
-        <% postsList.each(function (post, i) { %>
-          <li class="posts-list-item">
-            <a href="<%= post.path %>" class="posts-list-item__link"><%= post.title %></a>
-          </li>
-        <% }); %>
-      </ul>
+<div class="top-block" data-src-img="<%= page.banner %>">
+  <div class="container">
+    <%- partial('common/main-title', {area: true, container: false}) %>
+    <div class="top-block__description">
+      <%- markdown(page.content) %>
+    </div>
+  </div>
+  <a class="top-block__more-link top-block__more-link_collapsed" href="#full-description" id="full-description-link">
+    <%- partial('common/svg-sprite-element', {icon: "arrow-down", cssSelector: "top-block__icon"}) %>
+  </a>
 </div>
+<div class="container">
+  <%- partial('common/call-to-action/phone') %>
+</div>
+<div class="posts-list">
+  <div class="container">
+    <% postsList.each(function (post, i) { %>
+      <div class="posts-list__item ">
+        <div class="posts-list-item">
+          <a href="<%= post.path %>" class="posts-list-item__title"> <%= post.title %></a>
+        </div>
+      </div>
+    <% }); %>
+  </div>
+</div>
+

@@ -1,8 +1,14 @@
-<div class="container">
-  <h1 class="main-title" itemprop="name">
-    <%= h1Escape(page) %>
-    <% if (area) { %>
-      <small class="main-title__small"><%= config.subdomain.inCity %></small>
-    <% } %>
-  </h1>
-</div>
+<% if (container) { %>
+  <div class="container">
+<% } %>
+
+<h1 class="main-title" itemprop="name">
+  <%= h1Escape(page) %>
+  <% if (area) { %>
+    <small class="main-title__small"><%= config.subdomain.inCity %></small>
+  <% } %>
+</h1>
+
+<% if (container) { %>
+  </div>
+<% } %>

@@ -4,10 +4,12 @@ top:
   - name: Клиентам
     url: /cients/
     childs:
-      - name: Оплата
+      - name: Выезд и диагностика
+        url: /clients/diagnostic/
+      - name: Способы оплаты
         url: /clients/payment/
       - name: Гарантия
-        url: /clients/payment/
+        url: /clients/guarantee/
   - name: Прайс лист
     url: /services/price/
   - name: Контакты

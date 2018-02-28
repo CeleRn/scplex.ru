@@ -1,5 +1,5 @@
 <main class="main service" itemscope itemtype="http://schema.org/Service">
-  <%- partial('common/main-title', {area: true}) %>
+  <%- partial('common/main-title', {area: true, container: true}) %>
   <meta itemprop="areaServed" content="<%= config.subdomain.city %>" />
   <% if (page.banner !== undefined) { %>
     <link href="<%= page.banner %>" itemprop="image" />
@@ -26,14 +26,14 @@
         </div>
       </div>
     </div>
-      <%- partial('common/call-to-action/phone') %>
+    <%- partial('common/call-to-action/phone') %>
 
-      <nav class="nav more-nav" id="more-nav" role="tablist">
-        <a class="more-nav__item active" id="prices-tab" data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="true">Цены</a>
-        <% if(typeof page.guarantee != "undefined") { %>
-          <a class="more-nav__item" id="guarantee-tab" data-toggle="tab" href="#guarantee" role="tab" aria-controls="guarantee" aria-selected="false">Гарантия</a>
-        <% } %>
-      </nav>
+    <nav class="nav more-nav" id="more-nav" role="tablist">
+      <a class="more-nav__item active" id="prices-tab" data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="true">Цены</a>
+      <% if(typeof page.guarantee != "undefined") { %>
+        <a class="more-nav__item" id="guarantee-tab" data-toggle="tab" href="#guarantee" role="tab" aria-controls="guarantee" aria-selected="false">Гарантия</a>
+      <% } %>
+    </nav>
       <div class="tab-content" id="more-content">
         <div class="tab-pane fade show active" id="prices" role="tabpanel" aria-labelledby="prices-tab">
           <%- partial('partials/service/offers') %>

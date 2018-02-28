@@ -2,7 +2,7 @@
 layout: contacts
 title: Контактная информация
 breadcrumbs:
-  - name: СЦ 'Plex'
+  - name: Сервисный центр 'Plex'
     url: /service-center/
 breadcrumbCurrent: true
 

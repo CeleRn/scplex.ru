@@ -3,7 +3,13 @@
         <%- partial('../svg-sprite-element', {icon: "phone", cssSelector: "call-to-action__icon"}) %>
     </div>
     <div class="call-to-action__content">
-        <h2 class="call-to-action__title">Звоните</h2>
+        <h2 class="call-to-action__title">
+            <% if (page.phoneCallToActionTitle) { %>
+                <%= page.phoneCallToActionTitle %>
+            <% } else { %>
+                Звоните
+            <% } %>
+        </h2>
         <span class="call-to-action__phone"><%- formatPhone(site.data.company.phone) %></span>
     </div>
 </div>
