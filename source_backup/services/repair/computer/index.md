@@ -1,0 +1,21 @@
+---
+layout: services-list
+title: Компьютер
+listtitle: Ремонт компьютеров
+longtitle: Ремонт компьютеров
+typePost: repair-computer
+typeSection: repair
+breadcrumbs:
+  - name: Услуги
+    url: /services/
+  - name: Ремонт устройств
+    url: /services/repair/
+breadcrumbCurrent: true
+phoneCallToActionTitle: Сломался компьютер? Звоните!
+banner: /assets/images/upload/computer.jpg
+thumbnail: /assets/images/upload/computer-icon.jpg
+---
+
+Ремонт компьютеров - одна из самых востребованных услуг. В наше время тяжело представить человека без компьютера. Всем хочется, чтобы их компьютер работал быстро и стабильно, но это сложная аппаратура и она все же ломается. В таком случае мы приходим на помощь.
+
+В ремонте компьютеров для нас нет нерешаемых проблем. Вопросы по работе программного обеспечения, замена и ремонт компонентов. Все сделаем.

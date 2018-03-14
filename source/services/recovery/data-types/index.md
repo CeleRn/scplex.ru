@@ -10,4 +10,6 @@ breadcrumbs:
   - name: Восстановление данных
     url: /services/recovery/
 breadcrumbCurrent: true
+banner: /assets/images/upload/sections/recovery_data-types.jpg
+thumbnail: /assets/images/upload/sections/recovery_data-types-icon.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 layout: services-list
 title: Ноутбук
+listtitle: Ремонт ноутбуков
 longtitle: Ремонт ноутбуков
 typePost: repair-notebook
 typeSection: repair
@@ -11,7 +12,8 @@ breadcrumbs:
     url: /services/repair/
 breadcrumbCurrent: true
 phoneCallToActionTitle: Сломался ноутбук? Звоните!
-banner: /assets/images/upload/notebook.jpg
+banner: /assets/images/upload/sections/repair_notebook.jpg
+thumbnail: /assets/images/upload/sections/repair_notebook-icon.jpg
 
 ---
 Каждый наш мастер отремонтировал за время работы не один десяток, а то и не одну сотню ноутбуков. При этом проблемы были самые различные: не включение, тормоза, залитие жидкостью, поломанные клавиатуры, разбитые матрицы и множество других.

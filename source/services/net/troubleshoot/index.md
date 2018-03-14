@@ -10,4 +10,6 @@ breadcrumbs:
   - name: Сети и интернет
     url: /services/net/
 breadcrumbCurrent: true
+banner: /assets/images/upload/sections/net_troubleshoot.jpg
+thumbnail: /assets/images/upload/sections/net_troubleshoot-icon.jpg
 ---

@@ -5,7 +5,7 @@
 *     <%- thumbnail(post) %>
 */
 
-// Вывод тега title
+// Вывод тега H1
 hexo.extend.helper.register('h1Escape', function (page) {
     var seoH1 = null;
     if (page.seo) {
@@ -49,4 +49,25 @@ hexo.extend.helper.register('keywordsEscape', function (page) {
         
     }
     return seoKeywords || '';
+});
+
+// Вывод тега title
+hexo.extend.helper.register('listTitle', function (page) {
+    var listTitle = null;
+    if ((page.listtitle !== undefined) && (page.listtitle != '')) {
+        listTitle = page.listtitle
+    }
+    return listTitle || page.title || '';
+});
+
+hexo.extend.helper.register('thumbnail_list', function (page) {
+    return page.thumbnail || '/assets/images/no_image.png';
+});
+
+hexo.extend.helper.register('banner_image', function (page) {
+    return page.banner || '/assets/images/no_image.png';
+});
+
+hexo.extend.helper.register('alt_image', function (page) {
+    return page.altimage || page.longtitle || page.title || '';
 });

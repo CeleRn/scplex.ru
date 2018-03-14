@@ -8,5 +8,7 @@ breadcrumbs:
   - name: Услуги
     url: /services/
 breadcrumbCurrent: true
-thumbnail: /assets/images/upload/recovery.jpg
+phoneCallToActionTitle: Нужно восстановление данных? Звоните!
+banner: /assets/images/upload/sections/recovery.jpg
+thumbnail: /assets/images/upload/sections/recovery-icon.jpg
 ---

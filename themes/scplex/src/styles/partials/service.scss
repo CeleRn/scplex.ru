@@ -56,10 +56,10 @@
         flex-basis: 40%;
         flex-grow: 1;
         flex-shrink: 1;
-        background-image: url('/assets/images/upload/chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka.jpg');
         background-position: center center;
         background-repeat: no-repeat no-repeat;
         background-size: cover;
+        
         @include media-breakpoint-down(sm) {
             flex-basis: auto;
             min-height: 180px;

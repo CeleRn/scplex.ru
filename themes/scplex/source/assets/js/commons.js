@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3eb7192957c8de7a94b9"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "5836418e4a176e7d56d9"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -18389,9 +18389,16 @@ $(document).ready(function () {
     } else {
         console.log('Нет элемента для обработки');
     }
-    if ($('.top-block')) {
-        var _urlImage = $('.top-block').attr('data-src-img');
-        $('.top-block').attr('style', "background-image: url('" + _urlImage + "')");
+    //service-info__image
+    if ($('.service-info__image')) {
+        var _urlImage = $('.service-info__image').attr('data-src-img');
+        $('.service-info__image').attr('style', "background-image: url('" + _urlImage + "')");
+    } else {
+        console.log('Нет элемента для обработки');
+    }
+    if ($('.services-list-info__image')) {
+        var _urlImage2 = $('.services-list-info__image').attr('data-src-img');
+        $('.services-list-info__image').attr('style', "background-image: url('" + _urlImage2 + "')");
     } else {
         console.log('Нет элемента для обработки');
     }

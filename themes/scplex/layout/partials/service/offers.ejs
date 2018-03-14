@@ -24,8 +24,12 @@
             } %>
              <div class="offer" itemprop="offers" itemscope="" itemtype="http://schema.org/<%= itemtype %>">
                 <meta itemprop="name" content="<%= offer.name %> <%= config.subdomain.inCity %>">
-                <span class="sr-only" itemprop="areaServed" itemscope="" itemtype="http://schema.org/City">
-                    <meta itemprop="name" content="<%= config.subdomain.city %>">
+                <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
+                  <meta itemprop="name" content="<%= config.subdomain.city %>" />
+                  <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="streetAddress" content="<%= config.subdomain.address %>"/>
+                    <meta itemprop="telephone" content="<%= config.subdomain.phone %>"/>
+                  </span>
                 </span>
                 <div class="offer__text"><%= offer.name %></div>
                 <div class="offer__price"><%- priceBlock %></div>

@@ -67,9 +67,10 @@ for i in range(1, count_services):
     alias = service_params[index_alias]
     file = open(alias + '.md','w',encoding='utf-8')
     file.write('---\n')
-    for j in range(0,count_services_params - 1):
-    #     print(str(services_params_titles[j]) + ': ' + str(service_params[j]))
+    for j in range(0,count_services_params):
+        #print(str(services_params_titles[j]) + ': ' + str(service_params[j]))
         file.write(str(services_params_titles[j]) + ': ' + service_params[j] + '\n')
+    current_id = services_params_titles[j]
     file.write('---\n')
     file.close
     
@@ -77,7 +78,7 @@ for i in range(1, count_services):
     for j in range(0, len(service_params[index_folder].split('/'))):
         os.chdir('..')
 
-
+# print(count_services_params)
 
 
 

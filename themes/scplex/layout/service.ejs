@@ -1,8 +1,16 @@
 <main class="main service" itemscope itemtype="http://schema.org/Service">
   <%- partial('common/main-title', {area: true, container: true}) %>
-  <meta itemprop="areaServed" content="<%= config.subdomain.city %>" />
+  <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
+    <meta itemprop="name" content="<%= config.subdomain.city %>" />
+    <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <meta itemprop="streetAddress" content="<%= config.subdomain.address %>"/>
+      <meta itemprop="telephone" content="<%= config.subdomain.phone %>"/>
+    </span>
+  </span>
+  
+  <link itemprop="url" href="<%= page.path %>"/>
   <% if (page.banner !== undefined) { %>
-    <link href="<%= page.banner %>" itemprop="image" />
+    <link href="<%- banner_image(page) %>" itemprop="image" />
   <% } %>
 
   <div class="container">
@@ -11,7 +19,7 @@
         <div class="service-info__description">
           <%- markdown(page.content) %>
         </div>
-        <div class="service-info__image"></div>
+        <div class="service-info__image" data-src-img="<%- banner_image(page) %>"></div>
       </div>
       <div class="service-info__right">
         <div class="service-block">

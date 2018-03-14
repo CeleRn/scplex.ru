@@ -27,8 +27,8 @@ function paddingScheme() {
     var paddingBottomScheme = '150px';
     var minHeight = 150;
     if ($(window).outerWidth() > 1199) {
-        $('#scheme-list .scheme-item .scheme-item__content').each( function() {
-            if ((parseInt(paddingScheme) -20) < $(this).outerHeight()) {
+        $('#scheme-list .scheme-item .scheme-item__content').each(function () {
+            if ((parseInt(paddingScheme) - 20) < $(this).outerHeight()) {
                 paddingScheme = parseInt($(this).outerHeight()) + 20;
             }
         });
@@ -36,7 +36,7 @@ function paddingScheme() {
         $('#scheme-list .scheme-item').css('padding-top', paddingScheme).css('padding-bottom', paddingScheme);
     } else {
         if ($(window).outerWidth() > 692) {
-            $('#scheme-list .scheme-item .scheme-item__content').each( function() {
+            $('#scheme-list .scheme-item .scheme-item__content').each(function () {
                 if ((minHeight) < $(this).outerHeight()) {
                     minHeight = parseInt($(this).outerHeight());
                 }
@@ -46,24 +46,24 @@ function paddingScheme() {
         } else {
             $('#scheme-list .scheme-item').css('min-height', 'auto')
         }
-        
+
     }
-    
+
 }
 $(document).ready(function () {
     paddingScheme();
 });
-$(window).resize(function() {
+$(window).resize(function () {
     paddingScheme();
 });
 
 // Параллакс эффект фона верхнего блока
-$(function() {
+$(function () {
     var $el = $('.top-block');
     $(window).on('scroll', function () {
         var scroll = $(document).scrollTop();
         $el.css({
-            'background-position':'50% '+(-.2*scroll)+'px'
+            'background-position': '50% ' + (-.2 * scroll) + 'px'
         });
     });
 });
@@ -83,11 +83,11 @@ function collapseDescription() {
 $(document).ready(function () {
     collapseDescription();
 });
-$(window).resize(function() {
+$(window).resize(function () {
     collapseDescription();
 });
 
-$('.top-block__more-link').click(function(){
+$('.top-block__more-link').click(function () {
     if ($(this).hasClass("top-block__more-link_collapsed")) {
         $(this).removeClass('top-block__more-link_collapsed');
         $('.top-block__description').removeClass('top-block__description_collapse');
@@ -113,9 +113,16 @@ $(document).ready(function () {
     } else {
         console.log('Нет элемента для обработки')
     }
-    if ($('.top-block')) {
-        let urlImage = $('.top-block').attr('data-src-img');
-        $('.top-block').attr('style', "background-image: url('" + urlImage + "')");
+    //service-info__image
+    if ($('.service-info__image')) {
+        let urlImage = $('.service-info__image').attr('data-src-img');
+        $('.service-info__image').attr('style', "background-image: url('" + urlImage + "')");
+    } else {
+        console.log('Нет элемента для обработки')
+    }
+    if ($('.services-list-info__image')) {
+        let urlImage = $('.services-list-info__image').attr('data-src-img');
+        $('.services-list-info__image').attr('style', "background-image: url('" + urlImage + "')");
     } else {
         console.log('Нет элемента для обработки')
     }
@@ -123,7 +130,7 @@ $(document).ready(function () {
 
 
 
-$('.limit').click(function(){
+$('.limit').click(function () {
     $('.limit').removeClass('limit_checked');
     $(this).addClass('limit_checked');
     $(this).children('.radio').children('label').children('input').prop('checked', true);
@@ -143,7 +150,7 @@ $(".form-input__input").on('focus', function () {
     if ($(this).prop('required')) {
         isRequred = true;
     }
-    if ($(this).val() != "")  {
+    if ($(this).val() != "") {
         iconElement.addClass('form__icon_success');
         labelElement.addClass('form-input__label_in-top');
         $(this).removeClass('form-input__input_invalid').addClass('form-input__input_valid');
@@ -153,12 +160,12 @@ $(".form-input__input").on('focus', function () {
         if (isRequred) {
             iconElement.addClass('form__icon_error');
             $(this).removeClass('form-input__input_valid').addClass('form-input__input_invalid');
-        } 
+        }
     }
 })
 
- //Функция плавное перемещения и при нажатии на кнопку "Подробнее"
- $("#cost-more-link").click(function (event) {
+//Функция плавное перемещения и при нажатии на кнопку "Подробнее"
+$("#cost-more-link").click(function (event) {
     //отменяем стандартную обработку нажатия по ссылке
     event.preventDefault();
     //узнаем высоту от начала страницы до блока на который ссылается якорь

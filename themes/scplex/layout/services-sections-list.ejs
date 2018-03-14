@@ -14,23 +14,27 @@ function filterByTypePost(obj) {
 var pagesList = site.pages.filter(filterByTypePost);
 %>
 
-<div class="top-block" data-src-img="<%= page.banner %>">
-  <div class="container">
-    <%- partial('common/main-title', {area: true, container: false}) %>
-    <div class="top-block__description">
-      <%- markdown(page.content) %>      
+<div class="container">
+  <%- partial('common/main-title', {area: true, container: false}) %>
+  <div class="services-list-info">
+    <div class="services-list-info__description">
+      <%- markdown(page.content) %>
+    </div>
+    <div class="services-list-info__image" data-src-img="<%= page.banner %>">
+      <link href="<%= page.banner %>" />
     </div>
   </div>
-  <a class="top-block__more-link top-block__more-link_collapsed" href="#full-description" id="full-description-link">
-    <%- partial('common/svg-sprite-element', {icon: "arrow-down", cssSelector: "top-block__icon"}) %>
-  </a>
 </div>
 <div class="container">
-  <ul class="posts-list">
+  <div class="subsections-list">
     <% pagesList.each(function (post, i) { %>
-      <li class="posts-list-item">
-        <a href="<%= url_for(post.path) %>" class="posts-list-item__link"><%= post.title %></a>
-      </li>
+      <a href="<%= url_for(post.path) %>" class="subsections-list__item subsections-list-item">
+        <img src="<%= post.thumbnail %>" alt="<%= post.title %> <%= config.subdomain.inCity %>" class="subsections-list-item__image">
+        <h3 class="subsections-list-item__title"><%- listTitle(post) %></h3>
+      
+      
+      </a>
     <% }); %>
-  </ul>
+  </div>
+  <%- partial('common/call-to-action/phone') %>
 </div>

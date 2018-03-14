@@ -9,30 +9,39 @@ function filterByTypePost(obj) {
 }
 var postsList = site.posts.filter(filterByTypePost);
 %>
-
-<div class="top-block" data-src-img="<%= page.banner %>">
-  <div class="container">
-    <%- partial('common/main-title', {area: true, container: false}) %>
-    <div class="top-block__description">
+<div class="container">
+  <%- partial('common/main-title', {area: true, container: false}) %>
+  <div class="services-list-info">
+    <div class="services-list-info__description">
       <%- markdown(page.content) %>
     </div>
+    <div class="services-list-info__image" data-src-img="<%= page.banner %>">
+      <link href="<%= page.banner %>" />
+    </div>
   </div>
-  <a class="top-block__more-link top-block__more-link_collapsed" href="#full-description" id="full-description-link">
-    <%- partial('common/svg-sprite-element', {icon: "arrow-down", cssSelector: "top-block__icon"}) %>
-  </a>
 </div>
+
 <div class="container">
   <%- partial('common/call-to-action/phone') %>
 </div>
 <div class="posts-list">
   <div class="container">
     <% postsList.each(function (post, i) { %>
-      <div class="posts-list__item ">
-        <div class="posts-list-item">
-          <a href="<%= post.path %>" class="posts-list-item__title"> <%= post.title %></a>
-        </div>
+      
+      <div class="posts-list__item posts-list-item">
+          <a href="<%= post.path %>" class="posts-list-item__image-link">
+            <img src="<%- thumbnail_list(post) %>" alt="<%- alt_image(post) %> <%= config.subdomain.inCity %>" class="posts-list-item__image"/>
+          </a>
+        <span class="posts-list-item__price">
+          от 1300 руб.
+        </span>
+        <a href="<%= post.path %>" class="posts-list-item__title"><%- listTitle(post) %></a>
+        
       </div>
     <% }); %>
   </div>
 </div>
+<div class="container">
+    <%- partial('common/call-to-action/order') %>
+  </div>
 

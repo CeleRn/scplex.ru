@@ -8,5 +8,6 @@ breadcrumbs:
   - name: Услуги
     url: /services/
 breadcrumbCurrent: true
-thumbnail: /assets/images/upload/net.jpg
+banner: /assets/images/upload/sections/net.jpg
+thumbnail: /assets/images/upload/sections/net-icon.jpg
 ---
