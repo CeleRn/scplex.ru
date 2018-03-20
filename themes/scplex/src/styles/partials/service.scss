@@ -443,3 +443,17 @@ $padding-scheme-item: 200px;
         }
     }
 }
+
+.other-services {
+    padding: 35px 0;
+    &__list {
+        .owl-item {
+            display: flex;
+            justify-content: center;
+            flex: 0 0 235px;
+            .posts-list-item {
+                flex: 0 0 235px;
+            }
+        }
+    }
+}

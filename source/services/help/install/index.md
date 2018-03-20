@@ -10,6 +10,7 @@ breadcrumbs:
   - name: Компьютерная помощь
     url: /services/help/
 breadcrumbCurrent: true
+sort: 100
 banner: /assets/images/upload/sections/help_install.jpg
 thumbnail: /assets/images/upload/sections/help_install-icon.jpg
 ---

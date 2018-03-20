@@ -2,6 +2,7 @@
 layout: services-list
 title: Решение проблем
 longtitle: Решение проблем с локальными сетями и интернетом
+listtitle: Решение проблем с сетями и интернетом
 typePost: net-troubleshoot
 typeSection: net
 breadcrumbs:

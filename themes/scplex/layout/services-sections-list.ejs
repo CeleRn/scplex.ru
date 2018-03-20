@@ -12,6 +12,20 @@ function filterByTypePost(obj) {
   }
 }
 var pagesList = site.pages.filter(filterByTypePost);
+
+// Сборка массива, который потом можно отсортировать по значению sort
+var htmlListPages = [];
+pagesList.each(function (post, i) {
+  htmlListPages[htmlListPages.length] = {
+    title: listTitle(post),
+    altTitle: alt_image(post) + " " + config.subdomain.inCity,
+    sort: post.sort,
+    link: url_for(post.path),
+    thumbnail: post.thumbnail
+  }  
+});
+// Сортировка
+htmlListPages.sort(function(a, b){return a.sort - b.sort});
 %>
 
 <div class="container">
@@ -27,12 +41,10 @@ var pagesList = site.pages.filter(filterByTypePost);
 </div>
 <div class="container">
   <div class="subsections-list">
-    <% pagesList.each(function (post, i) { %>
-      <a href="<%= url_for(post.path) %>" class="subsections-list__item subsections-list-item">
-        <img src="<%= post.thumbnail %>" alt="<%= post.title %> <%= config.subdomain.inCity %>" class="subsections-list-item__image">
-        <h3 class="subsections-list-item__title"><%- listTitle(post) %></h3>
-      
-      
+    <% htmlListPages.forEach(function (post, i) { %>
+      <a href="<%= post.link %>" class="subsections-list__item subsections-list-item">
+        <img src="<%= post.thumbnail %>" alt="<%= post.altTitle %>" class="subsections-list-item__image">
+        <h3 class="subsections-list-item__title"><%= post.title %></h3>
       </a>
     <% }); %>
   </div>

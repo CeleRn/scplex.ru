@@ -17,4 +17,17 @@ breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремон
 alias: podcliuchenie-dopolnitelnogo-zhestkogo-diska
 banner: /assets/images/upload/services/repair/computer/podcliuchenie-dopolnitelnogo-zhestkogo-diska.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_podcliuchenie-dopolnitelnogo-zhestkogo-diska.jpg
+offers:
+  - name: Подключение дополнительного диска
+    type: eq
+    price: 500
+  - name: Подключение дополнительного диска с разметкой разделов и форматированием
+    type: eq
+    price: 1400
+guarantee:
+  - title: Гарантия на работы
+    text: 3 месяца
+  - title: Гарантия на жесткий диск
+    text: до 10 лет
+    description: Зависит от гарантийного срока, предоставляемого производителем жесткого диска
 ---

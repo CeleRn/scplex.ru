@@ -7058,6 +7058,15 @@ a.text-dark:hover, a.text-dark:focus {
       color: #ffffff;
       text-decoration: none; }
 
+.other-services {
+  padding: 35px 0; }
+  .other-services__list .owl-item {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 235px; }
+    .other-services__list .owl-item .posts-list-item {
+      flex: 0 0 235px; }
+
 .services-list-info {
   flex-basis: 500px;
   flex-grow: 1;

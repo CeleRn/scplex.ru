@@ -7,8 +7,26 @@ function filterByTypePost(obj) {
     return false;
   }
 }
+
 var postsList = site.posts.filter(filterByTypePost);
+
+// Сборка массива, который потом можно отсортировать по значению sort
+var htmlListPosts = [];
+postsList.each(function (post, i) {
+  htmlListPosts[htmlListPosts.length] = {
+    title: listTitle(post),
+    altTitle: alt_image(post) + " " + config.subdomain.inCity,
+    sort: post.sort,
+    link: url_for(post.path),
+    thumbnail: post.thumbnail,
+    price: 'от 1300 руб.'
+  }  
+});
+// Сортировка
+htmlListPosts.sort(function(a, b){return a.sort - b.sort});
 %>
+
+
 <div class="container">
   <%- partial('common/main-title', {area: true, container: false}) %>
   <div class="services-list-info">
@@ -26,16 +44,14 @@ var postsList = site.posts.filter(filterByTypePost);
 </div>
 <div class="posts-list">
   <div class="container">
-    <% postsList.each(function (post, i) { %>
-      
+    <% htmlListPosts.forEach(function (post, i) { %>
+     
       <div class="posts-list__item posts-list-item">
-          <a href="<%= post.path %>" class="posts-list-item__image-link">
-            <img src="<%- thumbnail_list(post) %>" alt="<%- alt_image(post) %> <%= config.subdomain.inCity %>" class="posts-list-item__image"/>
+          <a href="<%= post.link %>" class="posts-list-item__image-link">
+            <img src="<%= post.thumbnail %>" alt="<%= post.altTitle %>" class="posts-list-item__image"/>
           </a>
-        <span class="posts-list-item__price">
-          от 1300 руб.
-        </span>
-        <a href="<%= post.path %>" class="posts-list-item__title"><%- listTitle(post) %></a>
+        <span class="posts-list-item__price"><%= post.price %></span>
+        <a href="<%= post.link %>" class="posts-list-item__title"><%= post.title %></a>
         
       </div>
     <% }); %>

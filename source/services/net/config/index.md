@@ -2,6 +2,8 @@
 layout: services-list
 title: Настройка
 longtitle: Настройка сетевого оборудования
+listtitle: Настройка сетевого оборудования
+
 typePost: net-config
 typeSection: net
 breadcrumbs:

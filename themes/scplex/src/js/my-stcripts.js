@@ -57,50 +57,39 @@ $(window).resize(function () {
     paddingScheme();
 });
 
-// Параллакс эффект фона верхнего блока
-$(function () {
-    var $el = $('.top-block');
-    $(window).on('scroll', function () {
-        var scroll = $(document).scrollTop();
-        $el.css({
-            'background-position': '50% ' + (-.2 * scroll) + 'px'
-        });
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        // loop: true, 
+        margin: 10,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        navText: ["", ""],
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            576: {
+                items: 2,
+                nav: false
+            },
+            768: {
+                items: 2,
+                nav: false,
+            },
+            992: {
+                items: 3,
+                nav: false
+            },
+            1200: {
+                items: 4,
+                nav: false
+            },
+        }
     });
 });
-
-// скрытие части описания категории
-// console.log('scrollHeight: ' + $('.top-block__description')[0].scrollHeight);
-
-function collapseDescription() {
-    if ($('.top-block__description')[0]) {
-        if ($('.top-block__description')[0].scrollHeight > 80) {
-            $('.top-block__description').addClass('top-block__description_collapse')
-            $('.top-block__more-link').addClass('top-block__more-link_visibled')
-
-        }
-    }
-};
-$(document).ready(function () {
-    collapseDescription();
-});
-$(window).resize(function () {
-    collapseDescription();
-});
-
-$('.top-block__more-link').click(function () {
-    if ($(this).hasClass("top-block__more-link_collapsed")) {
-        $(this).removeClass('top-block__more-link_collapsed');
-        $('.top-block__description').removeClass('top-block__description_collapse');
-        $('.top-block__description').addClass('top-block__description_collapsed');
-        // var currentHeight = $('.top-block__description').scrollHeight;
-        // $('.top-block__description').css('height', currentHeight);
-    } else {
-        $(this).addClass('top-block__more-link_collapsed');
-        $('.top-block__description').removeClass('top-block__description_collapsed');
-        $('.top-block__description').addClass('top-block__description_collapse');
-    }
-})
-
 
 ///////////////////////////////////
 ///////////////////////////////////

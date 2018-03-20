@@ -1,0 +1,49 @@
+<%
+// Фильтр постов текущей категории
+function filterByTypePost(obj) {
+  if (obj.typePost == page.typePost) {
+    if (obj.id != page.id) {
+      return true;
+    } else {
+      return false;
+    }
+  } else {
+    return false;
+  }
+}
+
+var postsList = site.posts.filter(filterByTypePost);
+
+// Сборка массива, который потом можно отсортировать по значению sort
+var htmlListPosts = [];
+postsList.each(function (post, i) {
+  htmlListPosts[htmlListPosts.length] = {
+    title: listTitle(post),
+    altTitle: alt_image(post) + " " + config.subdomain.inCity,
+    sort: post.sort,
+    link: url_for(post.path),
+    thumbnail: post.thumbnail,
+    price: 'от 1300 руб.'
+  }  
+});
+// Сортировка
+htmlListPosts.sort(function(a, b){return a.sort - b.sort});
+%>
+
+
+<div class="other-services">
+    <div class="container">
+      <div class="other-services__list owl-carousel owl-theme">
+          <% htmlListPosts.forEach(function (post, i) { %>
+            <div class="posts-list-item">
+                <a href="<%= post.link %>" class="posts-list-item__image-link">
+                  <img src="<%= post.thumbnail %>" alt="<%= post.altTitle %>" class="posts-list-item__image"/>
+                </a>
+              <span class="posts-list-item__price"><%= post.price %></span>
+              <a href="<%= post.link %>" class="posts-list-item__title"><%= post.title %></a>
+              
+            </div>
+          <% }); %>
+      </div>
+    </div>
+</div>

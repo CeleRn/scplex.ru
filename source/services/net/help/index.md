@@ -2,6 +2,7 @@
 layout: services-list
 title: Помощь
 longtitle: Помощь при работе в интернете
+listtitle: Помощь при работе в интернете
 typePost: net-help
 typeSection: net
 breadcrumbs:

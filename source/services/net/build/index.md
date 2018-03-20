@@ -2,6 +2,7 @@
 layout: services-list
 title: Прокладка
 longtitle: Проектирование и монтаж локальных сетей
+listtitle: Проектирование и монтаж локальных сетей
 typePost: net-build
 typeSection: net
 breadcrumbs:
