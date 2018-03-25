@@ -7,12 +7,13 @@ title: Hexo
 subtitle:
 description:
 author: John Doe
-language:
-timezone:
+language: ru
+timezone: Europe/Moscow
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+main_url: https://scplex.ru
+url: https://scplex.ru
 root: /
 permalink: :section/:title.html
 permalink_defaults:
@@ -21,7 +22,7 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: 
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -89,7 +90,9 @@ theme: scplex
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: 'git@github.com:CeleRn/html_scplex.ru.git'
+  branch: moscow
 
 browsersync:
   logLevel: "warn"

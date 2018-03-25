@@ -26,38 +26,53 @@ postsList.each(function (post, i) {
 htmlListPosts.sort(function(a, b){return a.sort - b.sort});
 %>
 
+<div class="wrap" itemscope itemtype="http://schema.org/ItemList">
 
-<div class="container">
-  <%- partial('common/main-title', {area: true, container: false}) %>
-  <div class="services-list-info">
-    <div class="services-list-info__description">
-      <%- markdown(page.content) %>
-    </div>
-    <div class="services-list-info__image" data-src-img="<%= page.banner %>">
-      <link href="<%= page.banner %>" />
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <%- partial('common/call-to-action/phone') %>
-</div>
-<div class="posts-list">
   <div class="container">
-    <% htmlListPosts.forEach(function (post, i) { %>
-     
-      <div class="posts-list__item posts-list-item">
-          <a href="<%= post.link %>" class="posts-list-item__image-link">
-            <img src="<%= post.thumbnail %>" alt="<%= post.altTitle %>" class="posts-list-item__image"/>
-          </a>
-        <span class="posts-list-item__price"><%= post.price %></span>
-        <a href="<%= post.link %>" class="posts-list-item__title"><%= post.title %></a>
-        
+    <%- partial('common/main-title', {area: true, container: false}) %>
+    <div class="services-list-info">
+      <div class="services-list-info__description" itemprop="description">
+        <%- markdown(page.content) %>
       </div>
-    <% }); %>
+      <div class="services-list-info__image" data-src-img="<%= page.banner %>">
+        <link href="<%= page.banner %>" itemprop="image"/>
+      </div>
+    </div>
   </div>
-</div>
-<div class="container">
+
+  <div class="container">
+    <%- partial('common/call-to-action/phone') %>
+  </div>
+  <div class="posts-list">
+    <link href="<%= page.path %>" itemprop="url" />
+    <link itemprop="itemListOrder" href="http://schema.org/ItemListUnordered" />
+    <div class="container">
+      <% htmlListPosts.forEach(function (post, i) { %>
+        <div class="posts-list__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <meta itemprop="position" content="<%= i %>"/>
+          <meta itemprop="name" content="<%= post.longtitle %> <%= config.subdomain.inCity %>"/>
+          <div class="posts-list-item" itemprop="item" itemscope itemtype="http://schema.org/Service">
+            <a href="<%= post.link %>" class="posts-list-item__image-link">
+              <img src="<%= post.thumbnail %>" alt="<%= post.altTitle %>" class="posts-list-item__image" itemprop="image"/>
+            </a>
+            <span class="posts-list-item__price"><%= post.price %></span>
+            <a href="<%= post.link %>" class="posts-list-item__title" itemprop="url">
+              <span itemprop="name"><%= post.title %></span>
+            </a>
+            <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
+              <meta itemprop="name" content="<%= config.subdomain.city %>" />
+              <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                <meta itemprop="streetAddress" content="<%= config.subdomain.address %>"/>
+                <meta itemprop="telephone" content="<%= config.subdomain.phone %>"/>
+              </span>
+            </span>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+  </div>
+  <div class="container">
     <%- partial('common/call-to-action/order') %>
   </div>
+</div>
 

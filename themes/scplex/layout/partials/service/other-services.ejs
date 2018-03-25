@@ -31,17 +31,28 @@ htmlListPosts.sort(function(a, b){return a.sort - b.sort});
 %>
 
 
-<div class="other-services">
+<div class="other-services" itemscope itemtype="http://schema.org/ItemList">
+  <link itemprop="itemListOrder" href="http://schema.org/ItemListUnordered" />
     <div class="container">
       <div class="other-services__list owl-carousel owl-theme">
           <% htmlListPosts.forEach(function (post, i) { %>
-            <div class="posts-list-item">
-                <a href="<%= post.link %>" class="posts-list-item__image-link">
-                  <img src="<%= post.thumbnail %>" alt="<%= post.altTitle %>" class="posts-list-item__image"/>
+            <div class="posts-list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <meta itemprop="name" content="<%= post.longtitle %> <%= config.subdomain.inCity %>"/>
+              <meta itemprop="position" content="<%= i %>"/>
+              <div class="posts-list-item__wrap" itemprop="item" itemscope itemtype="http://schema.org/Service">
+                <a href="<%= post.link %>" class="posts-list-item__image-link" itemprop="url">
+                  <img src="<%= post.thumbnail %>" alt="<%= post.altTitle %>" class="posts-list-item__image" itemprop="image"/>
                 </a>
-              <span class="posts-list-item__price"><%= post.price %></span>
-              <a href="<%= post.link %>" class="posts-list-item__title"><%= post.title %></a>
-              
+                <span class="posts-list-item__price"><%= post.price %></span>
+                <a href="<%= post.link %>" class="posts-list-item__title"><%= post.title %></a>
+                <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
+                  <meta itemprop="name" content="<%= config.subdomain.city %>" />
+                  <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <meta itemprop="streetAddress" content="<%= config.subdomain.address %>"/>
+                    <meta itemprop="telephone" content="<%= config.subdomain.phone %>"/>
+                  </span>
+                </span>
+              </div>
             </div>
           <% }); %>
       </div>
