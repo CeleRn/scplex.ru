@@ -12,12 +12,7 @@
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0",
-    "image-webpack-loader": "^4.1.0",
-    "jquery": "^3.2.1",
-    "npm": "^5.8.0",
-    "owl.carousel": "^2.2.0",
-    "script-loader": "^0.7.2"
+    "hexo-server": "^0.2.0"
   },
   "devDependencies": {
     "jsonfile": "^4.0.0",

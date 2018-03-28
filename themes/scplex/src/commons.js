@@ -25,17 +25,19 @@ require('./images/logo_plex.svg');
 import 'bootstrap/js/dist/tab';
 import 'bootstrap/js/dist/dropdown';
 import 'bootstrap/js/dist/collapse';
+import 'bootstrap/js/dist/modal';
 
 
 // OwlCarousel
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 import 'owl.carousel';
 
 
 
 // Мои скрипты
 import './js/my-stcripts.js';
+import './js/subdomains.js';
+
 
 /////////////////////////////////
 // Загрузка иконок для спрайта //

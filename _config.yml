@@ -3,23 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: СЦ 'PLEX'
+subtitle: Компьютерный сервис
 description:
-author: John Doe
+author: Udelta
 language: ru
 timezone: Europe/Moscow
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-main_url: https://scplex.ru
-url: https://scplex.ru
+main_domain: localhost:4000
+main_url: http://localhost:4000
+url: http://localhost:4000
 root: /
 permalink: :section/:title.html
 permalink_defaults:
 
 # Directory
-source_dir: source
+source_dir: source_main
 public_dir: public
 tag_dir: tags
 archive_dir: 
@@ -110,6 +111,7 @@ server:
     - html
 
 subdomain:
+  alias: master
   city: Москва
   inCity: в Москве
   region: Московская область

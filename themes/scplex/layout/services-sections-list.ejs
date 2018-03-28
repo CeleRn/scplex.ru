@@ -22,8 +22,9 @@ pagesList.each(function (post, i) {
     sort: post.sort,
     link: url_for(post.path),
     thumbnail: post.thumbnail
-  }  
+  }
 });
+
 // Сортировка
 htmlListPages.sort(function(a, b){return a.sort - b.sort});
 %>

@@ -4,12 +4,20 @@
 const webpack = require("webpack");
 const path = require('path');
 const yml = require("require-yml");
+const autoprefixer = require('autoprefixer');
+const cssnano = require('cssnano');
+
+
+
+// Окружение 
+const NODE_ENV = process.env.NODE_ENV || 'developer';
+
+const isProduction = (NODE_ENV == 'production');
+const isDeveloper = (NODE_ENV == 'developer');
 
 // Конфиг Hexo
 const hexoConfig = yml("../../_config.yml");
 console.dir(hexoConfig.theme);
-// Переменные
-const NODE_ENV = process.env.NODE_ENV || 'development';
 
 // Webpack plugins
 const extractCSS = require("extract-text-webpack-plugin");
@@ -73,12 +81,32 @@ module.exports = {
                     path.join(__dirname, "node_modules", "svg-sprite-loader", "lib", "plugin.js")
                 ],
                 use: "babel?presets[]=es2015"
-            }, { // SCSS в файлы
+            }, /* { // SCSS в файлы
                 test: /\.(sass|scss)$/,
                 use: extractCSS.extract('css!sass')
-            }, { // CSS в файлы 
+            }, */
+            { // SCSS в файлы
+                test: /\.(sass|scss)$/,
+                use: extractCSS.extract({
+                    fallback: 'style-loader',
+                    use: [
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                minimize: isProduction || {/* CSSNano Options */ }
+                            }
+                        },
+                        {
+                            loader: 'sass-loader'
+                        }
+                    ]
+                })
+            },
+
+
+            { // CSS в файлы 
                 test: /\.(css)$/,
-                use: extractCSS.extract('css')
+                use: extractCSS.extract('css!postcss')
             },
 
             { // Картинки 
@@ -165,3 +193,15 @@ module.exports = {
         }
     }
 };
+
+// if (isProduction) {
+//     module.exports.plugins.push(
+//         new webpack.optimize.UglifyJsPlugin({
+//             compress: {
+//                 warnings: false,
+//                 drop_console: true,
+//                 unsafe: true
+//             }
+//         })
+//     );
+// }

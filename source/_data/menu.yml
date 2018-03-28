@@ -2,14 +2,14 @@ top:
   - name: Сервис
     url: /service-center/
   - name: Клиентам
-    url: /cients/
+    url: https://scplex.ru/cients/
     childs:
       - name: Выезд и диагностика
-        url: /clients/diagnostic/
+        url: https://scplex.ru/clients/diagnostic/
       - name: Способы оплаты
-        url: /clients/payment/
+        url: https://scplex.ru/clients/payment/
       - name: Гарантия
-        url: /clients/guarantee/
+        url: https://scplex.ru/clients/guarantee/
   - name: Прайс лист
     url: /services/price/
   - name: Контакты

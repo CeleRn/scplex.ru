@@ -17,6 +17,22 @@ var dataSubdomains = jsonfile.readFileSync(file);
 var subdomains = Object.keys(dataSubdomains);
 var countSubsomain = subdomains.length;
 console.log(subdomains);
+
+
+// Создание файла _data/subdomains.yml
+var subdomainsData = new Object;
+for (var i = 0; i < subdomains.length; i++) {
+    
+    alias = subdomains[i];
+    args = dataSubdomains[alias];
+    if (alias != 'master') {
+        subdomainsData[alias] = args['city'];
+    }
+}
+yaml.sync(__dirname + "/source/_data/subdomains.yml", subdomainsData)
+
+
+
 for (var i = 0; i < subdomains.length; i++) {
 
     alias = subdomains[i];
@@ -24,11 +40,27 @@ for (var i = 0; i < subdomains.length; i++) {
 
     // Сборка массива для файла конфигурации поддомена
     var currentConfig = new Object;
+    
+    // Исходная папка
+    if (alias == 'master') {
+        currentConfig.source_dir = "source_main";
+    } else {
+        currentConfig.source_dir = "source";
+    }
+    
     // Папка для результата 
     currentConfig.public_dir = "public/" + alias;
 
+    currentConfig.main_domain = "scplex.ru";
+    currentConfig.main_url = "https://scplex.ru";
+
     // Поддомен
-    currentConfig.url = 'https://' + alias + '.scplex.ru'
+    if (alias == 'master') {
+        currentConfig.url = 'https://scplex.ru'
+    } else {
+        currentConfig.url = 'https://' + alias + '.scplex.ru'
+    }
+    
 
     // Место для деплоя 
     currentConfig.deploy = new Object;
@@ -41,6 +73,7 @@ for (var i = 0; i < subdomains.length; i++) {
     for (arg in args) {
         currentConfig.subdomain[arg] = args[arg];
     }
+    currentConfig.subdomain.alias = alias;
 
     // Имя файла конфигурации для данного поддомена
     currentConfigFile = __dirname + "/configs/" + alias + ".yml"

@@ -1,0 +1,170 @@
+{
+  "moscow": {
+    "city": "Москва",
+    "inCity": "в Москве",
+    "address": "",
+    "phone": 84956234567
+  },
+  "himki": {
+    "city": "Химки",
+    "inCity": "в Химках",
+    "address": "",
+    "phone": 84956234567
+  },
+  "dolgoprudnyi": {
+    "city": "Долгопрудный",
+    "inCity": "в Долгопрудном",
+    "address": "",
+    "phone": 84956234567
+  },
+  "lobnia": {
+    "city": "Лобня",
+    "inCity": "в Лобне",
+    "address": "",
+    "phone": 84956234567
+  },
+  "mytishchi": {
+    "city": "Мытищи",
+    "inCity": "в Мытищах",
+    "address": "",
+    "phone": 84956234567
+  },
+  "pushkino": {
+    "city": "Пушкино",
+    "inCity": "в Пушкине",
+    "address": "",
+    "phone": 84956234567
+  },
+  "korolev": {
+    "city": "Королев",
+    "inCity": "в Королеве",
+    "address": "",
+    "phone": 84956234567
+  },
+  "ivanteevka": {
+    "city": "Ивантеевка",
+    "inCity": "в Ивантеевке",
+    "address": "",
+    "phone": 84956234567
+  },
+  "shchelkovo": {
+    "city": "Щелково",
+    "inCity": "в Щелково",
+    "address": "",
+    "phone": 84956234567
+  },
+  "balashiha": {
+    "city": "Балашиха",
+    "inCity": "в Балашихе",
+    "address": "",
+    "phone": 84956234567
+  },
+  "reutov": {
+    "city": "Реутов",
+    "inCity": "в Реутове",
+    "address": "",
+    "phone": 84956234567
+  },
+  "zheleznodorozhnyi": {
+    "city": "Железнодорожный",
+    "inCity": "в Железнодорожном",
+    "address": "",
+    "phone": 84956234567
+  },
+  "lyubertcy": {
+    "city": "Люберцы",
+    "inCity": "в Люберцах",
+    "address": "",
+    "phone": 84956234567
+  },
+  "kotelniki": {
+    "city": "Котельники",
+    "inCity": "в Котельниках",
+    "address": "",
+    "phone": 84956234567
+  },
+  "dzerzhinskii": {
+    "city": "Дзержинский",
+    "inCity": "в Дзержинском",
+    "address": "",
+    "phone": 84956234567
+  },
+  "zhukovskii": {
+    "city": "Жуковский",
+    "inCity": "в Жуковском",
+    "address": "",
+    "phone": 84956234567
+  },
+  "vidnoe": {
+    "city": "Видное",
+    "inCity": "в Видном",
+    "address": "",
+    "phone": 84956234567
+  },
+  "shcherbinka": {
+    "city": "Щербинка",
+    "inCity": "в Щербинке",
+    "address": "",
+    "phone": 84956234567
+  },
+  "podolsk": {
+    "city": "Подольск",
+    "inCity": "в Подольске",
+    "address": "",
+    "phone": 84956234567
+  },
+  "domodedovo": {
+    "city": "Домодево",
+    "inCity": "в Домодедово",
+    "address": "",
+    "phone": 84956234567
+  },
+  "odintcovo": {
+    "city": "Одинцово",
+    "inCity": "в Одинцово",
+    "address": "",
+    "phone": 84956234567
+  },
+  "krasnogorsk": {
+    "city": "Красногорск",
+    "inCity": "в Красногорске",
+    "address": "",
+    "phone": 84956234567
+  },
+  "dedovsk": {
+    "city": "Дедовск",
+    "inCity": "в Дедовске",
+    "address": "",
+    "phone": 84956234567
+  },
+  "zelenograd": {
+    "city": "Зеленоград",
+    "inCity": "в Зеленограде",
+    "address": "",
+    "phone": 84956234567
+  },
+  "istra": {
+    "city": "Истра",
+    "inCity": "в Истре",
+    "address": "",
+    "phone": 84956234567
+  },
+  "zvenigorod": {
+    "city": "Звенигород",
+    "inCity": "в Звенигороде",
+    "address": "",
+    "phone": 84956234567
+  },
+  "novogorsk": {
+    "city": "Новогорск",
+    "inCity": "в Новогорске",
+    "address": "",
+    "phone": 84956234567
+  },
+  "shodnya": {
+    "city": "Сходня",
+    "inCity": "в Сходне",
+    "address": "",
+    "phone": 84956234567
+  }
+}

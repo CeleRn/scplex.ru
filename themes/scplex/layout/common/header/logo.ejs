@@ -2,7 +2,7 @@
 <% if (is_home()) { %>
   <img src="<%= site.data.company.logo %>" alt="<%= site.data.company.altLogo %>" class="logo__image" />
 <% } else { %>
-  <a href="/" class="logo__link">
+  <a href="<%= config.url %>" class="logo__link">
     <img src="<%= site.data.company.logo %>" alt="<%= site.data.company.altLogo %>" class="logo__image" />
   </a>
 <% } %>

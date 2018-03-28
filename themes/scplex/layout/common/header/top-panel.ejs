@@ -1,8 +1,8 @@
 <ul class="header__top-panel top-panel">
   <li class="top-panel__item">
-    <a href="#" class="top-panel__link">
+    <a href="#changeCity" class="top-panel__link" data-toggle="modal">
       <%- partial('../svg-sprite-element', {icon: "place", cssSelector: "top-panel__icon"}) %>
-        <span class="top-panel__text"><%= config.subdomain.сity %></span>
+        <span class="top-panel__text" id="change-city-name"><%= config.subdomain.city %></span>
     </a>
   </li>
   <li class="top-panel__item">

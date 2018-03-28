@@ -12,4 +12,15 @@
   <title><%- titleEscape(page) %></title>
   <%- descriptionEscape(page) %>
   <%- keywordsEscape(page) %>
+  <script>
+    var subdomainAlias = "<%= config.subdomain.alias %>";
+    var mainDomain = "<%= config.main_domain %>";
+    var domainsList = {
+      <% for (domain in site.data.subdomains) { %>
+        "<%= domain %>":"<%= site.data.subdomains[domain] %>",
+      <% } %>
+    }
+  </script>
+
+  <base href="<%= config.url %>" id="base-domain"/>
 </head>
