@@ -5,18 +5,196 @@
     "city": "Москва",
     "inCity": "в Москве",
     "address": "",
-    "phone": 84956234567
+    "phone": 84951310265,
+    "yandex": "2882d8a93f35322b"
+  },
+  "himki": {
+    "city": "Химки",
+    "inCity": "в Химках",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "8cbe21192e0cf796"
   },
   "dolgoprudnyi": {
     "city": "Долгопрудный",
     "inCity": "в Долгопрудном",
     "address": "",
-    "phone": 880012345678
+    "phone": 84951310265,
+    "yandex": "18f4ab7e50470ca1"
+  },
+  "lobnia": {
+    "city": "Лобня",
+    "inCity": "в Лобне",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "d05dce61357556dc"
+  },
+  "mytishchi": {
+    "city": "Мытищи",
+    "inCity": "в Мытищах",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "0f553004c5414366"
+  },
+  "pushkino": {
+    "city": "Пушкино",
+    "inCity": "в Пушкине",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "36b0e4a500a7c0ef"
+  },
+  "korolev": {
+    "city": "Королев",
+    "inCity": "в Королеве",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "2fb22382b30a2348"
+  },
+  "ivanteevka": {
+    "city": "Ивантеевка",
+    "inCity": "в Ивантеевке",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "0dcc835e300424e2"
+  },
+  "shchelkovo": {
+    "city": "Щелково",
+    "inCity": "в Щелково",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "c8ccc41bfe0e410e"
   },
   "balashiha": {
     "city": "Балашиха",
     "inCity": "в Балашихе",
     "address": "",
-    "phone": 84956234567
+    "phone": 84951310265,
+    "yandex": "8d302fdb33012f28"
+  },
+  "reutov": {
+    "city": "Реутов",
+    "inCity": "в Реутове",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "130ca74c8dee5675"
+  },
+  "zheleznodorozhnyi": {
+    "city": "Железнодорожный",
+    "inCity": "в Железнодорожном",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "16b6449ae7818890"
+  },
+  "lyubertcy": {
+    "city": "Люберцы",
+    "inCity": "в Люберцах",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "3c121b2d7f5fb112"
+  },
+  "kotelniki": {
+    "city": "Котельники",
+    "inCity": "в Котельниках",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "b963c2eab9fdf326"
+  },
+  "dzerzhinskii": {
+    "city": "Дзержинский",
+    "inCity": "в Дзержинском",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "5c26f6501d83eb9e"
+  },
+  "zhukovskii": {
+    "city": "Жуковский",
+    "inCity": "в Жуковском",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "3a7014cd5a5940cf"
+  },
+  "vidnoe": {
+    "city": "Видное",
+    "inCity": "в Видном",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "e3bbd71bfdff3ca4"
+  },
+  "shcherbinka": {
+    "city": "Щербинка",
+    "inCity": "в Щербинке",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "0bf3831c760d405d"
+  },
+  "podolsk": {
+    "city": "Подольск",
+    "inCity": "в Подольске",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "bd26522157af73b3"
+  },
+  "domodedovo": {
+    "city": "Домодево",
+    "inCity": "в Домодедово",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "a2dc9adc0410c1e6"
+  },
+  "odintcovo": {
+    "city": "Одинцово",
+    "inCity": "в Одинцово",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "e51ae2ad0d624db6"
+  },
+  "krasnogorsk": {
+    "city": "Красногорск",
+    "inCity": "в Красногорске",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "8bd075b98b72c1e4"
+  },
+  "dedovsk": {
+    "city": "Дедовск",
+    "inCity": "в Дедовске",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "5f781a324b4447b7"
+  },
+  "zelenograd": {
+    "city": "Зеленоград",
+    "inCity": "в Зеленограде",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "8adb639fa0602df6"
+  },
+  "istra": {
+    "city": "Истра",
+    "inCity": "в Истре",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "49d0522920eab08a"
+  },
+  "zvenigorod": {
+    "city": "Звенигород",
+    "inCity": "в Звенигороде",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "04857f6761699c7a"
+  },
+  "novogorsk": {
+    "city": "Новогорск",
+    "inCity": "в Новогорске",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "ad0f6997023b5536"
+  },
+  "shodnya": {
+    "city": "Сходня",
+    "inCity": "в Сходне",
+    "address": "",
+    "phone": 84951310265,
+    "yandex": "ff52091b246cfe68"
   }
 }

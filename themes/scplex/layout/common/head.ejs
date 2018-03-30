@@ -1,26 +1,32 @@
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-  <%- partial('head/favicons') %>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
   
-  <%- partial('head/open-graph') %>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet"/>
   <link rel='stylesheet' href='/assets/css/commons.css' />
-  <title><%- titleEscape(page) %></title>
+  
+  <title><%- titleEscape(page, config) %></title>
   <%- descriptionEscape(page) %>
   <%- keywordsEscape(page) %>
+ 
   <script>
+    var protocol = "<%= config.protocol %>";
     var subdomainAlias = "<%= config.subdomain.alias %>";
     var mainDomain = "<%= config.main_domain %>";
     var domainsList = {
-      <% for (domain in site.data.subdomains) { %>
-        "<%= domain %>":"<%= site.data.subdomains[domain] %>",
-      <% } %>
+      <% for (domain in site.data.subdomains) { %>"<%= domain %>":"<%= site.data.subdomains[domain] %>",<% } %>
     }
   </script>
 
+  <% if (config.subdomain.yandex) { %>
+    <meta name="yandex-verification" content="<%= config.subdomain.yandex %>" />
+  <% } %>
+  <meta name="google-site-verification" content="2yet6UQQKn2buIjkPKOMMIgfzD7HvpZGRxrSwik_v8s" />
+
   <base href="<%= config.url %>" id="base-domain"/>
+  <link rel="canonical" href="<%= config.url %><%- url_for(page.path).replace('index.html', "") %>" />
+  <%- partial('head/favicons') %>
+  <%- partial('head/open-graph') %>
+  
 </head>

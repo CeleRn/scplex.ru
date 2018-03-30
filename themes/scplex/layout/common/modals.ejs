@@ -21,7 +21,7 @@
             <% } %>
           <% } else { %>
             <% for (var subdomain in subdomains) { 
-              var currentUrl = 'https://' + subdomain + '.' + config.main_domain + url_for(page.path).replace("index.html", "") %>
+              var currentUrl = config.protocol + '://' + subdomain + '.' + config.main_domain + url_for(page.path).replace("index.html", "") %>
               <li>
                 <a class="change-city-link" href="<%= currentUrl %>"><%= subdomains[subdomain] %></a>
               </li>

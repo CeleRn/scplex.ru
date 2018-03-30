@@ -1,8 +1,9 @@
 import Cookies from 'js-cookie';
 
 // Смена значения href в теге Base
-function changeBase(cookieCity, mainDomain) {
-    $("#base-domain").attr("href", "https://" + cookieCity + "." + mainDomain);
+function changeBase(cookieCity, protocol, mainDomain) {
+
+    $("#base-domain").attr("href", protocol + "://" + cookieCity + "." + mainDomain);
 }
 
 // Смена названия города в верхней панели
@@ -23,7 +24,7 @@ $(document).ready(function () {
 
     if (location.host != 'localhost:4000') {
         var currentAlias = Cookies.get('city');
-        changeBase(currentAlias, mainDomain);
+        changeBase(currentAlias, protocol, mainDomain);
         changeNameCityTopPanel(currentAlias, domainsList);
     }
 
@@ -31,21 +32,12 @@ $(document).ready(function () {
 
 
 
-$('.change-city-link_cookie').click(function (event) {
-    console.log('Нажата кнопка');
-    // event.preventDefault();
-    // console.log('Нажата кнопка');
-    // var newAlias = $(this).attr('data-alias');
-    // console.log(newAlias);
-    // Cookies.set('city', newAlias, { domain: '.' + mainDomain });
-    // changeBase(newAlias, mainDomain);
-    // changeNameCityTopPanel(newAlias, domainsList);
-    // $('#changeCity').modal('hide');
+
+$(document).on('click','.change-city-link_cookie', function(){
+    event.preventDefault();
+    var newAlias = $(this).attr('data-alias');
+    Cookies.set('city', newAlias, { domain: '.' + mainDomain });
+    changeBase(newAlias, protocol, mainDomain);
+    changeNameCityTopPanel(newAlias, domainsList);
+    $('#changeCity').modal('hide');
 });
-console.log('Перед функцией');
-
-$("#city-dolgoprudnyi").click(function () {
-    alert("Handler for .click() called.");
-});
-
-

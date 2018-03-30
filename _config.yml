@@ -12,6 +12,7 @@ timezone: Europe/Moscow
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+protocol: http
 main_domain: localhost:4000
 main_url: http://localhost:4000
 url: http://localhost:4000
@@ -87,6 +88,23 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: scplex
+
+html_minifier:
+  collapseWhitespace: true
+  conservativeCollapse: true
+  minifyJS: true
+  removeComments: true
+
+
+
+sitemap:
+  path: sitemap.xml
+  # template: ./sitemap_template.xml
+
+robotstxt:
+  useragent: "*"
+  sitemap: /sitemap.xml
+  
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

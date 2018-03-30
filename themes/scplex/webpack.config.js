@@ -194,14 +194,14 @@ module.exports = {
     }
 };
 
-// if (isProduction) {
-//     module.exports.plugins.push(
-//         new webpack.optimize.UglifyJsPlugin({
-//             compress: {
-//                 warnings: false,
-//                 drop_console: true,
-//                 unsafe: true
-//             }
-//         })
-//     );
-// }
+if (isProduction) {
+    module.exports.plugins.push(
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false,
+                drop_console: true,
+                unsafe: true
+            }
+        })
+    );
+}

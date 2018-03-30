@@ -1,11 +1,4 @@
 # Header
-menu:
-  - url: /recovery/
-    name: Восстановление данных
-  - url: /consultations/
-    name: Бесплатные консультации
-  - url: /price/
-    name: Цены
 rss: /atom.xml
 
 # Content

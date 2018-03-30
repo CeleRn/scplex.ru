@@ -7,12 +7,12 @@ timezone: Europe/Moscow
 protocol: http
 main_domain: scplex.ru
 main_url: 'http://scplex.ru'
-url: 'http://moscow.scplex.ru'
+url: 'http://kotelniki.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
 source_dir: source
-public_dir: public/moscow
+public_dir: public/kotelniki
 tag_dir: tags
 archive_dir: null
 category_dir: categories
@@ -64,11 +64,11 @@ sitemap:
   path: sitemap.xml
 robotstxt:
   useragent: '*'
-  host: 'http://moscow.scplex.ru'
+  host: 'http://kotelniki.scplex.ru'
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
-  branch: moscow
+  branch: kotelniki
 browsersync:
   logLevel: warn
   ghostMode:
@@ -83,9 +83,9 @@ server:
     extensions:
       - html
 subdomain:
-  city: Москва
-  inCity: в Москве
+  city: Котельники
+  inCity: в Котельниках
   address: ''
   phone: 84951310265
-  yandex: 2882d8a93f35322b
-  alias: moscow
+  yandex: b963c2eab9fdf326
+  alias: kotelniki

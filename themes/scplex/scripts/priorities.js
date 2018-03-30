@@ -17,7 +17,7 @@ hexo.extend.helper.register('h1Escape', function (page) {
 });
 
 // Вывод тега title
-hexo.extend.helper.register('titleEscape', function (page) {
+hexo.extend.helper.register('titleEscape', function (page, config) {
     var seoTitle = null;
     if (page.seo) {
         if (page.seo.title != "") {
@@ -25,7 +25,9 @@ hexo.extend.helper.register('titleEscape', function (page) {
         }
         
     }
-    return seoTitle || page.longtitle || page.title || '';
+    seoTitleReturn = seoTitle || page.longtitle || page.title || '';
+    seoTitleReturn = seoTitleReturn + " " + config.subdomain.inCity;
+    return seoTitleReturn;
 });
 
 // Вывод тега description

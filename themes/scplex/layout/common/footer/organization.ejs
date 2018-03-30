@@ -1,11 +1,22 @@
-<div class="footer-block organization">
-  <h3 class="footer-block__title"><%= site.data.company.name %></h3>
-  <!-- <span class="footer-block__subtitle">Возвращаем прошлое</span> -->
+<div class="footer-block organization" itemscope itemtype="https://schema.org/LocalBusiness">
+
+  <h3 class="footer-block__title" itemprop="name"><%= site.data.company.name %></h3>
   <p class="organization__description"><%= site.data.company.slogan %></p>
-  <address class="organization__address">
-    <span class="organization__city"><%= site.data.company.city %></span>
-    <span class="organization__street"><%= site.data.company.address %></span>
+
+  <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" class="organization__address">
+    <span class="organization__city" itemprop="addressLocality"><%= config.subdomain.city %></span>
+    <% if (config.subdomain.city != '') { %>
+      <span class="organization__street" itemprop="streetAddress"><%= config.subdomain.address %></span>
+    <% } %>
   </address>
-  <span class="organization__phone"><%- formatPhone(site.data.company.phone) %></span>
-  <a href="mailto:<%= site.data.company.email %>" class="organization__email"><%= site.data.company.email %></a>
+  <% var phoneInFooter = config.subdomain.phone || site.data.company.phone; %>
+  <span class="organization__phone" itemprop="telephone"><%- formatPhone(phoneInFooter) %></span>
+
+  <% var emailInFooter = config.subdomain.email || site.data.company.email; %>
+  <meta itemprop="email" content="<%= emailInFooter %>">
+  <a href="mailto:<%= emailInFooter %>" class="organization__email"><%= emailInFooter %></a>
+
+  <link itemprop="url" href="<%= config.url %>" />
+  <link itemprop="logo image" href="<%= site.data.company.logo %>" />
+  <meta itemprop="priceRange" content="<%= site.data.company.priceRange %>" />
 </div>

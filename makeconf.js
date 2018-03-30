@@ -4,6 +4,17 @@ var readYaml = require('read-yaml');
 var yaml = require('write-yaml');
 var Hexo = require('hexo');
 
+//////////////////
+// Конфигурация //
+//////////////////
+
+var protocol = 'http'; // Протокол по умолчанию
+var domain = 'scplex.ru'; // Домен
+var aliasMain = 'master' // Алиас главного домена
+var source = 'source'; // Контент поддоменов
+var sourceMain = 'source_main' //Контент главного домена
+var gitRepo = 'git@github.com:CeleRn/html_scplex.ru.git'; // Репозиторий для результата (HTML)
+
 
 defaultConfig = readYaml.sync('_config.yml');
 
@@ -25,7 +36,7 @@ for (var i = 0; i < subdomains.length; i++) {
     
     alias = subdomains[i];
     args = dataSubdomains[alias];
-    if (alias != 'master') {
+    if (alias != aliasMain) {
         subdomainsData[alias] = args['city'];
     }
 }
@@ -42,30 +53,41 @@ for (var i = 0; i < subdomains.length; i++) {
     var currentConfig = new Object;
     
     // Исходная папка
-    if (alias == 'master') {
-        currentConfig.source_dir = "source_main";
+    if (alias == aliasMain) {
+        currentConfig.source_dir = sourceMain;
     } else {
-        currentConfig.source_dir = "source";
+        currentConfig.source_dir = source;
     }
     
     // Папка для результата 
     currentConfig.public_dir = "public/" + alias;
 
-    currentConfig.main_domain = "scplex.ru";
-    currentConfig.main_url = "https://scplex.ru";
+    currentConfig.main_domain = domain;
+    currentConfig.main_url = protocol + '://' + domain;
 
     // Поддомен
-    if (alias == 'master') {
-        currentConfig.url = 'https://scplex.ru'
+    currentConfig.protocol = protocol;
+    if (alias == aliasMain) {
+        currentConfig.url = protocol + '://' + domain;
     } else {
-        currentConfig.url = 'https://' + alias + '.scplex.ru'
+        currentConfig.url = protocol + '://' + alias + '.' + domain;
     }
     
+    // robots.txt
+    currentConfig.robotstxt = new Object;
+    currentConfig.robotstxt.useragent = '*';
+    // currentConfig.robotstxt.sitemap = currentConfig.url + '/sitemap.xml';
+    currentConfig.robotstxt.host = currentConfig.url;
+
+    // robotstxt:
+    // useragent: "*"
+    // sitemap: /sitemap.xml
+
 
     // Место для деплоя 
     currentConfig.deploy = new Object;
     currentConfig.deploy.type = "git";
-    currentConfig.deploy.repo = "git@github.com:CeleRn/html_scplex.ru.git";
+    currentConfig.deploy.repo = gitRepo;
     currentConfig.deploy.branch = alias;
 
     // Дополнительные аргументы из основного JSON файла
