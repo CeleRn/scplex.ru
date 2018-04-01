@@ -57,3 +57,24 @@
         border-top: 1px solid #dedede;
     }
 }
+
+.city-list {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+        padding: 3px;
+    }
+}
+.change-city-link {
+    display: block;
+    padding: 5px 10px;
+    color: #666666;
+    font-size: .9em;
+    &:hover {
+        text-decoration: none;
+        background-color: rgba(0,0,0,0.05);
+        color: #333333;
+    }
+}

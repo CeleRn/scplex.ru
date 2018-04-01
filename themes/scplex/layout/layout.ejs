@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <%- partial('common/head') %>
-  <body>
+  <body<% if ((page.layout == "index") || (page.layout == "main-index")) { %> class="body_home"<% } %>>
     <%- partial('common/header') %>
     <%- body %>
     <%- partial('common/footer') %>

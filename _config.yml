@@ -99,12 +99,19 @@ html_minifier:
 
 sitemap:
   path: sitemap.xml
-  # template: ./sitemap_template.xml
+  template: ./sitemap_template.xml
 
 robotstxt:
   useragent: "*"
   sitemap: /sitemap.xml
   
+# imagemin:
+#   enable     : true
+#   interlaced : true
+#   multipass  : true
+#   optimizationLevel: 3
+#   pngquant   : true
+#   progressive: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

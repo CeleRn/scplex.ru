@@ -26,7 +26,9 @@ hexo.extend.helper.register('titleEscape', function (page, config) {
         
     }
     seoTitleReturn = seoTitle || page.longtitle || page.title || '';
-    seoTitleReturn = seoTitleReturn + " " + config.subdomain.inCity;
+    if (config.subdomain.inCity !== undefined && config.subdomain.inCity != '') {
+        seoTitleReturn = seoTitleReturn + " " + config.subdomain.inCity;
+    }
     return seoTitleReturn;
 });
 

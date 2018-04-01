@@ -41,6 +41,7 @@
     "svgo": "^1.0.3",
     "svgo-loader": "^2.1.0",
     "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.10.0"
+    "webpack-dev-server": "^2.10.0",
+    "ymaps": "^0.1.1"
   }
 }

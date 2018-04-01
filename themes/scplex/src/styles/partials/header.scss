@@ -91,9 +91,12 @@
         .container {
             display: flex;
             flex-wrap: wrap;
-            align-items: stretch; // justify-content: space-between;
+            align-items: stretch;
             justify-content: space-between;
             align-items: center;
+            .body_home & {
+                justify-content: flex-end;
+            }
         }
     }
     &__breadcrumb {

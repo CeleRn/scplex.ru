@@ -1,7 +1,12 @@
-<!--<meta property="og:locale" content="ru_RU" />-->
-<!--<meta property="og:type" content="website" />-->
-<!--<meta property="og:title" content="Главная" />-->
-<!--<meta property="og:url" content="/index.html" />-->
-<!--<meta property="og:site_name" content="Студия гитары 'ArtMusic Pro'" />-->
-<!--<meta property="og:image" content="http://static-amp.udelta.ru/images/og/visitka.jpg" />-->
-<!--<meta property="og:description" content="" />-->
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="<%- titleEscape(page, config) %>" />
+<meta property="og:url" content="<%= config.url %><%- url_for(page.path).replace('index.html', "") %>" />
+<meta property="og:site_name" content="СЦ 'PLEX'" />
+<meta property="og:image" content="<%= config.url %>/assets/images/visitka.jpg" />
+<% if (page.seo) {
+    var description = page.seo.description;
+} else {
+    var description = '';
+}; %>
+<meta property="og:description" content="<%= description %>" />

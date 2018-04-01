@@ -103,4 +103,4 @@ require('./images/favicons/ms-icon-310x310.png');
 
 
 // Фоновые изображения
-// require('./images/way.jpg');
+require('./images/visitka.jpg');

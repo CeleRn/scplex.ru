@@ -62,6 +62,7 @@ html_minifier:
   removeComments: true
 sitemap:
   path: sitemap.xml
+  template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
   host: 'http://kotelniki.scplex.ru'

@@ -27,23 +27,37 @@ var dataSubdomains = jsonfile.readFileSync(file);
 // Создание массива только с поддоменами... [moskow, smolensk, и т.д.]
 var subdomains = Object.keys(dataSubdomains);
 var countSubsomain = subdomains.length;
-console.log(subdomains);
+// console.log(dataSubdomains[a].city);
+
+
+// Создание Списка поддоменов без главного
+var subdomainsList = [];
+for (var i = 0; i < subdomains.length; i++) {
+    if (subdomains[i] != aliasMain) {
+        subdomainsList[subdomainsList.length] = subdomains[i];
+    }
+}
+
+// Сортировка массива городов по русскому названию
+subdomainsList.sort(function(a,b) {
+    var x = dataSubdomains[a].city.toLowerCase();
+    var y = dataSubdomains[b].city.toLowerCase();
+    return x < y ? -1 : x > y ? 1 : 0;
+});
 
 
 // Создание файла _data/subdomains.yml
 var subdomainsData = new Object;
-for (var i = 0; i < subdomains.length; i++) {
+for (var i = 0; i < subdomainsList.length; i++) {
     
-    alias = subdomains[i];
+    alias = subdomainsList[i];
     args = dataSubdomains[alias];
-    if (alias != aliasMain) {
-        subdomainsData[alias] = args['city'];
-    }
+    subdomainsData[alias] = args['city'];
 }
 yaml.sync(__dirname + "/source/_data/subdomains.yml", subdomainsData)
 
 
-
+// Создание конфигов для поддоменов 
 for (var i = 0; i < subdomains.length; i++) {
 
     alias = subdomains[i];
@@ -52,7 +66,7 @@ for (var i = 0; i < subdomains.length; i++) {
     // Сборка массива для файла конфигурации поддомена
     var currentConfig = new Object;
     
-    // Исходная папка
+    // Исходная папка (разные для главного домена и поддоменов)
     if (alias == aliasMain) {
         currentConfig.source_dir = sourceMain;
     } else {
@@ -79,11 +93,6 @@ for (var i = 0; i < subdomains.length; i++) {
     // currentConfig.robotstxt.sitemap = currentConfig.url + '/sitemap.xml';
     currentConfig.robotstxt.host = currentConfig.url;
 
-    // robotstxt:
-    // useragent: "*"
-    // sitemap: /sitemap.xml
-
-
     // Место для деплоя 
     currentConfig.deploy = new Object;
     currentConfig.deploy.type = "git";
@@ -104,38 +113,4 @@ for (var i = 0; i < subdomains.length; i++) {
     Object.assign(configForSubdomain, currentConfig);
     yaml.sync(currentConfigFile, configForSubdomain);
 
-
-    // jsonfile.writeFile(currentConfigFile, currentConf, {
-    //     spaces: 2
-    // }, function (err) {
-    //     console.error(err)
-    // })
 }
-// var hexo = new Object;
-// function generateSubdomain(alias) {
-//     hexo[alias] = new Hexo(process.cwd(), {
-//         config: "configs/" + alias + ".yml"
-//     });
-//     hexo[alias].init().then(function () {
-//         return hexo[alias].call('generate', {
-//             watch: false
-//         });
-//     }).then(function () {
-//         return hexo[alias].exit();
-//     }).then(function () {
-//         return "все ок"
-//     }).catch(function (err) {
-//         console.log(err);
-//         hexo[alias].exit(err);
-//     })
-// }
-
-
-// for (var i = 0; i < subdomains.length; i++) {
-//     generateSubdomain(subdomains[i]);
-// }
-
-
-
-
-// countSubsomain

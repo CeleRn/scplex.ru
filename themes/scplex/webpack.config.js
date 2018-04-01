@@ -112,7 +112,34 @@ module.exports = {
             { // Картинки 
                 test: /\.(png|jpg|svg|gif)$/,
                 exclude: path.join(__dirname, "src", "icons"),
-                use: 'file?name=images/[name].[ext]'
+                // use: 'file?name=images/[name].[ext]'
+                use: [
+                    'file-loader?name=images/[name].[ext]',
+                    {
+                      loader: 'image-webpack-loader',
+                      options: {
+                        mozjpeg: {
+                          progressive: true,
+                          quality: 65
+                        },
+                        // optipng.enabled: false will disable optipng
+                        optipng: {
+                          enabled: false,
+                        },
+                        pngquant: {
+                          quality: '65-90',
+                          speed: 4
+                        },
+                        gifsicle: {
+                          interlaced: false,
+                        },
+                        // the webp option will enable WEBP
+                        webp: {
+                          quality: 75
+                        }
+                      }
+                    },
+                  ],
             }, { // Копируем шрифты
                 test: /\.(ttf|eot|woff|woff2)$/,
                 use: 'file?name=assets/fonts/[path][name].[ext]'
