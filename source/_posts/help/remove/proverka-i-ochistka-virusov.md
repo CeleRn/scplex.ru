@@ -13,6 +13,7 @@ typePost: help-remove
 section: /services
 folder: help/remove
 sort: 100
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Удаление ПО и вирусов", "url": "/services/help/remove/"}]
 alias: proverka-i-ochistka-virusov
 banner: /assets/images/upload/services/help/remove/proverka-i-ochistka-virusov.jpg

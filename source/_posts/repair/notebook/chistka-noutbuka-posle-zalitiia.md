@@ -13,6 +13,7 @@ typePost: repair-notebook
 section: /services
 folder: repair/notebook
 sort: 400
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
 alias: chistka-noutbuka-posle-zalitiia
 banner: /assets/images/upload/services/repair/notebook/chistka-noutbuka-posle-zalitiia.jpg

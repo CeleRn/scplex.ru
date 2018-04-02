@@ -4,7 +4,9 @@ title: Услуги
 longtitle: Услуги компьютерного сервиса
 breadcrumbCurrent: true
 phoneCallToActionTitle: Нужны наши услуги? Звоните!
+seo:
+  title: Услуги компьютерного сервисного центра
+  h1: Услуги компьютерного сервисного центра
+  keywords: Услуги компьютерного сервисного центра, компьютерные услуги
+  description: Ознакомтесь с услугами, которые предоставляет наш сервисный центр. В каталаге указаны цены и гарантийные сроки на разные работы.
 ---
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores culpa nihil facere consequatur velit neque obcaecati ullam esse perspiciatis quibusdam, molestias qui hic harum magnam eius dolorum quod possimus?
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate asperiores culpa nihil facere consequatur velit neque obcaecati ullam esse perspiciatis quibusdam, molestias qui hic harum magnam eius dolorum quod possimus?

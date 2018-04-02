@@ -13,6 +13,7 @@ typePost: repair-notebook
 section: /services
 folder: repair/notebook
 sort: 700
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
 alias: zamena-claviatury-noutbuka
 banner: /assets/images/upload/services/repair/notebook/zamena-claviatury-noutbuka.jpg

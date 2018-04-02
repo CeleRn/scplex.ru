@@ -13,6 +13,7 @@ typePost: recovery-devices
 section: /services
 folder: recovery/devices
 sort: 300
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "Устройства", "url":  "/services/recovery/devices/"}]
 alias: karta-pamiati
 banner: /assets/images/upload/services/recovery/devices/karta-pamiati.jpg

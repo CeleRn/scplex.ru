@@ -13,6 +13,7 @@ typePost: net-help
 section: /services
 folder: net/help
 sort: 200
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Сети и интернет", "url": "/services/net/"},{"name": "Помощь", "url":  "/services/net/help/"}]
 alias: registratciia-akkaunta-v-sotcialnoi-seti
 banner: /assets/images/upload/services/net/help/registratciia-akkaunta-v-sotcialnoi-seti.jpg

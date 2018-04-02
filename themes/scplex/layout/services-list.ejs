@@ -72,7 +72,7 @@ htmlListPosts.sort(function(a, b){return a.sort - b.sort});
     </div>
   </div>
   <div class="container">
-    <%- partial('common/call-to-action/order') %>
+    <%- partial('common/call-to-action/order', {}, {cache: true}) %>
   </div>
 </div>
 

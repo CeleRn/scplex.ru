@@ -161,4 +161,4 @@ $("#cost-more-link").click(function (event) {
     var topTab = $('#cost').offset().top - 5;
     //анимируем переход на расстояние - top за 800 мс
     $('body,html').animate({ scrollTop: topTab }, 800);
-});
+});   

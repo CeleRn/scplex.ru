@@ -13,6 +13,7 @@ typePost: recovery-causes
 section: /services
 folder: recovery/causes
 sort: 200
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "После проишествий", "url":  "/services/recovery/causes/"}]
 alias: udalenie
 banner: /assets/images/upload/services/recovery/causes/udalenie.jpg

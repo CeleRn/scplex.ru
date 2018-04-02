@@ -572,3 +572,9 @@ textarea.form-input__input {
 .checkbox+.checkbox {
     margin-top: $mf-font-size;
 }
+
+.g-recaptcha {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}

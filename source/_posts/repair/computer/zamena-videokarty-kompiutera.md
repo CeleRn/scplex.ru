@@ -13,6 +13,7 @@ typePost: repair-computer
 section: /services
 folder: repair/computer
 sort: 900
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
 alias: zamena-videokarty-kompiutera
 banner: /assets/images/upload/services/repair/computer/zamena-videokarty-kompiutera.jpg

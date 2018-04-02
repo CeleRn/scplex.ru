@@ -13,6 +13,7 @@ typePost: help-build
 section: /services
 folder: help/build
 sort: 200
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Сборка компьютера", "url": "/services/help/build/"}]
 alias: domashnii
 banner: /assets/images/upload/services/help/build/domashnii.jpg

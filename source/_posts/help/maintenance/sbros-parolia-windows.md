@@ -13,6 +13,7 @@ typePost: help-maintenance
 section: /services
 folder: help/maintenance
 sort: 500
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Обслуживание", "url": "/services/help/maintenance/"}]
 alias: sbros-parolia-windows
 banner: /assets/images/upload/services/help/maintenance/sbros-parolia-windows.jpg

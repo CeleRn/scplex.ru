@@ -13,6 +13,7 @@ typePost: repair-notebook
 section: /services
 folder: repair/notebook
 sort: 200
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
 alias: chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka
 banner: /assets/images/upload/services/repair/notebook/chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka.jpg

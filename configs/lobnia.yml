@@ -55,16 +55,12 @@ time_format: 'HH:mm:ss'
 per_page: 10
 pagination_dir: page
 theme: scplex
-html_minifier:
-  collapseWhitespace: true
-  conservativeCollapse: true
-  minifyJS: true
-  removeComments: true
 sitemap:
   path: sitemap.xml
   template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
+  sitemap: 'http://lobnia.scplex.ru/sitemap.xml'
   host: 'http://lobnia.scplex.ru'
 deploy:
   type: git
@@ -87,6 +83,9 @@ subdomain:
   city: Лобня
   inCity: в Лобне
   address: ''
+  coordinates:
+    - 56.012053
+    - 37.475082
   phone: 84951310265
   yandex: d05dce61357556dc
   alias: lobnia

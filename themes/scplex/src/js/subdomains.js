@@ -30,9 +30,6 @@ $(document).ready(function () {
 
 });
 
-
-
-
 $(document).on('click','.change-city-link_cookie', function(){
     event.preventDefault();
     var newAlias = $(this).attr('data-alias');

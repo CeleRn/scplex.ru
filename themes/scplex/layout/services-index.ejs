@@ -24,6 +24,6 @@ var pagesList = site.pages.filter(filterByTypePost);
     <% }); %>
   </div>
   
-  <%- partial('common/call-to-action/phone') %>
+  <%- partial('common/call-to-action/phone', {}, {cache: true}) %>
 
 </div>

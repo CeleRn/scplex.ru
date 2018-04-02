@@ -13,6 +13,7 @@ typePost: repair-computer
 section: /services
 folder: repair/computer
 sort: 1700
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
 alias: pereproshivka-biosa-materinskoi-platy
 banner: /assets/images/upload/services/repair/computer/pereproshivka-biosa-materinskoi-platy.jpg

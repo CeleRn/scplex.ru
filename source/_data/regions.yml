@@ -1,0 +1,261 @@
+- alias: balashiha
+  city: Балашиха
+  inCity: в Балашихе
+  coordinates:
+    - 55.796339
+    - 37.938199
+  address: ''
+  phone: 84951310265
+  yandex: 8d302fdb33012f28
+- alias: vidnoe
+  city: Видное
+  inCity: в Видном
+  coordinates:
+    - 55.557174
+    - 37.708644
+  address: ''
+  phone: 84951310265
+  yandex: e3bbd71bfdff3ca4
+- alias: dedovsk
+  city: Дедовск
+  inCity: в Дедовске
+  coordinates:
+    - 55.859984
+    - 37.120669
+  address: ''
+  phone: 84951310265
+  yandex: 5f781a324b4447b7
+- alias: dzerzhinskii
+  city: Дзержинский
+  inCity: в Дзержинском
+  coordinates:
+    - 55.63096
+    - 37.849679
+  address: ''
+  phone: 84951310265
+  yandex: 5c26f6501d83eb9e
+- alias: dolgoprudnyi
+  city: Долгопрудный
+  inCity: в Долгопрудном
+  coordinates:
+    - 55.93362
+    - 37.514401
+  address: ''
+  phone: 84951310265
+  yandex: 18f4ab7e50470ca1
+- alias: domodedovo
+  city: Домодево
+  inCity: в Домодедово
+  coordinates:
+    - 55.437112
+    - 37.768049
+  address: ''
+  phone: 84951310265
+  yandex: a2dc9adc0410c1e6
+- alias: zheleznodorozhnyi
+  city: Железнодорожный
+  inCity: в Железнодорожном
+  coordinates:
+    - 55.746436
+    - 38.009049
+  address: ''
+  phone: 84951310265
+  yandex: 16b6449ae7818890
+- alias: zhukovskii
+  city: Жуковский
+  inCity: в Жуковском
+  coordinates:
+    - 55.59778
+    - 38.119497
+  address: ''
+  phone: 84951310265
+  yandex: 3a7014cd5a5940cf
+- alias: zvenigorod
+  city: Звенигород
+  inCity: в Звенигороде
+  coordinates:
+    - 55.729686
+    - 36.855325
+  address: ''
+  phone: 84951310265
+  yandex: 04857f6761699c7a
+- alias: zelenograd
+  city: Зеленоград
+  inCity: в Зеленограде
+  coordinates:
+    - 55.991893
+    - 37.214382
+  address: ''
+  phone: 84951310265
+  yandex: 8adb639fa0602df6
+- alias: ivanteevka
+  city: Ивантеевка
+  inCity: в Ивантеевке
+  coordinates:
+    - 55.97
+    - 37.917574
+  address: ''
+  phone: 84951310265
+  yandex: 0dcc835e300424e2
+- alias: istra
+  city: Истра
+  inCity: в Истре
+  coordinates:
+    - 55.914287
+    - 36.860284
+  address: ''
+  phone: 84951310265
+  yandex: 49d0522920eab08a
+- alias: korolev
+  city: Королев
+  inCity: в Королеве
+  coordinates:
+    - 55.922212
+    - 37.854629
+  address: ''
+  phone: 84951310265
+  yandex: 2fb22382b30a2348
+- alias: kotelniki
+  city: Котельники
+  inCity: в Котельниках
+  coordinates:
+    - 55.65984
+    - 37.863199
+  address: ''
+  phone: 84951310265
+  yandex: b963c2eab9fdf326
+- alias: krasnogorsk
+  city: Красногорск
+  inCity: в Красногорске
+  coordinates:
+    - 55.831099
+    - 37.330192
+  address: ''
+  phone: 84951310265
+  yandex: 8bd075b98b72c1e4
+- alias: lobnia
+  city: Лобня
+  inCity: в Лобне
+  coordinates:
+    - 56.012053
+    - 37.475082
+  address: ''
+  phone: 84951310265
+  yandex: d05dce61357556dc
+- alias: lyubertcy
+  city: Люберцы
+  inCity: в Люберцах
+  coordinates:
+    - 55.676494
+    - 37.898116
+  address: ''
+  phone: 84951310265
+  yandex: 3c121b2d7f5fb112
+- alias: moscow
+  city: Москва
+  inCity: в Москве
+  coordinates:
+    - 55.755814
+    - 37.617635
+  address: ''
+  phone: 84951310265
+  yandex: 74351cfbf0d24cdf
+- alias: mytishchi
+  city: Мытищи
+  inCity: в Мытищах
+  coordinates:
+    - 55.910503
+    - 37.73633
+  address: ''
+  phone: 84951310265
+  yandex: 0f553004c5414366
+- alias: nahabino
+  city: Нахабино
+  inCity: в Нахабино
+  coordinates:
+    - 55.847149
+    - 37.180138
+  address: ''
+  phone: 84951310265
+  yandex: ''
+- alias: novogorsk
+  city: Новогорск
+  inCity: в Новогорске
+  coordinates:
+    - 55.892178
+    - 37.350279
+  address: ''
+  phone: 84951310265
+  yandex: ad0f6997023b5536
+- alias: odintcovo
+  city: Одинцово
+  inCity: в Одинцово
+  coordinates:
+    - 55.678895
+    - 37.26387
+  address: ''
+  phone: 84951310265
+  yandex: e51ae2ad0d624db6
+- alias: podolsk
+  city: Подольск
+  inCity: в Подольске
+  coordinates:
+    - 55.431177
+    - 37.544737
+  address: ''
+  phone: 84951310265
+  yandex: bd26522157af73b3
+- alias: pushkino
+  city: Пушкино
+  inCity: в Пушкине
+  coordinates:
+    - 56.010428
+    - 37.847155
+  address: ''
+  phone: 84951310265
+  yandex: 36b0e4a500a7c0ef
+- alias: reutov
+  city: Реутов
+  inCity: в Реутове
+  coordinates:
+    - 55.760515
+    - 37.855141
+  address: ''
+  phone: 84951310265
+  yandex: 130ca74c8dee5675
+- alias: shodnya
+  city: Сходня
+  inCity: в Сходне
+  coordinates:
+    - 55.951572
+    - 37.295607
+  address: ''
+  phone: 84951310265
+  yandex: ff52091b246cfe68
+- alias: himki
+  city: Химки
+  inCity: в Химках
+  coordinates:
+    - 55.888796
+    - 37.430328
+  address: ''
+  phone: 84951310265
+  yandex: 5cd94bb019454935
+- alias: shchelkovo
+  city: Щелково
+  inCity: в Щелково
+  coordinates:
+    - 55.923387
+    - 37.978399
+  address: ''
+  phone: 84951310265
+  yandex: c8ccc41bfe0e410e
+- alias: shcherbinka
+  city: Щербинка
+  inCity: в Щербинке
+  coordinates:
+    - 55.508743
+    - 37.563314
+  address: ''
+  phone: 84951310265
+  yandex: 0bf3831c760d405d

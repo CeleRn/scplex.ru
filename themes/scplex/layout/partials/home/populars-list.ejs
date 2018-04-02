@@ -1,0 +1,65 @@
+<% var listSections = [
+  {
+    name: "Ремонт ноутбуков",
+    url: "/services/repair/notebook/",
+    typePost: ["repair-notebook"]
+  },
+  {
+    name: "Ремонт компьютеров",
+    url: "/services/repair/computer/",
+    typePost: ["repair-computer"]
+  },
+  {
+    name: "Компьютерная помощь",
+    url: "/services/help/",
+    typePost: ["help-install","help-config","help-remove","help-maintenance","help-build"]
+  },
+  {
+    name: "Восстановление данных",
+    url: "/services/recovery/",
+    typePost: ["recovery-devices","recovery-data-types","recovery-causes"]
+  },
+  {
+    name: "Сети и интернет",
+    url: "/services/net/",
+    typePost: ["net-build","net-config","net-help","net-troubleshoot"]
+  }
+];
+
+// // Фильтр постов c меткой "популярная услуга"
+function popularService(obj) {
+  if (obj.popular == true) {
+    return true;
+  } else {
+    return false;
+  }
+}
+// // Фильтр постов категории
+// function sectionService(obj, typePost) {
+//   if (typePost.indefOf(obj.typePost) != -1 ) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+var allServices = site.posts;
+var popularsServices = allServices.filter(popularService);
+// console.log(popularsServices);
+%>
+
+<div class="populars-list">
+  <h2 class="populars-list__title">Популярные услуги</h2>
+  <% for (var i = 0; i < listSections.length; i++) { 
+    var sectionService = popularsServices.filter(service => listSections[i].typePost.indexOf(service.typePost) != -1);
+  %>
+    <div class="populars-block">
+      <h3 class="populars-block__title"><%= listSections[i].name %></h3>
+      <ul class="populars-services-list">
+        <% sectionService.forEach(function (service, i) { %>
+          <li class="populars-services-list__item"><a class="populars-services-list__link" href="<%- url_for(service.path) %>"><%= listTitle(service) %></a></li>
+        <% }) %>
+      </ul>
+      <a class="populars-block__link" href="<%= listSections[i].url %>">Все услуги раздела</a>
+    </div>
+  <% } %>
+</div>

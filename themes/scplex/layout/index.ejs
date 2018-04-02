@@ -1,9 +1,8 @@
-<%- partial('common/main-title', {area: true, container: true}) %>
-
 <div class="container">
-<%- partial('common/call-to-action/phone') %>
-</div>
-<%- partial('partials/service/scheme') %>
-<div class="container">
-    <%- partial('common/call-to-action/order') %>
+    <%- partial('common/main-title', {area: true, container: false}) %>
+    <div class="home-description"><%- markdown(page.content) %></div>
+    <%- partial('partials/home/populars-list', {}, {cache: true}) %>
+    <%- partial('common/call-to-action/phone', {}, {cache: true}) %>
+    <%- partial('partials/home/map-one') %>
+    <%- partial('common/call-to-action/order', {}, {cache: true}) %>
 </div>

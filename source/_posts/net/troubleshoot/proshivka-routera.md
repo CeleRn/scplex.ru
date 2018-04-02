@@ -13,6 +13,7 @@ typePost: net-troubleshoot
 section: /services
 folder: net/troubleshoot
 sort: 100
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Сети и интернет", "url": "/services/net/"},{"name": "Решение проблем", "url":  "/services/net/troubleshoot/"}]
 alias: proshivka-routera
 banner: /assets/images/upload/services/net/troubleshoot/proshivka-routera.jpg

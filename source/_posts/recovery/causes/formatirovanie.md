@@ -13,6 +13,7 @@ typePost: recovery-causes
 section: /services
 folder: recovery/causes
 sort: 500
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "После проишествий", "url":  "/services/recovery/causes/"}]
 alias: formatirovanie
 banner: /assets/images/upload/services/recovery/causes/formatirovanie.jpg

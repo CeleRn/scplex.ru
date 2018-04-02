@@ -13,6 +13,7 @@ typePost: help-install
 section: /services
 folder: help/install
 sort: 400
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
 alias: ustanovka-ofisnogo-paketa
 banner: /assets/images/upload/services/help/install/ustanovka-ofisnogo-paketa.jpg

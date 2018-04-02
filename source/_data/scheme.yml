@@ -11,7 +11,7 @@ default:
     description: Проводим диагностику неисправности, выясняем стоимость ремонта.
     link:
       name: Подробнее
-      url: /clients/diagnostic/
+      url: http://scplex.ru/clients/diagnostic/
   - name: Работа
     description: Выполняются профилактические действия и ремонтные работы.
   - name: Прием работы
@@ -20,4 +20,4 @@ default:
     description: Вы оплачиваете выполненную работу удобным для Вас способом.
     link:
       name: Способы оплаты
-      url: /clients/payment/
+      url: http://scplex.ru/clients/payment/

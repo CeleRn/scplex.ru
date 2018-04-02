@@ -4,9 +4,9 @@
   <body<% if ((page.layout == "index") || (page.layout == "main-index")) { %> class="body_home"<% } %>>
     <%- partial('common/header') %>
     <%- body %>
-    <%- partial('common/footer') %>
+    <%- partial('common/footer', {}, {cache: true}) %>
     <script src="/assets/js/commons.js"></script>
-    <%- partial('common/counters') %>
-    <%- partial('common/modals') %>
+    <%- partial('common/counters', {}, {cache: true}) %>
+    <%- partial('common/modals', {}, {cache: true}) %> 
   </body>
 </html>

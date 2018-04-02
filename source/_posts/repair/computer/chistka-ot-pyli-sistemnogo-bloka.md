@@ -13,6 +13,7 @@ typePost: repair-computer
 section: /services
 folder: repair/computer
 sort: 200
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
 alias: chistka-ot-pyli-sistemnogo-bloka
 banner: /assets/images/upload/services/repair/computer/chistka-ot-pyli-sistemnogo-bloka.jpg

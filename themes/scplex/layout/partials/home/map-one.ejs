@@ -1,0 +1,33 @@
+<% var coordinates = config.subdomain.coordinates; %>
+
+<div id="map" class="map map_main-home"></div>
+
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+
+<script>
+ymaps.ready(init);
+
+function init () {
+    var myMap = new ymaps.Map('map', {
+        center: [
+            <%= coordinates[0] %>,
+            <%= coordinates[1] %>
+        ],
+        zoom: 11
+    }),
+    myPlacemark = new ymaps.Placemark(
+        [
+            <%= coordinates[0] %>,
+            <%= coordinates[1] %>
+        ], 
+        { 
+            hintContent: '<%= site.data.company.name %> <%= config.subdomain.inCity %>',
+            balloonContentHeader: "<h3><%= site.data.company.name %> <%= config.subdomain.inCity %></h3>",
+            balloonContentBody: "<a href='tel:<%= config.subdomain.phone %>'><%= formatPhone(config.subdomain.phone) %></a>",
+        
+        // balloonContent: '<%= config.subdomain.phone %>'
+    });
+
+    myMap.geoObjects.add(myPlacemark);
+};
+</script>

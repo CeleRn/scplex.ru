@@ -1,3 +1,11 @@
-<%- partial('common/main-title', {area: false, container: true}) %>
+<div class="container">
+    <%- partial('common/main-title', {area: false, container: false}) %>
+    <div class="description description_home"><%- markdown(page.content) %></div>
 
-<%- partial('partials/home/map_many') %>
+    <%- partial('common/call-to-action/phone') %>
+    <%- partial('partials/home/map-many') %>
+    <%- partial('common/call-to-action/order') %>
+
+</div>
+
+

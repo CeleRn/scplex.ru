@@ -8,6 +8,7 @@ var Hexo = require('hexo');
 // Конфигурация //
 //////////////////
 
+var file = 'subdomains.json' // Файл со списком поддоменов и данными для них
 var protocol = 'http'; // Протокол по умолчанию
 var domain = 'scplex.ru'; // Домен
 var aliasMain = 'master' // Алиас главного домена
@@ -15,20 +16,17 @@ var source = 'source'; // Контент поддоменов
 var sourceMain = 'source_main' //Контент главного домена
 var gitRepo = 'git@github.com:CeleRn/html_scplex.ru.git'; // Репозиторий для результата (HTML)
 
-
+// Загрузка базового файла конфига
 defaultConfig = readYaml.sync('_config.yml');
 
-// Файл со списком поддоменов и данными для них
-var file = 'subdomains.json'
-
-// Чтение файла и создание массива со всеми данными
+// Чтение файла базового конфига и создание массива со всеми данными
 var dataSubdomains = jsonfile.readFileSync(file);
 
 // Создание массива только с поддоменами... [moskow, smolensk, и т.д.]
 var subdomains = Object.keys(dataSubdomains);
-var countSubsomain = subdomains.length;
-// console.log(dataSubdomains[a].city);
 
+// Количество поддоменов вместе с главным
+var countSubsomain = subdomains.length; 
 
 // Создание Списка поддоменов без главного
 var subdomainsList = [];
@@ -45,7 +43,6 @@ subdomainsList.sort(function(a,b) {
     return x < y ? -1 : x > y ? 1 : 0;
 });
 
-
 // Создание файла _data/subdomains.yml
 var subdomainsData = new Object;
 for (var i = 0; i < subdomainsList.length; i++) {
@@ -56,8 +53,25 @@ for (var i = 0; i < subdomainsList.length; i++) {
 }
 yaml.sync(__dirname + "/source/_data/subdomains.yml", subdomainsData)
 
+// Создание файла _data/regions.yml
+var regionsData = [];
+for (var i = 0; i < subdomainsList.length; i++) {
+    
+    alias = subdomainsList[i];
+    args = dataSubdomains[alias];
+    regionsData[i] = {
+        alias: alias,
+        city: args['city'],
+        inCity: args['inCity'],
+        coordinates: args['coordinates'],
+        address: args['address'],
+        phone: args['phone'],
+        yandex: args['yandex']
+    };
+}
+yaml.sync(__dirname + "/source/_data/regions.yml", regionsData)
 
-// Создание конфигов для поддоменов 
+// Создание конфигов для поддоменов
 for (var i = 0; i < subdomains.length; i++) {
 
     alias = subdomains[i];
@@ -90,7 +104,7 @@ for (var i = 0; i < subdomains.length; i++) {
     // robots.txt
     currentConfig.robotstxt = new Object;
     currentConfig.robotstxt.useragent = '*';
-    // currentConfig.robotstxt.sitemap = currentConfig.url + '/sitemap.xml';
+    currentConfig.robotstxt.sitemap = currentConfig.url + '/sitemap.xml';
     currentConfig.robotstxt.host = currentConfig.url;
 
     // Место для деплоя 
@@ -108,9 +122,13 @@ for (var i = 0; i < subdomains.length; i++) {
 
     // Имя файла конфигурации для данного поддомена
     currentConfigFile = __dirname + "/configs/" + alias + ".yml"
+    
     // Запись файла конфигурации для данного поддомена
     var configForSubdomain = defaultConfig
-    Object.assign(configForSubdomain, currentConfig);
-    yaml.sync(currentConfigFile, configForSubdomain);
 
+    // Группировка базового конфига и конфига поддомена
+    Object.assign(configForSubdomain, currentConfig);
+
+    // Запись файла поддомена
+    yaml.sync(currentConfigFile, configForSubdomain);
 }

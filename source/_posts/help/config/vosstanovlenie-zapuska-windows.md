@@ -13,6 +13,7 @@ typePost: help-config
 section: /services
 folder: help/config
 sort: 500
+popular: true
 breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Настройка ПО", "url": "/services/help/config/"}]
 alias: vosstanovlenie-zapuska-windows
 banner: /assets/images/upload/services/help/config/vosstanovlenie-zapuska-windows.jpg

@@ -1,20 +1,20 @@
 <header class="header">
   <div class="header__top">
     <div class="container">
-      <%- partial('header/top-menu') %>
-      <%- partial('header/top-panel') %>
+      <%- partial('header/top-menu', {}, {cache: true}) %>
+      <%- partial('header/top-panel', {}, {cache: true}) %>
     </div>
   </div>
   <div class="header__middle">
     <div class="container">
       <%- partial('header/logo') %>
-      <%- partial('header/main-menu') %>
+      <%- partial('header/main-menu', {}, {cache: true}) %>
     </div>
   </div>
   <div class="header__bottom">
     <div class="container">
       <%- partial('header/breadcrumb') %>
-      <%- partial('header/action-button') %>
+      <%- partial('header/action-button', {}, {cache: true}) %>
     </div>
   </div>
 </header>
