@@ -4,10 +4,10 @@ description: null
 author: Udelta
 language: ru
 timezone: Europe/Moscow
-protocol: http
+protocol: https
 main_domain: scplex.ru
-main_url: 'http://scplex.ru'
-url: 'http://vidnoe.scplex.ru'
+main_url: 'https://scplex.ru'
+url: 'https://vidnoe.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
@@ -60,8 +60,8 @@ sitemap:
   template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
-  sitemap: 'http://vidnoe.scplex.ru/sitemap.xml'
-  host: 'http://vidnoe.scplex.ru'
+  sitemap: 'https://vidnoe.scplex.ru/sitemap.xml'
+  host: 'https://vidnoe.scplex.ru'
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
@@ -80,12 +80,12 @@ server:
     extensions:
       - html
 subdomain:
-  city: Видное
-  inCity: в Видном
-  address: ''
   coordinates:
     - 55.557174
     - 37.708644
-  phone: 84951310265
-  yandex: e3bbd71bfdff3ca4
+  city: Видное
+  inCity: в Видном
+  address: ''
+  phone: 84954093741
+  yandex: f8274b102e2d7c34
   alias: vidnoe

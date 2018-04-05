@@ -5,7 +5,8 @@
       <%- markdown(page.content) %>
     </div>
     <div class="order">
-      <form class="order__form" action="/order/" name="Order" data-netlify="true" netlify method="POST">
+    
+      <form class="order__form" action="/order/" name="Order" data-netlify="true" netlify method="POST"onsubmit="yaCounter48243125.reachGoal('submit_form'); return true;">
         <div class="bo-field-block">
           <input type="email" class="bo-field" name="bo-field" id="bo-field" />
         </div>
@@ -60,7 +61,7 @@
             <div class="order__block order__block_50">
               <div class="form-input">
                   <select class="form-input__input" name="clients-city" id="clients-city">
-                      <option disabled >Выберите город</option>
+                      <option disabled >Выберите город/район</option>
                       <% for (subdomain in site.data.subdomains) { %>
                         <option value="<%= subdomain %>"<% if(subdomain == config.subdomain.alias) { %> selected<% } %>><%= site.data.subdomains[subdomain] %></option>
                       <% } %>

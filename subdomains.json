@@ -1,236 +1,575 @@
 {
-  "master": {
-  },
-  "moscow": {
-    "city": "Москва",
-    "inCity": "в Москве",
+  "master": {},
+  "aparinki": {
+    "coordinates": [
+      55.572029,
+      37.760557
+    ],
+    "city": "Апаринки",
+    "inCity": "в Апаринках",
     "address": "",
-    "coordinates": [55.755814, 37.617635],
-    "phone": 84951310265,
-    "yandex": "74351cfbf0d24cdf"
+    "phone": 84954093741,
+    "yandex": "94bc7c3ca7b6e2dc"
   },
-  "himki": {
-    "city": "Химки",
-    "inCity": "в Химках",
+  "arhangelskoe": {
+    "coordinates": [
+      55.789406,
+      37.301204
+    ],
+    "city": "Архангельское",
+    "inCity": "в Архангельском",
     "address": "",
-    "coordinates": [55.888796, 37.430328],
-    "phone": 84951310265,
-    "yandex": "5cd94bb019454935"
-  },
-  "dolgoprudnyi": {
-    "city": "Долгопрудный",
-    "inCity": "в Долгопрудном",
-    "address": "",
-    "coordinates": [55.933620, 37.514401],
-    "phone": 84951310265,
-    "yandex": "18f4ab7e50470ca1"
-  },
-  "lobnia": {
-    "city": "Лобня",
-    "inCity": "в Лобне",
-    "address": "",
-    "coordinates": [56.012053, 37.475082],
-    "phone": 84951310265,
-    "yandex": "d05dce61357556dc"
-  },
-  "mytishchi": {
-    "city": "Мытищи",
-    "inCity": "в Мытищах",
-    "address": "",
-    "coordinates": [55.910503, 37.736330],
-    "phone": 84951310265,
-    "yandex": "0f553004c5414366"
-  },
-  "pushkino": {
-    "city": "Пушкино",
-    "inCity": "в Пушкине",
-    "address": "",
-    "coordinates": [56.010428, 37.847155],
-    "phone": 84951310265,
-    "yandex": "36b0e4a500a7c0ef"
-  },
-  "korolev": {
-    "city": "Королев",
-    "inCity": "в Королеве",
-    "address": "",
-    "coordinates": [55.922212, 37.854629],
-    "phone": 84951310265,
-    "yandex": "2fb22382b30a2348"
-  },
-  "ivanteevka": {
-    "city": "Ивантеевка",
-    "inCity": "в Ивантеевке",
-    "address": "",
-    "coordinates": [55.970000, 37.917574],
-    "phone": 84951310265,
-    "yandex": "0dcc835e300424e2"
-  },
-  "shchelkovo": {
-    "city": "Щелково",
-    "inCity": "в Щелково",
-    "address": "",
-    "coordinates": [55.923387, 37.978399],
-    "phone": 84951310265,
-    "yandex": "c8ccc41bfe0e410e"
+    "phone": 84954093741,
+    "yandex": "77f5407e36dc2699"
   },
   "balashiha": {
+    "coordinates": [
+      55.796339,
+      37.938199
+    ],
     "city": "Балашиха",
     "inCity": "в Балашихе",
     "address": "",
-    "coordinates": [55.796339, 37.938199],
-    "phone": 84951310265,
-    "yandex": "8d302fdb33012f28"
+    "phone": 84954093741,
+    "yandex": "d0ce310cd887e38f"
   },
-  "reutov": {
-    "city": "Реутов",
-    "inCity": "в Реутове",
+  "barviha": {
+    "coordinates": [
+      55.724165,
+      37.280884
+    ],
+    "city": "Барвиха",
+    "inCity": "в Барвихе",
     "address": "",
-    "coordinates": [55.760515, 37.855141],
-    "phone": 84951310265,
-    "yandex": "130ca74c8dee5675"
+    "phone": 84954093741,
+    "yandex": "3855baf2a49e4205"
   },
-  "zheleznodorozhnyi": {
-    "city": "Железнодорожный",
-    "inCity": "в Железнодорожном",
+  "butovo": {
+    "coordinates": [
+      55.545044,
+      37.589976
+    ],
+    "city": "Бутово",
+    "inCity": "в Бутово",
     "address": "",
-    "coordinates": [55.746436, 38.009049],
-    "phone": 84951310265,
-    "yandex": "16b6449ae7818890"
+    "phone": 84954093741,
+    "yandex": "1db01d8fee1a247a"
   },
-  "lyubertcy": {
-    "city": "Люберцы",
-    "inCity": "в Люберцах",
+  "veshki": {
+    "coordinates": [
+      55.926408,
+      37.605876
+    ],
+    "city": "Вёшки",
+    "inCity": "в Вёшках",
     "address": "",
-    "coordinates": [55.676494, 37.898116],
-    "phone": 84951310265,
-    "yandex": "3c121b2d7f5fb112"
-  },
-  "kotelniki": {
-    "city": "Котельники",
-    "inCity": "в Котельниках",
-    "address": "",
-    "coordinates": [55.659840, 37.863199],
-    "phone": 84951310265,
-    "yandex": "b963c2eab9fdf326"
-  },
-  "dzerzhinskii": {
-    "city": "Дзержинский",
-    "inCity": "в Дзержинском",
-    "address": "",
-    "coordinates": [55.630960, 37.849679],
-    "phone": 84951310265,
-    "yandex": "5c26f6501d83eb9e"
-  },
-  "zhukovskii": {
-    "city": "Жуковский",
-    "inCity": "в Жуковском",
-    "address": "",
-    "coordinates": [55.597780, 38.119497],
-    "phone": 84951310265,
-    "yandex": "3a7014cd5a5940cf"
+    "phone": 84954093741,
+    "yandex": "0eb127a91e39b2c6"
   },
   "vidnoe": {
+    "coordinates": [
+      55.557174,
+      37.708644
+    ],
     "city": "Видное",
     "inCity": "в Видном",
     "address": "",
-    "coordinates": [55.557174, 37.708644],
-    "phone": 84951310265,
-    "yandex": "e3bbd71bfdff3ca4"
+    "phone": 84954093741,
+    "yandex": "f8274b102e2d7c34"
   },
-  "shcherbinka": {
-    "city": "Щербинка",
-    "inCity": "в Щербинке",
+  "vlasiha": {
+    "coordinates": [
+      55.685503,
+      37.190423
+    ],
+    "city": "Власиха",
+    "inCity": "во Власихе",
     "address": "",
-    "coordinates": [55.508743, 37.563314],
-    "phone": 84951310265,
-    "yandex": "0bf3831c760d405d"
+    "phone": 84954093741,
+    "yandex": "63557712985a0c10"
   },
-  "podolsk": {
-    "city": "Подольск",
-    "inCity": "в Подольске",
+  "voskresenskoe": {
+    "coordinates": [
+      55.517495,
+      37.442572
+    ],
+    "city": "Воскресенское",
+    "inCity": "в Воскресенском",
     "address": "",
-    "coordinates": [55.431177, 37.544737],
-    "phone": 84951310265,
-    "yandex": "bd26522157af73b3"
-  },
-  "domodedovo": {
-    "city": "Домодево",
-    "inCity": "в Домодедово",
-    "address": "",
-    "coordinates": [55.437112, 37.768049],
-    "phone": 84951310265,
-    "yandex": "a2dc9adc0410c1e6"
-  },
-  "odintcovo": {
-    "city": "Одинцово",
-    "inCity": "в Одинцово",
-    "address": "",
-    "coordinates": [55.678895, 37.263870],
-    "phone": 84951310265,
-    "yandex": "e51ae2ad0d624db6"
-  },
-  "krasnogorsk": {
-    "city": "Красногорск",
-    "inCity": "в Красногорске",
-    "address": "",
-    "coordinates": [55.831099, 37.330192],
-    "phone": 84951310265,
-    "yandex": "8bd075b98b72c1e4"
-  },
-  "nahabino": {
-    "city": "Нахабино",
-    "inCity": "в Нахабино",
-    "address": "",
-    "coordinates": [55.847149, 37.180138],
-    "phone": 84951310265,
-    "yandex": ""
+    "phone": 84954093741,
+    "yandex": "d936dd177a893ce6"
   },
   "dedovsk": {
+    "coordinates": [
+      55.859984,
+      37.120669
+    ],
     "city": "Дедовск",
     "inCity": "в Дедовске",
     "address": "",
-    "coordinates": [55.859984, 37.120669],
-    "phone": 84951310265,
-    "yandex": "5f781a324b4447b7"
+    "phone": 84954093741,
+    "yandex": "94aeb6da31677c80"
+  },
+  "dzerzhinskii": {
+    "coordinates": [
+      55.63096,
+      37.849679
+    ],
+    "city": "Дзержинский",
+    "inCity": "в Дзержинском",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "1268fae8f8a876b0"
+  },
+  "dolgoprudnyi": {
+    "coordinates": [
+      55.93362,
+      37.514401
+    ],
+    "city": "Долгопрудный",
+    "inCity": "в Долгопрудном",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "b215cb0d7fa2cb8a"
+  },
+  "domodedovo": {
+    "coordinates": [
+      55.437112,
+      37.768049
+    ],
+    "city": "Домодево",
+    "inCity": "в Домодедово",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "9d6c05103a6eb952"
+  },
+  "zheleznodorozhnyi": {
+    "coordinates": [
+      55.746436,
+      38.009049
+    ],
+    "city": "Железнодорожный",
+    "inCity": "в Железнодорожном",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "79fee4fe1995073d"
+  },
+  "zhukovskii": {
+    "coordinates": [
+      55.59778,
+      38.119497
+    ],
+    "city": "Жуковский",
+    "inCity": "в Жуковском",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "8becc8ae3ec6f4c5"
   },
   "zelenograd": {
+    "coordinates": [
+      55.991893,
+      37.214382
+    ],
     "city": "Зеленоград",
     "inCity": "в Зеленограде",
     "address": "",
-    "coordinates": [55.991893, 37.214382],
-    "phone": 84951310265,
-    "yandex": "8adb639fa0602df6"
+    "phone": 84954093741,
+    "yandex": "25badd0012883cae"
+  },
+  "ivanteevka": {
+    "coordinates": [
+      55.97,
+      37.917574
+    ],
+    "city": "Ивантеевка",
+    "inCity": "в Ивантеевке",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "dc2ae4d2b3cdafdf"
+  },
+  "ilinskoe": {
+    "coordinates": [
+      55.766136,
+      37.220265
+    ],
+    "city": "Ильинское-Усово",
+    "inCity": "в Ильинско-Усово",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "5cd156b9ffe3ec64"
   },
   "istra": {
+    "coordinates": [
+      55.914287,
+      36.860284
+    ],
     "city": "Истра",
     "inCity": "в Истре",
     "address": "",
-    "coordinates": [55.914287, 36.860284],
-    "phone": 84951310265,
-    "yandex": "49d0522920eab08a"
+    "phone": 84954093741,
+    "yandex": "a254f0fff61dc41a"
   },
-  "zvenigorod": {
-    "city": "Звенигород",
-    "inCity": "в Звенигороде",
+  "cliazma": {
+    "coordinates": [
+      55.978161,
+      37.833842
+    ],
+    "city": "Клязьма",
+    "inCity": "в Клязьме",
     "address": "",
-    "coordinates": [55.729686, 36.855325],
-    "phone": 84951310265,
-    "yandex": "04857f6761699c7a"
+    "phone": 84954093741,
+    "yandex": "afa6add859d548e1"
+  },
+  "korolev": {
+    "coordinates": [
+      55.922212,
+      37.854629
+    ],
+    "city": "Королев",
+    "inCity": "в Королеве",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "3fedfea67e4288ca"
+  },
+  "kotelniki": {
+    "coordinates": [
+      55.65984,
+      37.863199
+    ],
+    "city": "Котельники",
+    "inCity": "в Котельниках",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "ef8bd46bc5d60c04"
+  },
+  "kraskovo": {
+    "coordinates": [
+      55.658886,
+      37.98846
+    ],
+    "city": "Красково",
+    "inCity": "в Красково",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "8a10270707cdfba6"
+  },
+  "krasnogorsk": {
+    "coordinates": [
+      55.831099,
+      37.330192
+    ],
+    "city": "Красногорск",
+    "inCity": "в Красногорске",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "8c5cc48cb1a897f6"
+  },
+  "kurkino": {
+    "coordinates": [
+      55.891239,
+      37.389661
+    ],
+    "city": "Куркино",
+    "inCity": "в Куркино",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "7e5c16031370918a"
+  },
+  "lobnia": {
+    "coordinates": [
+      56.012053,
+      37.475082
+    ],
+    "city": "Лобня",
+    "inCity": "в Лобне",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "7ed18d8cf571b331"
+  },
+  "lytkarino": {
+    "coordinates": [
+      55.577856,
+      37.90347
+    ],
+    "city": "Лыткарино",
+    "inCity": "в Лыткарино",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "c73b7631a14e192c"
+  },
+  "lyubertcy": {
+    "coordinates": [
+      55.676494,
+      37.898116
+    ],
+    "city": "Люберцы",
+    "inCity": "в Люберцах",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "b5a9f2fa4fe1ec1e"
+  },
+  "malahovka": {
+    "coordinates": [
+      55.64258,
+      38.009373
+    ],
+    "city": "Малаховка",
+    "inCity": "в Малаховке",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "0a8d939850b04ce2"
+  },
+  "mechnikovo": {
+    "coordinates": [
+      55.749831,
+      37.162252
+    ],
+    "city": "Мечниково",
+    "inCity": "в Мечниково",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "05e9e89c5b940154"
+  },
+  "moscow": {
+    "coordinates": [
+      55.755814,
+      37.617635
+    ],
+    "city": "Москва",
+    "inCity": "в Москве",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "2882d8a93f35322b"
+  },
+  "moskovskii": {
+    "coordinates": [
+      55.602144,
+      37.346551
+    ],
+    "city": "Московский",
+    "inCity": "в Московском",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "94b70e3f40bd1d91"
+  },
+  "mytishchi": {
+    "coordinates": [
+      55.910503,
+      37.73633
+    ],
+    "city": "Мытищи",
+    "inCity": "в Мытищах",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "14c3722a9abe9fd5"
+  },
+  "nahabino": {
+    "coordinates": [
+      55.847149,
+      37.180138
+    ],
+    "city": "Нахабино",
+    "inCity": "в Нахабино",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "da1b7e04f8ae4955"
   },
   "novogorsk": {
+    "coordinates": [
+      55.892178,
+      37.350279
+    ],
     "city": "Новогорск",
     "inCity": "в Новогорске",
     "address": "",
-    "coordinates": [55.892178, 37.350279],
-    "phone": 84951310265,
-    "yandex": "ad0f6997023b5536"
+    "phone": 84954093741,
+    "yandex": "49619a45dd2597f8"
+  },
+  "odintcovo": {
+    "coordinates": [
+      55.678895,
+      37.26387
+    ],
+    "city": "Одинцово",
+    "inCity": "в Одинцово",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "7e30f3c57b5e4385"
+  },
+  "opaliha": {
+    "coordinates": [
+      55.827732,
+      37.252731
+    ],
+    "city": "Опалиха",
+    "inCity": "в Опалихе",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "2f4973a377beb836"
+  },
+  "petrovo-dalnee": {
+    "coordinates": [
+      55.751366,
+      37.178691
+    ],
+    "city": "Петрово-Дальнее",
+    "inCity": "в Петрово-Дальнее",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "9feace978aa44106"
+  },
+  "pirogovo": {
+    "coordinates": [
+      55.97872,
+      37.729727
+    ],
+    "city": "Пирогово",
+    "inCity": "в Пирогово",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "c5744df0ccd47aef"
+  },
+  "podolsk": {
+    "coordinates": [
+      55.431177,
+      37.544737
+    ],
+    "city": "Подольск",
+    "inCity": "в Подольске",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "3a81c0bc0bc88339"
+  },
+  "putilkovo": {
+    "coordinates": [
+      55.863636,
+      37.392113
+    ],
+    "city": "Путилково",
+    "inCity": "в Путилково",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "c389d10ce50ccb85"
+  },
+  "pushkino": {
+    "coordinates": [
+      56.010428,
+      37.847155
+    ],
+    "city": "Пушкино",
+    "inCity": "в Пушкине",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "12877f19048be05a"
+  },
+  "rastorguevo": {
+    "coordinates": [
+      55.544509,
+      37.672136
+    ],
+    "city": "Расторгуево",
+    "inCity": "в Расторгуево",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "17e9bb6208af8824"
+  },
+  "reutov": {
+    "coordinates": [
+      55.760515,
+      37.855141
+    ],
+    "city": "Реутов",
+    "inCity": "в Реутове",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "1ac525cf216ea481"
+  },
+  "rublevo": {
+    "coordinates": [
+      55.786288,
+      37.35539
+    ],
+    "city": "Рублево",
+    "inCity": "в Рублево",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "5ac9fe07c7ad2fb1"
+  },
+  "saltykovka": {
+    "coordinates": [
+      55.762713,
+      37.922461
+    ],
+    "city": "Салтыковка",
+    "inCity": "в Салтыковке",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "c027362d0e481fa9"
   },
   "shodnya": {
+    "coordinates": [
+      55.951572,
+      37.295607
+    ],
     "city": "Сходня",
     "inCity": "в Сходне",
     "address": "",
-    "coordinates": [55.951572, 37.295607],
-    "phone": 84951310265,
-    "yandex": "ff52091b246cfe68"
+    "phone": 84954093741,
+    "yandex": "ef8f844f56c5cb83"
+  },
+  "tomilino": {
+    "coordinates": [
+      55.663126,
+      37.949931
+    ],
+    "city": "Томилино",
+    "inCity": "в Томилино",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "ae657c223c8012cf"
+  },
+  "troitck": {
+    "coordinates": [
+      55.485469,
+      37.305327
+    ],
+    "city": "Троицк",
+    "inCity": "в Троицке",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "ffe5becdfb7e1366"
+  },
+  "himki": {
+    "coordinates": [
+      55.888796,
+      37.430328
+    ],
+    "city": "Химки",
+    "inCity": "в Химках",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "8cbe21192e0cf796"
+  },
+  "shchelkovo": {
+    "coordinates": [
+      55.923387,
+      37.978399
+    ],
+    "city": "Щелково",
+    "inCity": "в Щелково",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "86b36d35b4d7ca20"
+  },
+  "shcherbinka": {
+    "coordinates": [
+      55.508743,
+      37.563314
+    ],
+    "city": "Щербинка",
+    "inCity": "в Щербинке",
+    "address": "",
+    "phone": 84954093741,
+    "yandex": "3fb91ed8cae84553"
   }
 }

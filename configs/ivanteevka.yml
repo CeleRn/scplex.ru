@@ -4,10 +4,10 @@ description: null
 author: Udelta
 language: ru
 timezone: Europe/Moscow
-protocol: http
+protocol: https
 main_domain: scplex.ru
-main_url: 'http://scplex.ru'
-url: 'http://ivanteevka.scplex.ru'
+main_url: 'https://scplex.ru'
+url: 'https://ivanteevka.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
@@ -60,8 +60,8 @@ sitemap:
   template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
-  sitemap: 'http://ivanteevka.scplex.ru/sitemap.xml'
-  host: 'http://ivanteevka.scplex.ru'
+  sitemap: 'https://ivanteevka.scplex.ru/sitemap.xml'
+  host: 'https://ivanteevka.scplex.ru'
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
@@ -80,12 +80,12 @@ server:
     extensions:
       - html
 subdomain:
-  city: Ивантеевка
-  inCity: в Ивантеевке
-  address: ''
   coordinates:
     - 55.97
     - 37.917574
-  phone: 84951310265
-  yandex: 0dcc835e300424e2
+  city: Ивантеевка
+  inCity: в Ивантеевке
+  address: ''
+  phone: 84954093741
+  yandex: dc2ae4d2b3cdafdf
   alias: ivanteevka

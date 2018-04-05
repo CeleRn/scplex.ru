@@ -1,0 +1,91 @@
+title: СЦ 'PLEX'
+subtitle: Компьютерный сервис
+description: null
+author: Udelta
+language: ru
+timezone: Europe/Moscow
+protocol: https
+main_domain: scplex.ru
+main_url: 'https://scplex.ru'
+url: 'https://voskresenskoe.scplex.ru'
+root: /
+permalink: ':section/:title.html'
+permalink_defaults: null
+source_dir: source
+public_dir: public/voskresenskoe
+tag_dir: tags
+archive_dir: null
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: ':lang'
+skip_render: null
+new_post_name: ':title.md'
+default_layout: post
+titlecase: false
+external_link: true
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: null
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: true
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: '-date'
+default_category: uncategorized
+category_map: null
+tag_map: null
+date_format: YYYY-MM-DD
+time_format: 'HH:mm:ss'
+per_page: 10
+pagination_dir: page
+theme: scplex
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+robotstxt:
+  useragent: '*'
+  sitemap: 'https://voskresenskoe.scplex.ru/sitemap.xml'
+  host: 'https://voskresenskoe.scplex.ru'
+deploy:
+  type: git
+  repo: 'git@github.com:CeleRn/html_scplex.ru.git'
+  branch: voskresenskoe
+browsersync:
+  logLevel: warn
+  ghostMode:
+    scroll: true
+server:
+  port: 4000
+  log: false
+  ip: 0.0.0.0
+  compress: true
+  header: true
+  serveStatic:
+    extensions:
+      - html
+subdomain:
+  coordinates:
+    - 55.517495
+    - 37.442572
+  city: Воскресенское
+  inCity: в Воскресенском
+  address: ''
+  phone: 84954093741
+  yandex: d936dd177a893ce6
+  alias: voskresenskoe

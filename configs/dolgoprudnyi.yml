@@ -4,10 +4,10 @@ description: null
 author: Udelta
 language: ru
 timezone: Europe/Moscow
-protocol: http
+protocol: https
 main_domain: scplex.ru
-main_url: 'http://scplex.ru'
-url: 'http://dolgoprudnyi.scplex.ru'
+main_url: 'https://scplex.ru'
+url: 'https://dolgoprudnyi.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
@@ -60,8 +60,8 @@ sitemap:
   template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
-  sitemap: 'http://dolgoprudnyi.scplex.ru/sitemap.xml'
-  host: 'http://dolgoprudnyi.scplex.ru'
+  sitemap: 'https://dolgoprudnyi.scplex.ru/sitemap.xml'
+  host: 'https://dolgoprudnyi.scplex.ru'
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
@@ -80,12 +80,12 @@ server:
     extensions:
       - html
 subdomain:
-  city: Долгопрудный
-  inCity: в Долгопрудном
-  address: ''
   coordinates:
     - 55.93362
     - 37.514401
-  phone: 84951310265
-  yandex: 18f4ab7e50470ca1
+  city: Долгопрудный
+  inCity: в Долгопрудном
+  address: ''
+  phone: 84954093741
+  yandex: b215cb0d7fa2cb8a
   alias: dolgoprudnyi

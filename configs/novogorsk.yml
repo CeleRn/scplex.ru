@@ -4,10 +4,10 @@ description: null
 author: Udelta
 language: ru
 timezone: Europe/Moscow
-protocol: http
+protocol: https
 main_domain: scplex.ru
-main_url: 'http://scplex.ru'
-url: 'http://novogorsk.scplex.ru'
+main_url: 'https://scplex.ru'
+url: 'https://novogorsk.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
@@ -60,8 +60,8 @@ sitemap:
   template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
-  sitemap: 'http://novogorsk.scplex.ru/sitemap.xml'
-  host: 'http://novogorsk.scplex.ru'
+  sitemap: 'https://novogorsk.scplex.ru/sitemap.xml'
+  host: 'https://novogorsk.scplex.ru'
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
@@ -80,12 +80,12 @@ server:
     extensions:
       - html
 subdomain:
-  city: Новогорск
-  inCity: в Новогорске
-  address: ''
   coordinates:
     - 55.892178
     - 37.350279
-  phone: 84951310265
-  yandex: ad0f6997023b5536
+  city: Новогорск
+  inCity: в Новогорске
+  address: ''
+  phone: 84954093741
+  yandex: 49619a45dd2597f8
   alias: novogorsk

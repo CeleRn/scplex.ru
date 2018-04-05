@@ -4,10 +4,10 @@ description: null
 author: Udelta
 language: ru
 timezone: Europe/Moscow
-protocol: http
+protocol: https
 main_domain: scplex.ru
-main_url: 'http://scplex.ru'
-url: 'http://lobnia.scplex.ru'
+main_url: 'https://scplex.ru'
+url: 'https://lobnia.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
@@ -60,8 +60,8 @@ sitemap:
   template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
-  sitemap: 'http://lobnia.scplex.ru/sitemap.xml'
-  host: 'http://lobnia.scplex.ru'
+  sitemap: 'https://lobnia.scplex.ru/sitemap.xml'
+  host: 'https://lobnia.scplex.ru'
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
@@ -80,12 +80,12 @@ server:
     extensions:
       - html
 subdomain:
-  city: Лобня
-  inCity: в Лобне
-  address: ''
   coordinates:
     - 56.012053
     - 37.475082
-  phone: 84951310265
-  yandex: d05dce61357556dc
+  city: Лобня
+  inCity: в Лобне
+  address: ''
+  phone: 84954093741
+  yandex: 7ed18d8cf571b331
   alias: lobnia

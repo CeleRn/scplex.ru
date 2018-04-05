@@ -4,10 +4,10 @@ description: null
 author: Udelta
 language: ru
 timezone: Europe/Moscow
-protocol: http
+protocol: https
 main_domain: scplex.ru
-main_url: 'http://scplex.ru'
-url: 'http://zheleznodorozhnyi.scplex.ru'
+main_url: 'https://scplex.ru'
+url: 'https://zheleznodorozhnyi.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
@@ -60,8 +60,8 @@ sitemap:
   template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
-  sitemap: 'http://zheleznodorozhnyi.scplex.ru/sitemap.xml'
-  host: 'http://zheleznodorozhnyi.scplex.ru'
+  sitemap: 'https://zheleznodorozhnyi.scplex.ru/sitemap.xml'
+  host: 'https://zheleznodorozhnyi.scplex.ru'
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
@@ -80,12 +80,12 @@ server:
     extensions:
       - html
 subdomain:
-  city: Железнодорожный
-  inCity: в Железнодорожном
-  address: ''
   coordinates:
     - 55.746436
     - 38.009049
-  phone: 84951310265
-  yandex: 16b6449ae7818890
+  city: Железнодорожный
+  inCity: в Железнодорожном
+  address: ''
+  phone: 84954093741
+  yandex: 79fee4fe1995073d
   alias: zheleznodorozhnyi

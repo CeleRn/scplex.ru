@@ -4,10 +4,10 @@ description: null
 author: Udelta
 language: ru
 timezone: Europe/Moscow
-protocol: http
+protocol: https
 main_domain: scplex.ru
-main_url: 'http://scplex.ru'
-url: 'http://himki.scplex.ru'
+main_url: 'https://scplex.ru'
+url: 'https://himki.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
@@ -60,8 +60,8 @@ sitemap:
   template: ./sitemap_template.xml
 robotstxt:
   useragent: '*'
-  sitemap: 'http://himki.scplex.ru/sitemap.xml'
-  host: 'http://himki.scplex.ru'
+  sitemap: 'https://himki.scplex.ru/sitemap.xml'
+  host: 'https://himki.scplex.ru'
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
@@ -80,12 +80,12 @@ server:
     extensions:
       - html
 subdomain:
-  city: Химки
-  inCity: в Химках
-  address: ''
   coordinates:
     - 55.888796
     - 37.430328
-  phone: 84951310265
-  yandex: 5cd94bb019454935
+  city: Химки
+  inCity: в Химках
+  address: ''
+  phone: 84954093741
+  yandex: 8cbe21192e0cf796
   alias: himki

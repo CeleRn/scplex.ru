@@ -9,21 +9,22 @@
         </button>
       </div>
       <div class="modal-body">
-        <% var subdomains = site.data.subdomains; %>
+        <% var subdomains = site.data.regions; %>
         <ul class="city-list">
           <% if (isMainDomain(config.subdomain.alias)) { %>
             <% for (subdomain in subdomains) { %>
               <li class="city-list__item">
-                <a href="#" class="change-city-link change-city-link_cookie" data-alias="<%= subdomain %>">
-                  <%= subdomains[subdomain] %>
+                <a href="#" class="change-city-link change-city-link_cookie" data-alias="<%= subdomains[subdomain]['alias'] %>">
+                  <%= subdomains[subdomain]['city'] %>
                 </a>
               </li>
             <% } %>
           <% } else { %>
           <% for (subdomain in subdomains) {
-              var currentUrl = config.protocol + '://' + subdomain + '.' + config.main_domain + url_for(page.path).replace("index.html", "") %>
+              var currentUrl = config.protocol + '://' + subdomains[subdomain]['alias'] + '.' + config.main_domain + url_for(page.path).replace('index.html',''); 
+              var currentTitle = h1Escape(page) + ' ' + subdomains[subdomain]['inCity']; %>
               <li class="city-list__item">
-                <a class="change-city-link" href="<%= currentUrl %>"><%= subdomains[subdomain] %></a>
+                <a class="change-city-link" title="<%= currentTitle %>" href="<%= currentUrl %>"><%= subdomains[subdomain]['city'] %></a>
               </li>
             <% } %>
           <% } %>

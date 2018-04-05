@@ -9,7 +9,7 @@ var Hexo = require('hexo');
 //////////////////
 
 var file = 'subdomains.json' // Файл со списком поддоменов и данными для них
-var protocol = 'http'; // Протокол по умолчанию
+var protocol = 'https'; // Протокол по умолчанию
 var domain = 'scplex.ru'; // Домен
 var aliasMain = 'master' // Алиас главного домена
 var source = 'source'; // Контент поддоменов
