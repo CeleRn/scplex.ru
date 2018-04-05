@@ -1,21 +1,41 @@
 ---
+alias: zamena-matritcy-noutbuka
+altimage: Замена матрицы ноутбука
+banner: /assets/images/upload/services/repair/notebook/zamena-matritcy-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 6
-title: Замена матрицы
+layout: service
 listtitle: Замена матрицы ноутбука
 longtitle: Замена матрицы ноутбука
-altimage: Замена матрицы ноутбука
+offers:
+- name: Замена матрицы ноутбука без сенсорного экрана
+  price: 800
+  type: eq
+- name: Замена матрицы ноутбука с сенсорным экраном
+  price: 2700
+  type: eq
+- name: Замена матрицы ноутбука Apple
+  price: 2700
+  type: low
 phoneCallToActionTitle: Нужна замена матрицы? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'true'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 600
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: zamena-matritcy-noutbuka
-banner: /assets/images/upload/services/repair/notebook/zamena-matritcy-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-matritcy-noutbuka.jpg
+title: Замена матрицы
+typePost: repair-notebook
 ---

@@ -1,21 +1,35 @@
 ---
+alias: formatirovanie
+altimage: Восстановление данных после форматирования
+banner: /assets/images/upload/services/recovery/causes/formatirovanie.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: После проишествий
+  url: /services/recovery/causes/
+folder: recovery/causes
+guarantee:
+- title: ''
 id: 123
-title: Форматирование
+layout: service
 listtitle: Восстановление данных после форматирования
 longtitle: Восстановление данных после форматирования
-altimage: Восстановление данных после форматирования
+offers:
+- name: Восстановление данных после форматирования
+  price: 3000
+  type: low
 phoneCallToActionTitle: Нужно восстановление данных после формата? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-causes
+popular: 'true'
 section: /services
-folder: recovery/causes
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 500
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "После проишествий", "url":  "/services/recovery/causes/"}]
-alias: formatirovanie
-banner: /assets/images/upload/services/recovery/causes/formatirovanie.jpg
 thumbnail: /assets/images/upload/services/recovery/causes/thumb_formatirovanie.jpg
+title: Форматирование
+typePost: recovery-causes
 ---

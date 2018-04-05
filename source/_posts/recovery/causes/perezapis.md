@@ -1,20 +1,35 @@
 ---
+alias: perezapis
+altimage: Восстановление данных после перезаписи
+banner: /assets/images/upload/services/recovery/causes/perezapis.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: После проишествий
+  url: /services/recovery/causes/
+folder: recovery/causes
+guarantee:
+- title: ''
 id: 126
-title: Перезапись
+layout: service
 listtitle: Восстановление данных после перезаписи
 longtitle: Восстановление данных после перезаписи
-altimage: Восстановление данных после перезаписи
+offers:
+- name: Восстановление данных после перезаписи
+  price: 5000
+  type: low
 phoneCallToActionTitle: Нужно восстановление данных после перезаписи? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-causes
+popular: 'false'
 section: /services
-folder: recovery/causes
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 800
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "После проишествий", "url":  "/services/recovery/causes/"}]
-alias: perezapis
-banner: /assets/images/upload/services/recovery/causes/perezapis.jpg
 thumbnail: /assets/images/upload/services/recovery/causes/thumb_perezapis.jpg
+title: Перезапись
+typePost: recovery-causes
 ---

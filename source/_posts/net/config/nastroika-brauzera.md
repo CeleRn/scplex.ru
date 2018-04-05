@@ -1,20 +1,35 @@
 ---
+alias: nastroika-brauzera
+altimage: Настройка браузера
+banner: /assets/images/upload/services/net/config/nastroika-brauzera.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Сети и интернет
+  url: /services/net/
+- name: Настройка
+  url: /services/net/config/
+folder: net/config
+guarantee:
+- title: ''
 id: 135
-title: Настройка браузера
+layout: service
 listtitle: Настройка браузера
 longtitle: Настройка браузера
-altimage: Настройка браузера
+offers:
+- name: Настройка браузера (за 1 плагин)
+  price: 350
+  type: eq
 phoneCallToActionTitle: Хотите удобней пользоваться интернетом? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: net-config
+popular: 'true'
 section: /services
-folder: net/config
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 800
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Сети и интернет", "url": "/services/net/"},{"name": "Настройка", "url":  "/services/net/config/"}]
-alias: nastroika-brauzera
-banner: /assets/images/upload/services/net/config/nastroika-brauzera.jpg
 thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-brauzera.jpg
+title: Настройка браузера
+typePost: net-config
 ---

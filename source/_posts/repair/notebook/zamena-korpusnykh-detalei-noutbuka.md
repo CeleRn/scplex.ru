@@ -1,20 +1,38 @@
 ---
+alias: zamena-korpusnykh-detalei-noutbuka
+altimage: Замена корпусных деталей ноутбука
+banner: /assets/images/upload/services/repair/notebook/zamena-korpusnykh-detalei-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 9
-title: Замена корпусных деталей
+layout: service
 listtitle: Замена корпусных деталей ноутбука
 longtitle: Замена корпусных деталей ноутбука
-altimage: Замена корпусных деталей ноутбука
+offers:
+- name: Замена корпусных деталей верхней части ноутбука
+  price: 800
+  type: eq
+- name: Замена корпусных деталей нижней части ноутбука
+  price: 2000
+  type: eq
 phoneCallToActionTitle: Нужна замена корпусных деталей ноутбука? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'false'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 900
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: zamena-korpusnykh-detalei-noutbuka
-banner: /assets/images/upload/services/repair/notebook/zamena-korpusnykh-detalei-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-korpusnykh-detalei-noutbuka.jpg
+title: Замена корпусных деталей
+typePost: repair-notebook
 ---

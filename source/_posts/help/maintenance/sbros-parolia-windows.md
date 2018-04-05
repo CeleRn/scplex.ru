@@ -1,21 +1,38 @@
 ---
+alias: sbros-parolia-windows
+altimage: Сброс пароля Windows
+banner: /assets/images/upload/services/help/maintenance/sbros-parolia-windows.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Обслуживание
+  url: /services/help/maintenance/
+folder: help/maintenance
+guarantee:
+- title: ''
 id: 98
-title: Сброс пароля Windows
+layout: service
 listtitle: Сброс пароля Windows
 longtitle: Сброс пароля Windows
-altimage: Сброс пароля Windows
+offers:
+- name: Сброс пароля Windows XP, 7, 8
+  price: 900
+  type: eq
+- name: Сброс пароля Windows 10
+  price: 1100
+  type: low
 phoneCallToActionTitle: Забили пароль от входа в Windows? Звоните?
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-maintenance
+popular: 'true'
 section: /services
-folder: help/maintenance
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 500
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Обслуживание", "url": "/services/help/maintenance/"}]
-alias: sbros-parolia-windows
-banner: /assets/images/upload/services/help/maintenance/sbros-parolia-windows.jpg
 thumbnail: /assets/images/upload/services/help/maintenance/thumb_sbros-parolia-windows.jpg
+title: Сброс пароля Windows
+typePost: help-maintenance
 ---

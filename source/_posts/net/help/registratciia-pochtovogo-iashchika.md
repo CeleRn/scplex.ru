@@ -1,20 +1,44 @@
 ---
+alias: registratciia-pochtovogo-iashchika
+altimage: Регистрация почтового ящика
+banner: /assets/images/upload/services/net/help/registratciia-pochtovogo-iashchika.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Сети и интернет
+  url: /services/net/
+- name: Помощь
+  url: /services/net/help/
+folder: net/help
+guarantee:
+- title: ''
 id: 139
-title: Регистрация почтового ящика
+layout: service
 listtitle: Регистрация почтового ящика
 longtitle: Регистрация почтового ящика
-altimage: Регистрация почтового ящика
+offers:
+- name: Регистрация почтового ящика yandex.ru
+  price: 900
+  type: eq
+- name: Регистрация почтового ящика mail.ru
+  price: 900
+  type: eq
+- name: Регистрация почтового ящика gmail.com
+  price: 900
+  type: eq
+- name: Регистрация почтового ящика на своем домене
+  price: 3300
+  type: eq
 phoneCallToActionTitle: Нужен электронный постовый ящик? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: net-help
+popular: 'false'
 section: /services
-folder: net/help
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 100
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Сети и интернет", "url": "/services/net/"},{"name": "Помощь", "url":  "/services/net/help/"}]
-alias: registratciia-pochtovogo-iashchika
-banner: /assets/images/upload/services/net/help/registratciia-pochtovogo-iashchika.jpg
 thumbnail: /assets/images/upload/services/net/help/thumb_registratciia-pochtovogo-iashchika.jpg
+title: Регистрация почтового ящика
+typePost: net-help
 ---

@@ -8,15 +8,15 @@
             <% switch (offer.type) {
               case 'low': 
                 var itemtype= 'AggregateOffer';
-                var priceBlock = 'от <span itemprop="lowPrice">' + offer.price + '</span><span itemprop="priceCurrency" content="RUB">₽</span>';
+                var priceBlock = 'от <span itemprop="lowPrice">' + offer.price + '</span><span itemprop="priceCurrency" content="RUB"> ₽</span>';
               break;
               case 'high':
                 var itemtype= 'AggregateOffer';
-                var priceBlock = 'до <span itemprop="highPrice">' + offer.price + '</span><span itemprop="priceCurrency" content="RUB">₽</span>'
+                var priceBlock = 'до <span itemprop="highPrice">' + offer.price + '</span><span itemprop="priceCurrency" content="RUB"> ₽</span>'
               break;
               case 'eq':
                 var itemtype= 'Offer';
-                var priceBlock = '<span itemprop="price">' + offer.price + '</span> <span itemprop="priceCurrency" content="RUB">₽</span>'
+                var priceBlock = '<span itemprop="price">' + offer.price + '</span> <span itemprop="priceCurrency" content="RUB"> ₽</span>'
               break;
               default: 
                 var itemtype= 'Offer';
@@ -35,8 +35,8 @@
                 <div class="offer__price"><%- priceBlock %></div>
             </div>
         <% } %>
-        <meta itemprop="lowPrice" content="<%= minPrice(page.offers) %>">
-        <meta itemprop="priceCurrency" content="RUB">
+        <meta itemprop="lowPrice" content="<%= minPrice(page.offers) %>"/>
+        <meta itemprop="priceCurrency" content="RUB"/>
     </div>
     <% } %>
 </div>

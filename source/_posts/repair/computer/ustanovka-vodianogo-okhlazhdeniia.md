@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-vodianogo-okhlazhdeniia
+altimage: Установка водяного охлаждения
+banner: /assets/images/upload/services/repair/computer/ustanovka-vodianogo-okhlazhdeniia.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 33
-title: Установка водяного охлаждения
+layout: service
 listtitle: Установка водяного охлаждения
 longtitle: Установка водяного охлаждения
-altimage: Установка водяного охлаждения
+offers:
+- name: Установка водяного охлаждения
+  price: 1500
+  type: low
 phoneCallToActionTitle: Хотите установить водяное охлаждение? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
+popular: 'false'
 section: /services
-folder: repair/computer
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 700
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: ustanovka-vodianogo-okhlazhdeniia
-banner: /assets/images/upload/services/repair/computer/ustanovka-vodianogo-okhlazhdeniia.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-vodianogo-okhlazhdeniia.jpg
+title: Установка водяного охлаждения
+typePost: repair-computer
 ---

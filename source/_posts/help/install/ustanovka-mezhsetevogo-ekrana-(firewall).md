@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-mezhsetevogo-ekrana-(firewall)
+altimage: Установка межсетевого экрана (Firewall)
+banner: /assets/images/upload/services/help/install/ustanovka-mezhsetevogo-ekrana-(firewall).jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 76
-title: Установка Firewall
+layout: service
 listtitle: Установка межсетевого экрана (Firewall)
 longtitle: Установка межсетевого экрана (Firewall)
-altimage: Установка межсетевого экрана (Firewall)
+offers:
+- name: Установка межсетевого экрана (Firewall)
+  price: 700
+  type: eq
 phoneCallToActionTitle: Нужен Firewall? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2600
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-mezhsetevogo-ekrana-(firewall)
-banner: /assets/images/upload/services/help/install/ustanovka-mezhsetevogo-ekrana-(firewall).jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-mezhsetevogo-ekrana-(firewall).jpg
+title: Установка Firewall
+typePost: help-install
 ---

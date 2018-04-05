@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-draiverov-tachpada
+altimage: Установка драйверов тачпада
+banner: /assets/images/upload/services/help/install/ustanovka-draiverov-tachpada.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 71
-title: Установка драйверов тачпада
+layout: service
 listtitle: Установка драйверов тачпада
 longtitle: Установка драйверов тачпада
-altimage: Установка драйверов тачпада
+offers:
+- name: Установка драйверов тачпада
+  price: 400
+  type: eq
 phoneCallToActionTitle: Нет всех возможностей тачпада? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2100
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-draiverov-tachpada
-banner: /assets/images/upload/services/help/install/ustanovka-draiverov-tachpada.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-tachpada.jpg
+title: Установка драйверов тачпада
+typePost: help-install
 ---

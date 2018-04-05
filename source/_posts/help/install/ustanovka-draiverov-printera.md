@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-draiverov-printera
+altimage: Установка драйверов принтера
+banner: /assets/images/upload/services/help/install/ustanovka-draiverov-printera.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 73
-title: Установка драйверов принтера
+layout: service
 listtitle: Установка драйверов принтера
 longtitle: Установка драйверов принтера
-altimage: Установка драйверов принтера
+offers:
+- name: Установка драйверов принтера
+  price: 400
+  type: eq
 phoneCallToActionTitle: Нужно установить принтер? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'true'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-draiverov-printera
-banner: /assets/images/upload/services/help/install/ustanovka-draiverov-printera.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-printera.jpg
+title: Установка драйверов принтера
+typePost: help-install
 ---

@@ -1,20 +1,39 @@
 ---
+alias: izmenenie-failovoi-sistemy
+altimage: Изменение файловой системы
+banner: /assets/images/upload/services/help/config/izmenenie-failovoi-sistemy.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Настройка ПО
+  url: /services/help/config/
+folder: help/config
+guarantee:
+- title: ''
 id: 80
-title: Изменение файловой системы
+layout: service
 listtitle: Изменение файловой системы
 longtitle: Изменение файловой системы
-altimage: Изменение файловой системы
+offers:
+- name: Изменение структуры файловой системы с помощью встроенных утилит Windows (за
+    1 раздел)
+  price: 500
+  type: eq
+- name: Изменение структуры файловой системы с помощью сторонних программ (за 1 раздел)
+  price: 750
+  type: eq
 phoneCallToActionTitle: Нудно изменить файловую систему диска? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-config
+popular: 'false'
 section: /services
-folder: help/config
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 400
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Настройка ПО", "url": "/services/help/config/"}]
-alias: izmenenie-failovoi-sistemy
-banner: /assets/images/upload/services/help/config/izmenenie-failovoi-sistemy.jpg
 thumbnail: /assets/images/upload/services/help/config/thumb_izmenenie-failovoi-sistemy.jpg
+title: Изменение файловой системы
+typePost: help-config
 ---

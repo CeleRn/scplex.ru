@@ -1,21 +1,38 @@
 ---
+alias: remont-tcepi-pitaniia-noutbuka
+altimage: Ремонт цепи питания ноутбука
+banner: /assets/images/upload/services/repair/notebook/remont-tcepi-pitaniia-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 21
-title: Ремонт цепи питания
+layout: service
 listtitle: Ремонт цепи питания ноутбука
 longtitle: Ремонт цепи питания ноутбука
-altimage: Ремонт цепи питания ноутбука
+offers:
+- name: Ремонт цепи питания ноутбука после скачка напряжения
+  price: 2000
+  type: low
+- name: Ремонт цепи питания ноутбука после залития
+  price: 3500
+  type: low
 phoneCallToActionTitle: Не включается нотбук? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'false'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2100
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: remont-tcepi-pitaniia-noutbuka
-banner: /assets/images/upload/services/repair/notebook/remont-tcepi-pitaniia-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_remont-tcepi-pitaniia-noutbuka.jpg
+title: Ремонт цепи питания
+typePost: repair-notebook
 ---

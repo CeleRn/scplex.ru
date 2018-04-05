@@ -1,20 +1,35 @@
 ---
+alias: sozdanie-obraza-razdela-zhestkogo-diska
+altimage: Создание образа раздела жесткого диска
+banner: /assets/images/upload/services/help/maintenance/sozdanie-obraza-razdela-zhestkogo-diska.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Обслуживание
+  url: /services/help/maintenance/
+folder: help/maintenance
+guarantee:
+- title: ''
 id: 96
-title: Создание образа раздела диска
+layout: service
 listtitle: Создание образа раздела жесткого диска
 longtitle: Создание образа раздела жесткого диска
-altimage: Создание образа раздела жесткого диска
+offers:
+- name: Создание образа раздела жесткого диска
+  price: 700
+  type: eq
 phoneCallToActionTitle: Нуден образ раздела жесткого диска? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-maintenance
+popular: 'false'
 section: /services
-folder: help/maintenance
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Обслуживание", "url": "/services/help/maintenance/"}]
-alias: sozdanie-obraza-razdela-zhestkogo-diska
-banner: /assets/images/upload/services/help/maintenance/sozdanie-obraza-razdela-zhestkogo-diska.jpg
 thumbnail: /assets/images/upload/services/help/maintenance/thumb_sozdanie-obraza-razdela-zhestkogo-diska.jpg
+title: Создание образа раздела диска
+typePost: help-maintenance
 ---

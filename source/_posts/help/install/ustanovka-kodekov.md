@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-kodekov
+altimage: Установка кодеков
+banner: /assets/images/upload/services/help/install/ustanovka-kodekov.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 57
-title: Установка кодеков
+layout: service
 listtitle: Установка кодеков
 longtitle: Установка кодеков
-altimage: Установка кодеков
+offers:
+- name: Установка кодеков
+  price: 350
+  type: eq
 phoneCallToActionTitle: Хотите открывать любые медиа файлы? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 700
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-kodekov
-banner: /assets/images/upload/services/help/install/ustanovka-kodekov.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-kodekov.jpg
+title: Установка кодеков
+typePost: help-install
 ---

@@ -1,20 +1,38 @@
 ---
+alias: sniatie-parolia-zhestkogo-diska-noutbuka
+altimage: Снятие пароля жесткого диска ноутбука
+banner: /assets/images/upload/services/repair/notebook/sniatie-parolia-zhestkogo-diska-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 20
-title: Снятие пароля жесткого диска
+layout: service
 listtitle: Снятие пароля жесткого диска ноутбука
 longtitle: Снятие пароля жесткого диска ноутбука
-altimage: Снятие пароля жесткого диска ноутбука
+offers:
+- name: Снятие пароля жесткого диска ноутбука с помощью мастер пароля
+  price: 1000
+  type: low
+- name: Снятие пароля через терминал
+  price: 2500
+  type: low
 phoneCallToActionTitle: Запаролен жесткий диск ноутбука? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'false'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2000
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: sniatie-parolia-zhestkogo-diska-noutbuka
-banner: /assets/images/upload/services/repair/notebook/sniatie-parolia-zhestkogo-diska-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_sniatie-parolia-zhestkogo-diska-noutbuka.jpg
+title: Снятие пароля жесткого диска
+typePost: repair-notebook
 ---

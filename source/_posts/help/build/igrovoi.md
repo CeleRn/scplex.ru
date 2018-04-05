@@ -1,20 +1,35 @@
 ---
+alias: igrovoi
+altimage: Сборка игрового компьютера под заказ
+banner: /assets/images/upload/services/help/build/igrovoi.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Сборка компьютера
+  url: /services/help/build/
+folder: help/build
+guarantee:
+- title: ''
 id: 102
-title: Игровой компьютер
+layout: service
 listtitle: Сборка игрового компьютера под заказ
 longtitle: Сборка игрового компьютера под заказ
-altimage: Сборка игрового компьютера под заказ
+offers:
+- name: Сборка игрового компьютера под заказ
+  price: 7000
+  type: eq
 phoneCallToActionTitle: Нужен игровой компьютер? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-build
+popular: 'false'
 section: /services
-folder: help/build
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Сборка компьютера", "url": "/services/help/build/"}]
-alias: igrovoi
-banner: /assets/images/upload/services/help/build/igrovoi.jpg
 thumbnail: /assets/images/upload/services/help/build/thumb_igrovoi.jpg
+title: Игровой компьютер
+typePost: help-build
 ---

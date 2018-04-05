@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-draiverov-wi-fi-adaptera
+altimage: Установка драйверов Wi-Fi адаптера
+banner: /assets/images/upload/services/help/install/ustanovka-draiverov-wi-fi-adaptera.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 70
-title: Установка драйверов Wi-Fi адаптера
+layout: service
 listtitle: Установка драйверов Wi-Fi адаптера
 longtitle: Установка драйверов Wi-Fi адаптера
-altimage: Установка драйверов Wi-Fi адаптера
+offers:
+- name: Установка драйверов Wi-Fi адаптера
+  price: 400
+  type: eq
 phoneCallToActionTitle: Не работает Wi-Fi? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2000
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-draiverov-wi-fi-adaptera
-banner: /assets/images/upload/services/help/install/ustanovka-draiverov-wi-fi-adaptera.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-wi-fi-adaptera.jpg
+title: Установка драйверов Wi-Fi адаптера
+typePost: help-install
 ---

@@ -1,20 +1,38 @@
 ---
+alias: ustanovka-arhivatora
+altimage: Установка архиватора
+banner: /assets/images/upload/services/help/install/ustanovka-arhivatora.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 59
-title: Установка архиватора
+layout: service
 listtitle: Установка архиватора
 longtitle: Установка архиватора
-altimage: Установка архиватора
+offers:
+- name: Установка архиватора 7zip
+  price: 350
+  type: eq
+- name: Установка архиватора WinRAR
+  price: 350
+  type: eq
 phoneCallToActionTitle: Не открываются архивы? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 900
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-arhivatora
-banner: /assets/images/upload/services/help/install/ustanovka-arhivatora.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-arhivatora.jpg
+title: Установка архиватора
+typePost: help-install
 ---

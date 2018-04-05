@@ -1,20 +1,38 @@
 ---
+alias: zamena-ili-dobavlenie-operativnoi-pamiati
+altimage: Замена или добавление оперативной памяти
+banner: /assets/images/upload/services/repair/computer/zamena-ili-dobavlenie-operativnoi-pamiati.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 36
-title: Замена или добавление оперативной памяти
+layout: service
 listtitle: Замена или добавление оперативной памяти
 longtitle: Замена или добавление оперативной памяти
-altimage: Замена или добавление оперативной памяти
+offers:
+- name: Замена или добавление оперативной памяти без демонтажа комплектующих
+  price: 400
+  type: eq
+- name: Замена или добавление оперативной памяти с демонтажем других комплектующих
+  price: 1200
+  type: eq
 phoneCallToActionTitle: Компьютеру не хватает оперативной памяти? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
+popular: 'false'
 section: /services
-folder: repair/computer
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1000
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: zamena-ili-dobavlenie-operativnoi-pamiati
-banner: /assets/images/upload/services/repair/computer/zamena-ili-dobavlenie-operativnoi-pamiati.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-ili-dobavlenie-operativnoi-pamiati.jpg
+title: Замена или добавление оперативной памяти
+typePost: repair-computer
 ---

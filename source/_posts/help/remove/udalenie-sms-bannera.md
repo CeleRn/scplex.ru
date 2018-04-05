@@ -1,20 +1,35 @@
 ---
+alias: udalenie-sms-bannera
+altimage: Удаление СМС баннера
+banner: /assets/images/upload/services/help/remove/udalenie-sms-bannera.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Удаление ПО и вирусов
+  url: /services/help/remove/
+folder: help/remove
+guarantee:
+- title: ''
 id: 92
-title: Удаление СМС баннера
+layout: service
 listtitle: Удаление СМС баннера
 longtitle: Удаление СМС баннера
-altimage: Удаление СМС баннера
+offers:
+- name: Удаление СМС баннера
+  price: 1200
+  type: eq
 phoneCallToActionTitle: Windows заблокирован? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-remove
+popular: 'false'
 section: /services
-folder: help/remove
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 200
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Удаление ПО и вирусов", "url": "/services/help/remove/"}]
-alias: udalenie-sms-bannera
-banner: /assets/images/upload/services/help/remove/udalenie-sms-bannera.jpg
 thumbnail: /assets/images/upload/services/help/remove/thumb_udalenie-sms-bannera.jpg
+title: Удаление СМС баннера
+typePost: help-remove
 ---

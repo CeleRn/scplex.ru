@@ -1,21 +1,41 @@
 ---
+alias: zamena-claviatury-noutbuka
+altimage: Замена клавиатуры ноутбука
+banner: /assets/images/upload/services/repair/notebook/zamena-claviatury-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 7
-title: Замена клавиатуры
+layout: service
 listtitle: Замена клавиатуры ноутбука
 longtitle: Замена клавиатуры ноутбука
-altimage: Замена клавиатуры ноутбука
+offers:
+- name: Замена съемной клавиатуры ноутбука
+  price: 450
+  type: eq
+- name: Замена верхней панели (топкейса) с клавиатурой
+  price: 1700
+  type: eq
+- name: Замена несъемной клавиатуры в топ кейсе с пайкой
+  price: 2000
+  type: eq
 phoneCallToActionTitle: Нужна замена матрицы ноутбука? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'true'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 700
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: zamena-claviatury-noutbuka
-banner: /assets/images/upload/services/repair/notebook/zamena-claviatury-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-claviatury-noutbuka.jpg
+title: Замена клавиатуры
+typePost: repair-notebook
 ---

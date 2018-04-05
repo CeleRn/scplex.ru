@@ -1,20 +1,35 @@
 ---
+alias: nastroika-antivirusa
+altimage: Настройка антивируса
+banner: /assets/images/upload/services/help/config/nastroika-antivirusa.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Настройка ПО
+  url: /services/help/config/
+folder: help/config
+guarantee:
+- title: ''
 id: 89
-title: Настройка антивируса
+layout: service
 listtitle: Настройка антивируса
 longtitle: Настройка антивируса
-altimage: Настройка антивируса
+offers:
+- name: Настройка антивируса
+  price: 600
+  type: eq
 phoneCallToActionTitle: Антивирус "съедает" все ресурсы компьютера? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-config
+popular: 'false'
 section: /services
-folder: help/config
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Настройка ПО", "url": "/services/help/config/"}]
-alias: nastroika-antivirusa
-banner: /assets/images/upload/services/help/config/nastroika-antivirusa.jpg
 thumbnail: /assets/images/upload/services/help/config/thumb_nastroika-antivirusa.jpg
+title: Настройка антивируса
+typePost: help-config
 ---

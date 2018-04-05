@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-draiverov-setevoi-karty
+altimage: Установка драйверов сетевой карты
+banner: /assets/images/upload/services/help/install/ustanovka-draiverov-setevoi-karty.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 69
-title: Установка драйверов сетевой карты
+layout: service
 listtitle: Установка драйверов сетевой карты
 longtitle: Установка драйверов сетевой карты
-altimage: Установка драйверов сетевой карты
+offers:
+- name: Установка драйверов сетевой карты
+  price: 400
+  type: eq
 phoneCallToActionTitle: Не стабильно работает сетсевая карта? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1900
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-draiverov-setevoi-karty
-banner: /assets/images/upload/services/help/install/ustanovka-draiverov-setevoi-karty.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-setevoi-karty.jpg
+title: Установка драйверов сетевой карты
+typePost: help-install
 ---

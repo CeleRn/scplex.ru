@@ -1,21 +1,35 @@
 ---
+alias: fotografii
+altimage: Восстановление файлов изображений и фотографий
+banner: /assets/images/upload/services/recovery/data-types/fotografii.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: Типы данных
+  url: /services/recovery/data-types/
+folder: recovery/data-types
+guarantee:
+- title: ''
 id: 117
-title: Фотографии
+layout: service
 listtitle: Восстановление файлов изображений и фотографий
 longtitle: Восстановление файлов изображений и фотографий
-altimage: Восстановление файлов изображений и фотографий
+offers:
+- name: 'Восстановление поврежденных файлов изображений (jpg, tiff и т.д.) '
+  price: 3000
+  type: low
 phoneCallToActionTitle: Нужно восстановление фотографий? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-data-types
+popular: 'false'
 section: /services
-folder: recovery/data-types
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 500
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "Типы данных", "url":  "/services/recovery/data-types/"}]
-alias: fotografii
-banner: /assets/images/upload/services/recovery/data-types/fotografii.jpg
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_fotografii.jpg
+title: Фотографии
+typePost: recovery-data-types
 ---

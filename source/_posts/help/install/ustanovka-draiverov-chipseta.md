@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-draiverov-chipseta
+altimage: Установка драйверов чипсета
+banner: /assets/images/upload/services/help/install/ustanovka-draiverov-chipseta.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 66
-title: Установка драйверов чипсета
+layout: service
 listtitle: Установка драйверов чипсета
 longtitle: Установка драйверов чипсета
-altimage: Установка драйверов чипсета
+offers:
+- name: Установка драйверов чипсета
+  price: 400
+  type: eq
 phoneCallToActionTitle: Не хватает драйверов чипсета? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1600
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-draiverov-chipseta
-banner: /assets/images/upload/services/help/install/ustanovka-draiverov-chipseta.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-chipseta.jpg
+title: Установка драйверов чипсета
+typePost: help-install
 ---

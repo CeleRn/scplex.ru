@@ -89,11 +89,11 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: scplex
 
-# html_minifier:
-#   collapseWhitespace: true
-#   conservativeCollapse: true
-#   minifyJS: true
-#   removeComments: true
+html_minifier:
+  collapseWhitespace: true
+  conservativeCollapse: true
+  minifyJS: true
+  removeComments: true
 
 
 

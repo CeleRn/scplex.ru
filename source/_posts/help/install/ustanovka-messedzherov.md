@@ -1,20 +1,44 @@
 ---
+alias: ustanovka-messedzherov
+altimage: Установка месседжеров
+banner: /assets/images/upload/services/help/install/ustanovka-messedzherov.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 58
-title: Установка месседжеров
+layout: service
 listtitle: Установка месседжеров
 longtitle: Установка месседжеров
-altimage: Установка месседжеров
+offers:
+- name: Установка Skype
+  price: 350
+  type: eq
+- name: Установка Whatsapp
+  price: 350
+  type: eq
+- name: Установка Viber
+  price: 350
+  type: eq
+- name: Установка Telegram
+  price: 350
+  type: eq
 phoneCallToActionTitle: Нужны программы для обзения в сети? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 800
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-messedzherov
-banner: /assets/images/upload/services/help/install/ustanovka-messedzherov.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-messedzherov.jpg
+title: Установка месседжеров
+typePost: help-install
 ---

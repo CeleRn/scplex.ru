@@ -28,9 +28,10 @@
 
 // // Фильтр постов c меткой "популярная услуга"
 function popularService(obj) {
-  if (obj.popular == true) {
+  if ((obj.popular == true) || (obj.popular == 'true')) {
     return true;
   } else {
+    
     return false;
   }
 }

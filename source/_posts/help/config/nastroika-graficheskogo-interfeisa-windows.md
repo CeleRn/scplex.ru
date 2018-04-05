@@ -1,20 +1,35 @@
 ---
+alias: nastroika-graficheskogo-interfeisa-windows
+altimage: Настройка графического интерфейса Windows
+banner: /assets/images/upload/services/help/config/nastroika-graficheskogo-interfeisa-windows.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Настройка ПО
+  url: /services/help/config/
+folder: help/config
+guarantee:
+- title: ''
 id: 83
-title: Настройка графического интерфейса Windows
+layout: service
 listtitle: Настройка графического интерфейса Windows
 longtitle: Настройка графического интерфейса Windows
-altimage: Настройка графического интерфейса Windows
+offers:
+- name: Настройка графического интерфейса Windows
+  price: 600
+  type: eq
 phoneCallToActionTitle: Хотите нестандартный внешний вид у Windows? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-config
+popular: 'false'
 section: /services
-folder: help/config
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 700
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Настройка ПО", "url": "/services/help/config/"}]
-alias: nastroika-graficheskogo-interfeisa-windows
-banner: /assets/images/upload/services/help/config/nastroika-graficheskogo-interfeisa-windows.jpg
 thumbnail: /assets/images/upload/services/help/config/thumb_nastroika-graficheskogo-interfeisa-windows.jpg
+title: Настройка графического интерфейса Windows
+typePost: help-config
 ---

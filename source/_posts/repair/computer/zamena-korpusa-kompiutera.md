@@ -1,20 +1,35 @@
 ---
+alias: zamena-korpusa-kompiutera
+altimage: Замена корпуса компьютера
+banner: /assets/images/upload/services/repair/computer/zamena-korpusa-kompiutera.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 30
-title: Замена корпуса
+layout: service
 listtitle: Замена корпуса компьютера
 longtitle: Замена корпуса компьютера
-altimage: Замена корпуса компьютера
+offers:
+- name: Перенос всех комплектующих в новый корпус компьютера
+  price: 2800
+  type: eq
 phoneCallToActionTitle: Надоел старый корпус компьютера? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
+popular: 'false'
 section: /services
-folder: repair/computer
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 400
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: zamena-korpusa-kompiutera
-banner: /assets/images/upload/services/repair/computer/zamena-korpusa-kompiutera.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-korpusa-kompiutera.jpg
+title: Замена корпуса
+typePost: repair-computer
 ---

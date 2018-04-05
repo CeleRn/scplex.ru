@@ -1,21 +1,35 @@
 ---
+alias: vosstanovlenie-zapuska-windows
+altimage: Восстановление запуска Windows
+banner: /assets/images/upload/services/help/config/vosstanovlenie-zapuska-windows.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Настройка ПО
+  url: /services/help/config/
+folder: help/config
+guarantee:
+- title: ''
 id: 81
-title: Восстановление запуска Windows
+layout: service
 listtitle: Восстановление запуска Windows
 longtitle: Восстановление запуска Windows
-altimage: Восстановление запуска Windows
+offers:
+- name: Восстановление запуска Windows
+  price: 600
+  type: low
 phoneCallToActionTitle: Не запускается Windows? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-config
+popular: 'false'
 section: /services
-folder: help/config
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 500
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Настройка ПО", "url": "/services/help/config/"}]
-alias: vosstanovlenie-zapuska-windows
-banner: /assets/images/upload/services/help/config/vosstanovlenie-zapuska-windows.jpg
 thumbnail: /assets/images/upload/services/help/config/thumb_vosstanovlenie-zapuska-windows.jpg
+title: Восстановление запуска Windows
+typePost: help-config
 ---

@@ -1,21 +1,35 @@
 ---
+alias: chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka
+altimage: Чистка от пыли системы охлаждения ноутбука
+banner: /assets/images/upload/services/repair/notebook/chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 2
-title: Чистка от пыли
+layout: service
 listtitle: Чистка от пыли системы охлаждения ноутбука
 longtitle: Чистка от пыли системы охлаждения ноутбука
-altimage: Чистка от пыли системы охлаждения ноутбука
+offers:
+- name: 'Чистка от пыли системы охлаждения ноутбука с чисткой контактов от окислов '
+  price: 750
+  type: eq
 phoneCallToActionTitle: Нужно почистить ваш ноутбук от пыли? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'true'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 200
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka
-banner: /assets/images/upload/services/repair/notebook/chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_chistka-ot-pyli-sistemy-okhlazhdeniia-noutbuka.jpg
+title: Чистка от пыли
+typePost: repair-notebook
 ---

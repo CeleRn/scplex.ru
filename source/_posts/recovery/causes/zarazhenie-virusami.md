@@ -1,20 +1,35 @@
 ---
+alias: zarazhenie-virusami
+altimage: Восстановление данных после заражения вирусами
+banner: /assets/images/upload/services/recovery/causes/zarazhenie-virusami.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: После проишествий
+  url: /services/recovery/causes/
+folder: recovery/causes
+guarantee:
+- title: ''
 id: 125
-title: Заражение вирусами
+layout: service
 listtitle: Восстановление данных после заражения вирусами
 longtitle: Восстановление данных после заражения вирусами
-altimage: Восстановление данных после заражения вирусами
+offers:
+- name: Восстановление данных после заражения вирусами
+  price: 3000
+  type: low
 phoneCallToActionTitle: Нужно восстановление данных после вирусов? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-causes
+popular: 'true'
 section: /services
-folder: recovery/causes
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 700
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "После проишествий", "url":  "/services/recovery/causes/"}]
-alias: zarazhenie-virusami
-banner: /assets/images/upload/services/recovery/causes/zarazhenie-virusami.jpg
 thumbnail: /assets/images/upload/services/recovery/causes/thumb_zarazhenie-virusami.jpg
+title: Заражение вирусами
+typePost: recovery-causes
 ---

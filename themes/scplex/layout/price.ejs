@@ -2,3 +2,33 @@
 <div class="container">
     <%- markdown(page.content) %>
 </div>
+
+<% var postsList = site.posts; %>
+
+<div class="price-list">
+    <div class="container">
+        <% postsList.each(function (post, i) { %>
+        <div class="price-list__section price-list-section" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
+            <h2 class="price-list-section__title"><a href="<%= post.path %>" class="price-list-section__link"><%= post.longtitle %></a></h2>
+            <%  
+            for (let index in post.offers) { 
+                let offer = post.offers[index];
+            %>
+            <div class="cost-list" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
+                <meta itemprop="name" content="<%= offer.name %> <%= config.subdomain.inCity %>">
+                <span itemprop="areaServed" itemscope="" itemtype="http://schema.org/City">
+                <meta itemprop="name" content="<%= config.subdomain.city %>">
+                </span>
+                <div class="cost-list__text"><%= offer.name %></div>
+                <div class="cost-list__price">от
+                <span itemprop="lowPrice"><%= offer.price %></span>
+                <span itemprop="priceCurrency" content="RUB">₽</span>
+                </div>
+            </div>
+            <% } %>
+            <meta itemprop="lowPrice" content="<%= minPrice(post.offers) %>">
+            <meta itemprop="priceCurrency" content="RUB">
+        </div>
+        <% }); %>
+    </div>
+</div>

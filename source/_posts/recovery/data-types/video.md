@@ -1,20 +1,35 @@
 ---
+alias: video
+altimage: Восстановление видео файлов
+banner: /assets/images/upload/services/recovery/data-types/video.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: Типы данных
+  url: /services/recovery/data-types/
+folder: recovery/data-types
+guarantee:
+- title: ''
 id: 118
-title: Видео
+layout: service
 listtitle: Восстановление видео файлов
 longtitle: Восстановление видео файлов
-altimage: Восстановление видео файлов
+offers:
+- name: 'Восстановление поврежденных видео файлов (avi, mpeg и т.д.) '
+  price: 5000
+  type: low
 phoneCallToActionTitle: Нужно восстановление видео файлов? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-data-types
+popular: 'false'
 section: /services
-folder: recovery/data-types
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 600
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "Типы данных", "url":  "/services/recovery/data-types/"}]
-alias: video
-banner: /assets/images/upload/services/recovery/data-types/video.jpg
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_video.jpg
+title: Видео
+typePost: recovery-data-types
 ---

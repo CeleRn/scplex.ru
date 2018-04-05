@@ -1,20 +1,35 @@
 ---
+alias: nastroika-parametrov-avtozagruzki-windows
+altimage: Настройка параметров автозагрузки Windows
+banner: /assets/images/upload/services/help/config/nastroika-parametrov-avtozagruzki-windows.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Настройка ПО
+  url: /services/help/config/
+folder: help/config
+guarantee:
+- title: ''
 id: 82
-title: Настройка параметров автозагрузки Windows
+layout: service
 listtitle: Настройка параметров автозагрузки Windows
 longtitle: Настройка параметров автозагрузки Windows
-altimage: Настройка параметров автозагрузки Windows
+offers:
+- name: Настройка параметров автозагрузки Windows
+  price: 600
+  type: eq
 phoneCallToActionTitle: Настроим автозапуск в Windows. Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-config
+popular: 'false'
 section: /services
-folder: help/config
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 600
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Настройка ПО", "url": "/services/help/config/"}]
-alias: nastroika-parametrov-avtozagruzki-windows
-banner: /assets/images/upload/services/help/config/nastroika-parametrov-avtozagruzki-windows.jpg
 thumbnail: /assets/images/upload/services/help/config/thumb_nastroika-parametrov-avtozagruzki-windows.jpg
+title: Настройка параметров автозагрузки Windows
+typePost: help-config
 ---

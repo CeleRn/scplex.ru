@@ -5,7 +5,16 @@ breadcrumbs:
   - name: Услуги
     url: /services/
 breadcrumbCurrent: true
+seo:
+  title: Прайс лист на услуги компьютерного сервиса 'PLEX'
+  h1: Прайс лист на наши услуги
+  keywords: 
+  - цены сервисного центра
+  - прайс ремонт компьютеров
+  - прайс ремонт ноутбуков
+  - прайс лист на ремонт компьютеров
+  - прайс лист на ремонт ноутбуков
+  - цены на ремонт нотбуков 
+  description: Ознакомтесь со списком услуг, которые предоставляет наш компьютерный сервисный центр. В каталаге указаны цены и гарантийные сроки на ремонт нотбуков и компьютеров, установку и настройку программного обеспечения, восстановление данных и настройку сетевого оборудования.
 ---
-Цены на наши услуги {% inCity %} не отличаются от остальных городов
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, non illo odit reprehenderit fugit consequatur et maiores sapiente dolor pariatur consequuntur nobis enim magni, dolorem alias, laudantium sequi architecto voluptatum! Et sunt aliquid saepe corporis debitis, tempore repellat mollitia {% inCity %} pariatur! {% city %}
-
+Ниже представлен список всех услуг, которые оказывает наш компьютерный центр {% inCity %}. Данные цены являются внутренним корпоративным стандартом. 

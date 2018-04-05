@@ -1,20 +1,38 @@
 ---
+alias: notbuki
+altimage: Восстановление данных с ноутбука
+banner: /assets/images/upload/services/recovery/devices/notbuki.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: Устройства
+  url: /services/recovery/devices/
+folder: recovery/devices
+guarantee:
+- title: ''
 id: 110
-title: Нотбуки
+layout: service
 listtitle: Восстановление данных с ноутбука
 longtitle: Восстановление данных с ноутбука
-altimage: Восстановление данных с ноутбука
+offers:
+- name: Извлечение данных из исправного нотбука
+  price: 3000
+  type: low
+- name: Извлечение данных с неисправного нотбука
+  price: 5000
+  type: low
 phoneCallToActionTitle: Нужно восстановление данных с нотбука? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-devices
+popular: 'false'
 section: /services
-folder: recovery/devices
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 800
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "Устройства", "url":  "/services/recovery/devices/"}]
-alias: notbuki
-banner: /assets/images/upload/services/recovery/devices/notbuki.jpg
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_notbuki.jpg
+title: Нотбуки
+typePost: recovery-devices
 ---

@@ -23,7 +23,7 @@ postsList.each(function (post, i) {
     sort: post.sort,
     link: url_for(post.path),
     thumbnail: post.thumbnail,
-    price: 'от 1300 руб.'
+    price: 'от ' + minPrice(post.offers)+ ' ₽'
   }  
 });
 // Сортировка

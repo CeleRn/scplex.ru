@@ -1,21 +1,38 @@
 ---
+alias: nastroika-internet-cherez-lokalnuiu-set
+altimage: Настройка интернета через локальную сеть
+banner: /assets/images/upload/services/net/config/nastroika-internet-cherez-lokalnuiu-set.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Сети и интернет
+  url: /services/net/
+- name: Настройка
+  url: /services/net/config/
+folder: net/config
+guarantee:
+- title: ''
 id: 133
-title: Настройка интернета через локальную сеть
+layout: service
 listtitle: Настройка интернета через локальную сеть
 longtitle: Настройка интернета через локальную сеть
-altimage: Настройка интернета через локальную сеть
+offers:
+- name: Настройка интернета через локальную сеть в Windows
+  price: 750
+  type: eq
+- name: Настройка интернета с операционной системой  отличной от Windows
+  price: 1900
+  type: eq
 phoneCallToActionTitle: Нуден интернет через локальную сеть? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: net-config
+popular: 'true'
 section: /services
-folder: net/config
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 600
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Сети и интернет", "url": "/services/net/"},{"name": "Настройка", "url":  "/services/net/config/"}]
-alias: nastroika-internet-cherez-lokalnuiu-set
-banner: /assets/images/upload/services/net/config/nastroika-internet-cherez-lokalnuiu-set.jpg
 thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-internet-cherez-lokalnuiu-set.jpg
+title: Настройка интернета через локальную сеть
+typePost: net-config
 ---

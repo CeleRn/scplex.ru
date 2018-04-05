@@ -1,21 +1,42 @@
 ---
+alias: chistka-noutbuka-posle-zalitiia
+altimage: Чистка ноутбука после залития
+banner: /assets/images/upload/services/repair/notebook/chistka-noutbuka-posle-zalitiia.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 4
-title: Чистка после залития
+layout: service
 listtitle: Чистка ноутбука после залития
 longtitle: Чистка ноутбука после залития
-altimage: Чистка ноутбука после залития
+offers:
+- name: Простая чистка без попадания влаги на материнскую плату
+  price: 750
+  type: eq
+- name: Чистка материнской платы от последствий попадания влаги специальными средствами
+    на месте или с забором в сервисный центр
+  price: 1900
+  type: eq
+- name: Чистка материнской платы в ультразвуковой ванне с забором в сервисный центр
+  price: 2200
+  type: low
 phoneCallToActionTitle: Залили ноутбук? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'false'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 400
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: chistka-noutbuka-posle-zalitiia
-banner: /assets/images/upload/services/repair/notebook/chistka-noutbuka-posle-zalitiia.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_chistka-noutbuka-posle-zalitiia.jpg
+title: Чистка после залития
+typePost: repair-notebook
 ---

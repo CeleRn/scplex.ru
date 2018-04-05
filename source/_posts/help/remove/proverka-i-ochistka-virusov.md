@@ -1,24 +1,38 @@
 ---
+alias: proverka-i-ochistka-virusov
+altimage: Проверка и очистка вирусов
+banner: /assets/images/upload/services/help/remove/proverka-i-ochistka-virusov.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Удаление ПО и вирусов
+  url: /services/help/remove/
+folder: help/remove
+guarantee:
+- title: ''
 id: 91
-title: Проверка и очистка вирусов
+layout: service
 listtitle: Проверка и очистка вирусов
 longtitle: Проверка и очистка вирусов
-altimage: Проверка и очистка вирусов
+offers:
+- name: Очистка от вирусов (за 1 вирус)
+  price: 300
+  type: eq
+- name: Проверка на вирусы без очистки
+  price: 700
+  type: eq
 phoneCallToActionTitle: Нахватали вирусов? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-remove
+popular: 'true'
 section: /services
-folder: help/remove
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 100
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Удаление ПО и вирусов", "url": "/services/help/remove/"}]
-alias: proverka-i-ochistka-virusov
-banner: /assets/images/upload/services/help/remove/proverka-i-ochistka-virusov.jpg
 thumbnail: /assets/images/upload/services/help/remove/thumb_proverka-i-ochistka-virusov.jpg
+title: Проверка и очистка вирусов
+typePost: help-remove
 ---
-Первые признаки заражения компьютера вирусами - это отличное от нормального поведение компьютера. Например, не загружается операционная система, долго грузятся приложения, система проводит некоторые действия без Вашего контроля, перестают работать другие программы, теряется доступ к файлам, блокируется работа пользователя, перестают работать периферийные устройства и т.д.
-
-Такие действия компьютерных вирусов могут привести к печальным последствиям, вплоть до выхода из строя Вашего оборудования.

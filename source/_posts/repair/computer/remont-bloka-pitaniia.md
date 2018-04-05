@@ -1,21 +1,38 @@
 ---
+alias: remont-bloka-pitaniia
+altimage: Ремонт блока питания
+banner: /assets/images/upload/services/repair/computer/remont-bloka-pitaniia.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 45
-title: Ремонт блока питания
+layout: service
 listtitle: Ремонт блока питания
 longtitle: Ремонт блока питания
-altimage: Ремонт блока питания
+offers:
+- name: Замена неисправных конденсаторов блока питания (за шт.)
+  price: 300
+  type: eq
+- name: Ремонт цепи питания блока питания
+  price: 1500
+  type: low
 phoneCallToActionTitle: Сгорел блок питания компьютера? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
+popular: 'false'
 section: /services
-folder: repair/computer
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1900
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: remont-bloka-pitaniia
-banner: /assets/images/upload/services/repair/computer/remont-bloka-pitaniia.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_remont-bloka-pitaniia.jpg
+title: Ремонт блока питания
+typePost: repair-computer
 ---

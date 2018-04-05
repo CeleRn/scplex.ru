@@ -1,20 +1,38 @@
 ---
+alias: zamena-opticheskogo-privoda
+altimage: Замена оптического привода
+banner: /assets/images/upload/services/repair/computer/zamena-opticheskogo-privoda.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 42
-title: Замена оптического привода
+layout: service
 listtitle: Замена оптического привода
 longtitle: Замена оптического привода
-altimage: Замена оптического привода
+offers:
+- name: Замена оптического привода компьютера без демонтажа комплектующих
+  price: 450
+  type: eq
+- name: Замена оптического привода компьютера с демонтажем других комплектующих
+  price: 1250
+  type: eq
 phoneCallToActionTitle: Нужна замена оптического привода? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
+popular: 'false'
 section: /services
-folder: repair/computer
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1600
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: zamena-opticheskogo-privoda
-banner: /assets/images/upload/services/repair/computer/zamena-opticheskogo-privoda.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-opticheskogo-privoda.jpg
+title: Замена оптического привода
+typePost: repair-computer
 ---

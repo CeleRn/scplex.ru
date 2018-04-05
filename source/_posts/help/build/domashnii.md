@@ -1,21 +1,35 @@
 ---
+alias: domashnii
+altimage: Сборка домашнего компьютера под заказ
+banner: /assets/images/upload/services/help/build/domashnii.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Сборка компьютера
+  url: /services/help/build/
+folder: help/build
+guarantee:
+- title: ''
 id: 101
-title: Домашний компьютер
+layout: service
 listtitle: Сборка домашнего компьютера под заказ
 longtitle: Сборка домашнего компьютера под заказ
-altimage: Сборка домашнего компьютера под заказ
+offers:
+- name: Сборка домашнего компьютера под заказ
+  price: 5000
+  type: eq
 phoneCallToActionTitle: Нужен домашний компьютер? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-build
+popular: 'true'
 section: /services
-folder: help/build
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 200
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Сборка компьютера", "url": "/services/help/build/"}]
-alias: domashnii
-banner: /assets/images/upload/services/help/build/domashnii.jpg
 thumbnail: /assets/images/upload/services/help/build/thumb_domashnii.jpg
+title: Домашний компьютер
+typePost: help-build
 ---

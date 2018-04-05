@@ -1,20 +1,35 @@
 ---
+alias: shifrovanie
+altimage: Восстановление данных после шифрования
+banner: /assets/images/upload/services/recovery/causes/shifrovanie.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: После проишествий
+  url: /services/recovery/causes/
+folder: recovery/causes
+guarantee:
+- title: ''
 id: 121
-title: Шифрование
+layout: service
 listtitle: Восстановление данных после шифрования
 longtitle: Восстановление данных после шифрования
-altimage: Восстановление данных после шифрования
+offers:
+- name: Восстановление данных после шифрования
+  price: 6000
+  type: low
 phoneCallToActionTitle: Нужно восстановление данных после шифрования? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-causes
+popular: 'false'
 section: /services
-folder: recovery/causes
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "После проишествий", "url":  "/services/recovery/causes/"}]
-alias: shifrovanie
-banner: /assets/images/upload/services/recovery/causes/shifrovanie.jpg
 thumbnail: /assets/images/upload/services/recovery/causes/thumb_shifrovanie.jpg
+title: Шифрование
+typePost: recovery-causes
 ---

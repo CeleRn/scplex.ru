@@ -1,20 +1,38 @@
 ---
+alias: mobilnye-ustroistva
+altimage: Восстановление данных с мобильных устройств
+banner: /assets/images/upload/services/recovery/devices/mobilnye-ustroistva.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: Устройства
+  url: /services/recovery/devices/
+folder: recovery/devices
+guarantee:
+- title: ''
 id: 108
-title: Мобильные устройства
+layout: service
 listtitle: Восстановление данных с мобильных устройств
 longtitle: Восстановление данных с мобильных устройств
-altimage: Восстановление данных с мобильных устройств
+offers:
+- name: Извлечение данных из исправных устройств
+  price: 4000
+  type: low
+- name: Извлечение данных с неисправных устройств
+  price: 8000
+  type: low
 phoneCallToActionTitle: Нужно восстановление данных с мобльного устройства? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-devices
+popular: 'false'
 section: /services
-folder: recovery/devices
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 600
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "Устройства", "url":  "/services/recovery/devices/"}]
-alias: mobilnye-ustroistva
-banner: /assets/images/upload/services/recovery/devices/mobilnye-ustroistva.jpg
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_mobilnye-ustroistva.jpg
+title: Мобильные устройства
+typePost: recovery-devices
 ---

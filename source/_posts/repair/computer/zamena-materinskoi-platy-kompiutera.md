@@ -1,20 +1,35 @@
 ---
+alias: zamena-materinskoi-platy-kompiutera
+altimage: Замена материнской платы компьютера
+banner: /assets/images/upload/services/repair/computer/zamena-materinskoi-platy-kompiutera.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 34
-title: Замена материнской платы
+layout: service
 listtitle: Замена материнской платы компьютера
 longtitle: Замена материнской платы компьютера
-altimage: Замена материнской платы компьютера
+offers:
+- name: Замена материнской платы компьютера
+  price: 1200
+  type: eq
 phoneCallToActionTitle: Нужна замена материнской платы компьютера? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
+popular: 'false'
 section: /services
-folder: repair/computer
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 800
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: zamena-materinskoi-platy-kompiutera
-banner: /assets/images/upload/services/repair/computer/zamena-materinskoi-platy-kompiutera.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-materinskoi-platy-kompiutera.jpg
+title: Замена материнской платы
+typePost: repair-computer
 ---

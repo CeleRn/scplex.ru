@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-draiverov-vebkamery
+altimage: Установка драйверов вебкамеры
+banner: /assets/images/upload/services/help/install/ustanovka-draiverov-vebkamery.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 72
-title: Установка драйверов вебкамеры
+layout: service
 listtitle: Установка драйверов вебкамеры
 longtitle: Установка драйверов вебкамеры
-altimage: Установка драйверов вебкамеры
+offers:
+- name: Установка драйверов вебкамеры
+  price: 400
+  type: eq
 phoneCallToActionTitle: Не работает веб-камера? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2200
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-draiverov-vebkamery
-banner: /assets/images/upload/services/help/install/ustanovka-draiverov-vebkamery.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-vebkamery.jpg
+title: Установка драйверов вебкамеры
+typePost: help-install
 ---

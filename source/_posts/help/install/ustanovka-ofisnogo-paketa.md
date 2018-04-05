@@ -1,21 +1,35 @@
 ---
+alias: ustanovka-ofisnogo-paketa
+altimage: Установка офисного пакета
+banner: /assets/images/upload/services/help/install/ustanovka-ofisnogo-paketa.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 54
-title: Установка офисного пакета
+layout: service
 listtitle: Установка офисного пакета
 longtitle: Установка офисного пакета
-altimage: Установка офисного пакета
+offers:
+- name: Установка офисного пакета (за 1 компонент)
+  price: 500
+  type: eq
 phoneCallToActionTitle: Нужно обрабатывать документы на компьютере? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 400
-popular: true
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-ofisnogo-paketa
-banner: /assets/images/upload/services/help/install/ustanovka-ofisnogo-paketa.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-ofisnogo-paketa.jpg
+title: Установка офисного пакета
+typePost: help-install
 ---

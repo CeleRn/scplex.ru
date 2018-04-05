@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-programmy-opticheskogo-raspoznavaniia-teksta
+altimage: Установка программы оптического распознавания текста
+banner: /assets/images/upload/services/help/install/ustanovka-programmy-opticheskogo-raspoznavaniia-teksta.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 64
-title: Установка программы оптического распознавания текста
+layout: service
 listtitle: Установка программы оптического распознавания текста
 longtitle: Установка программы оптического распознавания текста
-altimage: Установка программы оптического распознавания текста
+offers:
+- name: Установка программы оптического распознавания текста
+  price: 700
+  type: eq
 phoneCallToActionTitle: Частно нужно набирать текст с бумаги? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1400
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-programmy-opticheskogo-raspoznavaniia-teksta
-banner: /assets/images/upload/services/help/install/ustanovka-programmy-opticheskogo-raspoznavaniia-teksta.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-programmy-opticheskogo-raspoznavaniia-teksta.jpg
+title: Установка программы оптического распознавания текста
+typePost: help-install
 ---

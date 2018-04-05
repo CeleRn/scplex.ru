@@ -1,20 +1,44 @@
 ---
+alias: videoregistratory
+altimage: Восстановление данных с видеорегистратора
+banner: /assets/images/upload/services/recovery/devices/videoregistratory.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: Устройства
+  url: /services/recovery/devices/
+folder: recovery/devices
+guarantee:
+- title: ''
 id: 109
-title: Видеорегистраторы
+layout: service
 listtitle: Восстановление данных с видеорегистратора
 longtitle: Восстановление данных с видеорегистратора
-altimage: Восстановление данных с видеорегистратора
+offers:
+- name: Восстановление данных с автомобильного видеорегистратора
+  price: 6000
+  type: low
+- name: Восстановление данных с видеорегистратора с исправным HDD
+  price: 25000
+  type: low
+- name: Восстановление данных с видеорегистратора с неисправным HDD
+  price: 30000
+  type: low
+- name: Восстановление данных при отсутствии регистратора
+  price: 40000
+  type: low
 phoneCallToActionTitle: Нужно восстановление данных с видеорегистратора? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-devices
+popular: 'false'
 section: /services
-folder: recovery/devices
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 700
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "Устройства", "url":  "/services/recovery/devices/"}]
-alias: videoregistratory
-banner: /assets/images/upload/services/recovery/devices/videoregistratory.jpg
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_videoregistratory.jpg
+title: Видеорегистраторы
+typePost: recovery-devices
 ---

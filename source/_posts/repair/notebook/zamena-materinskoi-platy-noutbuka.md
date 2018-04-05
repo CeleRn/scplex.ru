@@ -1,20 +1,35 @@
 ---
+alias: zamena-materinskoi-platy-noutbuka
+altimage: Замена материнской платы ноутбука
+banner: /assets/images/upload/services/repair/notebook/zamena-materinskoi-platy-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 13
-title: Замена материнской платы
+layout: service
 listtitle: Замена материнской платы ноутбука
 longtitle: Замена материнской платы ноутбука
-altimage: Замена материнской платы ноутбука
+offers:
+- name: Замена материнской платы ноутбука
+  price: 1500
+  type: eq
 phoneCallToActionTitle: Нужна замена материнской платы нотубка? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'false'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: zamena-materinskoi-platy-noutbuka
-banner: /assets/images/upload/services/repair/notebook/zamena-materinskoi-platy-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-materinskoi-platy-noutbuka.jpg
+title: Замена материнской платы
+typePost: repair-notebook
 ---

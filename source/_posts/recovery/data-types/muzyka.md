@@ -1,20 +1,35 @@
 ---
+alias: muzyka
+altimage: Восстановление аудиофайлов
+banner: /assets/images/upload/services/recovery/data-types/muzyka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: Типы данных
+  url: /services/recovery/data-types/
+folder: recovery/data-types
+guarantee:
+- title: ''
 id: 116
-title: Музыка
+layout: service
 listtitle: Восстановление аудиофайлов
 longtitle: Восстановление аудиофайлов
-altimage: Восстановление аудиофайлов
+offers:
+- name: 'Восстановление поврежденных аудио файлов (mp3, wav и т.д.) '
+  price: 3000
+  type: low
 phoneCallToActionTitle: Нужно восстановление аудиофайлов? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-data-types
+popular: 'false'
 section: /services
-folder: recovery/data-types
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 400
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "Типы данных", "url":  "/services/recovery/data-types/"}]
-alias: muzyka
-banner: /assets/images/upload/services/recovery/data-types/muzyka.jpg
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_muzyka.jpg
+title: Музыка
+typePost: recovery-data-types
 ---

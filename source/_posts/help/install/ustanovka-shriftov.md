@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-shriftov
+altimage: Установка шрифтов
+banner: /assets/images/upload/services/help/install/ustanovka-shriftov.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 65
-title: Установка шрифтов
+layout: service
 listtitle: Установка шрифтов
 longtitle: Установка шрифтов
-altimage: Установка шрифтов
+offers:
+- name: Установка шрифтов (за 1 шрифт)
+  price: 300
+  type: eq
 phoneCallToActionTitle: Нужны красивые шрифты на компьютере? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1500
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-shriftov
-banner: /assets/images/upload/services/help/install/ustanovka-shriftov.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-shriftov.jpg
+title: Установка шрифтов
+typePost: help-install
 ---

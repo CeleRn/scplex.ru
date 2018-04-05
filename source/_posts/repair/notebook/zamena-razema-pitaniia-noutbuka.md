@@ -1,20 +1,38 @@
 ---
+alias: zamena-razema-pitaniia-noutbuka
+altimage: Замена разъема питания ноутбука
+banner: /assets/images/upload/services/repair/notebook/zamena-razema-pitaniia-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 17
-title: Замена разъема питания
+layout: service
 listtitle: Замена разъема питания ноутбука
 longtitle: Замена разъема питания ноутбука
-altimage: Замена разъема питания ноутбука
+offers:
+- name: Замена разъема питания ноутбука на разъемах (без пайки)
+  price: 500
+  type: eq
+- name: 'Замена разъема питания ноутбука с пайкой '
+  price: 1000
+  type: eq
 phoneCallToActionTitle: Сломался разъем питания нотбука? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'false'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1700
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: zamena-razema-pitaniia-noutbuka
-banner: /assets/images/upload/services/repair/notebook/zamena-razema-pitaniia-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-razema-pitaniia-noutbuka.jpg
+title: Замена разъема питания
+typePost: repair-notebook
 ---

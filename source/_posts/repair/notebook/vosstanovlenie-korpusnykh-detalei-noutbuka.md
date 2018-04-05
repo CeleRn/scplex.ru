@@ -1,20 +1,38 @@
 ---
+alias: vosstanovlenie-korpusnykh-detalei-noutbuka
+altimage: Восстановление корпусных деталей ноутбука
+banner: /assets/images/upload/services/repair/notebook/vosstanovlenie-korpusnykh-detalei-noutbuka.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Ноутбук
+  url: /services/repair/notebook/
+folder: repair/notebook
+guarantee:
+- title: ''
 id: 26
-title: Восстановление корпусных деталей
+layout: service
 listtitle: Восстановление корпусных деталей ноутбука
 longtitle: Восстановление корпусных деталей ноутбука
-altimage: Восстановление корпусных деталей ноутбука
+offers:
+- name: Восстановление внутренних элементов и крепежей
+  price: 500
+  type: low
+- name: Восстановление внешних элементов
+  price: 1500
+  type: low
 phoneCallToActionTitle: Восстановим корпусные детали. Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-notebook
+popular: 'false'
 section: /services
-folder: repair/notebook
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2600
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Ноутбук", "url": "/services/repair/notebook/"}]
-alias: vosstanovlenie-korpusnykh-detalei-noutbuka
-banner: /assets/images/upload/services/repair/notebook/vosstanovlenie-korpusnykh-detalei-noutbuka.jpg
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_vosstanovlenie-korpusnykh-detalei-noutbuka.jpg
+title: Восстановление корпусных деталей
+typePost: repair-notebook
 ---

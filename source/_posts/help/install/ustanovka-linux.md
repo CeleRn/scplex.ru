@@ -1,20 +1,38 @@
 ---
+alias: ustanovka-linux
+altimage: Установка Linux
+banner: /assets/images/upload/services/help/install/ustanovka-linux.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 53
-title: Установка Linux
+layout: service
 listtitle: Установка Linux
 longtitle: Установка Linux
-altimage: Установка Linux
+offers:
+- name: Установка Linux с графическим интерфейсом на рабочую станцию
+  price: 1450
+  type: eq
+- name: Установка Linux на сервер
+  price: 3000
+  type: low
 phoneCallToActionTitle: Нужна установка Linux? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'true'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-linux
-banner: /assets/images/upload/services/help/install/ustanovka-linux.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-linux.jpg
+title: Установка Linux
+typePost: help-install
 ---

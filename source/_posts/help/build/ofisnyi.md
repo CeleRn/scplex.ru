@@ -1,20 +1,35 @@
 ---
+alias: ofisnyi
+altimage: Сборка офисного компьютера под заказ
+banner: /assets/images/upload/services/help/build/ofisnyi.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Сборка компьютера
+  url: /services/help/build/
+folder: help/build
+guarantee:
+- title: ''
 id: 100
-title: Офисный компьютер
+layout: service
 listtitle: Сборка офисного компьютера под заказ
 longtitle: Сборка офисного компьютера под заказ
-altimage: Сборка офисного компьютера под заказ
+offers:
+- name: Сборка офисного компьютера под заказ
+  price: 3000
+  type: eq
 phoneCallToActionTitle: Нужен офисный компьютер? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-build
+popular: 'false'
 section: /services
-folder: help/build
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 100
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Сборка компьютера", "url": "/services/help/build/"}]
-alias: ofisnyi
-banner: /assets/images/upload/services/help/build/ofisnyi.jpg
 thumbnail: /assets/images/upload/services/help/build/thumb_ofisnyi.jpg
+title: Офисный компьютер
+typePost: help-build
 ---

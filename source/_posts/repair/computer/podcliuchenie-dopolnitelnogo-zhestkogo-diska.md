@@ -1,33 +1,38 @@
 ---
+alias: podcliuchenie-dopolnitelnogo-zhestkogo-diska
+altimage: Подключение дополнительного жесткого диска
+banner: /assets/images/upload/services/repair/computer/podcliuchenie-dopolnitelnogo-zhestkogo-diska.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 50
-title: Подключение дополнительного жесткого диска
+layout: service
 listtitle: Подключение дополнительного жесткого диска
 longtitle: Подключение дополнительного жесткого диска
-altimage: Подключение дополнительного жесткого диска
-phoneCallToActionTitle: Не хватает места на дисках компьютера? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
-section: /services
-folder: repair/computer
-sort: 2400
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: podcliuchenie-dopolnitelnogo-zhestkogo-diska
-banner: /assets/images/upload/services/repair/computer/podcliuchenie-dopolnitelnogo-zhestkogo-diska.jpg
-thumbnail: /assets/images/upload/services/repair/computer/thumb_podcliuchenie-dopolnitelnogo-zhestkogo-diska.jpg
 offers:
-  - name: Подключение дополнительного диска
-    type: eq
-    price: 500
-  - name: Подключение дополнительного диска с разметкой разделов и форматированием
-    type: eq
-    price: 1400
-guarantee:
-  - title: Гарантия на работы
-    text: 3 месяца
-  - title: Гарантия на жесткий диск
-    text: до 10 лет
-    description: Зависит от гарантийного срока, предоставляемого производителем жесткого диска
+- name: Подключение дополнительного жесткого диска без демонтажа других комплектующих
+  price: 450
+  type: eq
+- name: Подключение дополнительного жесткого диска с демонтажом других комплектующих
+  price: 1250
+  type: eq
+phoneCallToActionTitle: Не хватает места на дисках компьютера? Звоните!
+popular: 'false'
+section: /services
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
+sort: 2400
+thumbnail: /assets/images/upload/services/repair/computer/thumb_podcliuchenie-dopolnitelnogo-zhestkogo-diska.jpg
+title: Подключение дополнительного жесткого диска
+typePost: repair-computer
 ---

@@ -1,20 +1,38 @@
 ---
+alias: ustranenie-oshibok-v-sistemnom-reestre,-chistka-reestra
+altimage: Устранение ошибок в системном реестре, чистка реестра
+banner: /assets/images/upload/services/help/maintenance/ustranenie-oshibok-v-sistemnom-reestre,-chistka-reestra.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Обслуживание
+  url: /services/help/maintenance/
+folder: help/maintenance
+guarantee:
+- title: ''
 id: 99
-title: Устранение ошибок в системном реестре, чистка реестра
+layout: service
 listtitle: Устранение ошибок в системном реестре, чистка реестра
 longtitle: Устранение ошибок в системном реестре, чистка реестра
-altimage: Устранение ошибок в системном реестре, чистка реестра
+offers:
+- name: 'Устранение ошибок в системном реестре, чистка реестра программная '
+  price: 900
+  type: eq
+- name: Устранение ошибок в системном реестре, чистка реестра ручная
+  price: 1500
+  type: eq
 phoneCallToActionTitle: Нужна чистка реестра Windows? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-maintenance
+popular: 'false'
 section: /services
-folder: help/maintenance
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 600
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Обслуживание", "url": "/services/help/maintenance/"}]
-alias: ustranenie-oshibok-v-sistemnom-reestre,-chistka-reestra
-banner: /assets/images/upload/services/help/maintenance/ustranenie-oshibok-v-sistemnom-reestre,-chistka-reestra.jpg
 thumbnail: /assets/images/upload/services/help/maintenance/thumb_ustranenie-oshibok-v-sistemnom-reestre,-chistka-reestra.jpg
+title: Устранение ошибок в системном реестре, чистка реестра
+typePost: help-maintenance
 ---

@@ -40,10 +40,13 @@ with open(services_file, 'r') as f:
     services_list = tuple(reader)
 
 # Открытие файла со списком услуг
-with open(keywords_file, 'r') as f:
-    reader = csv.reader(f, dialect='excel', delimiter=';')
-    # Преобразование CSV в список
-    keywords_list = tuple(reader)
+try:
+    with open(keywords_file, 'r') as f:
+        reader = csv.reader(f, dialect='excel', delimiter=';')
+        # Преобразование CSV в список
+        keywords_list = tuple(reader)
+except:
+    print('файла keywords.csv нет')
 
 add_info_list = {}
 from itertools import groupby
@@ -154,12 +157,15 @@ for i in range(1, count_services):
     service_data[j]['front_matter']['seo']['h1'] = service[index_seo_h1]
     service_data[j]['front_matter']['seo']['description'] = service[index_seo_desc]
     service_data[j]['front_matter']['seo']['keywords'] = []
-    for keyword in keywords_list:
-        if keyword[0] == service_data[j]['id']:
-             service_data[j]['front_matter']['seo']['keywords'] += [keyword[2]]
+    try:
+        for keyword in keywords_list:
+            if keyword[0] == service_data[j]['id']:
+                service_data[j]['front_matter']['seo']['keywords'] += [keyword[2]]
+    except:
+        print('сказал же нету файла')
 
     service_data[j]['front_matter']['breadcrumbs'] = json.loads(service[index_breadcrumbs])
-    # Наполение словаря front_mattern параметрами из CSV файлов
+    # Наполение словаря front_matter параметрами из CSV файлов
     for k in range(0,count_services_params):
         if (str(services_params_titles[k]) not in exclude_params_names):
             try:
@@ -167,27 +173,21 @@ for i in range(1, count_services):
             except:
                 service_data[j]['front_matter'][str(services_params_titles[k])] = services_list[i][k]
             
-
+    # Добавление в словарь front_matter данные из дополнительных файлов
     for add_info in add_info_list:
-        
         if service_data[j]['id'] in add_info_list[add_info]['ids']:
             add_info_title = str(add_info_list[add_info]['title'])
             service_data[j]['front_matter'][add_info_title] = []
             for element in add_info_list[add_info]['elements']:
                 if element[0] == service_data[j]['id']:
-
                     vals = {}
                     for sub_element in element[2:]:
-                        sub_element_name = add_info_list[add_info]["headers"][element.index(sub_element)]
+                        sub_element_name = add_info_list[add_info]["headers"][element.index(sub_element, 2)]
                         try:
                             vals[sub_element_name] = int(sub_element)
                         except:
                             vals[sub_element_name] = sub_element
                     service_data[j]['front_matter'][add_info_title] += [vals]
-
-# print(add_info_list)
-
-# print(service_data)
 
 for service in service_data:
     create_service_dir(service['folder'], index_folder)
@@ -195,11 +195,4 @@ for service in service_data:
     for j in range(0, len(service['folder'].split('/'))):
         os.chdir('..')
 
-# {
-#     'title': 'offers', \
-#     'headers': ('service_ID', 'service_name', 'name', 'type', 'price')
-#     'elements': [
-#         ['1', 'Диагностика неисправностей ноутбука', 'Программная диагностика', 'eq', '500'], 
-#         ['1', 'Диагностика неисправностей ноутбука', 'Аппаратная диагностика', 'eq', '1200']
-#     ]
-# }
+print('Готово!')

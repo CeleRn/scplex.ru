@@ -1,20 +1,38 @@
 ---
+alias: zamena-zhestkogo-diska-kompiutera
+altimage: Замена жесткого диска компьютера
+banner: /assets/images/upload/services/repair/computer/zamena-zhestkogo-diska-kompiutera.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 37
-title: Замена жесткого диска
+layout: service
 listtitle: Замена жесткого диска компьютера
 longtitle: Замена жесткого диска компьютера
-altimage: Замена жесткого диска компьютера
+offers:
+- name: Замена жесткого диска компьютера без демонтажа комплектующих
+  price: 450
+  type: eq
+- name: Замена жесткого диска компьютера с демонтажем других комплектующих
+  price: 1250
+  type: eq
 phoneCallToActionTitle: Нужна замена жесткого диска компьютера? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
+popular: 'false'
 section: /services
-folder: repair/computer
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1100
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: zamena-zhestkogo-diska-kompiutera
-banner: /assets/images/upload/services/repair/computer/zamena-zhestkogo-diska-kompiutera.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-zhestkogo-diska-kompiutera.jpg
+title: Замена жесткого диска
+typePost: repair-computer
 ---

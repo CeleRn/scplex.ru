@@ -1,20 +1,38 @@
 ---
+alias: arhivy
+altimage: Восстановление файлов архивов
+banner: /assets/images/upload/services/recovery/data-types/arhivy.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Восстановление данных
+  url: /services/recovery/
+- name: Типы данных
+  url: /services/recovery/data-types/
+folder: recovery/data-types
+guarantee:
+- title: ''
 id: 113
-title: Архивы
+layout: service
 listtitle: Восстановление файлов архивов
 longtitle: Восстановление файлов архивов
-altimage: Восстановление файлов архивов
+offers:
+- name: 'Восстановление поврежденных файлов архивов (zip, rar и т.д.) '
+  price: 3000
+  type: low
+- name: Восстановление пароля к файлу архива
+  price: 4000
+  type: low
 phoneCallToActionTitle: Нужно восстановление файлов архивов? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: recovery-data-types
+popular: 'false'
 section: /services
-folder: recovery/data-types
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 100
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Восстановление данных", "url": "/services/recovery/"},{"name": "Типы данных", "url":  "/services/recovery/data-types/"}]
-alias: arhivy
-banner: /assets/images/upload/services/recovery/data-types/arhivy.jpg
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_arhivy.jpg
+title: Архивы
+typePost: recovery-data-types
 ---

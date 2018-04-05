@@ -1,20 +1,35 @@
 ---
+alias: ustanovka-failovykh-menedzherov
+altimage: Установка файловых менеджеров
+banner: /assets/images/upload/services/help/install/ustanovka-failovykh-menedzherov.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Компьютерная помощь
+  url: /services/help/
+- name: Установка ПО
+  url: /services/help/install/
+folder: help/install
+guarantee:
+- title: ''
 id: 63
-title: Установка файловых менеджеров
+layout: service
 listtitle: Установка файловых менеджеров
 longtitle: Установка файловых менеджеров
-altimage: Установка файловых менеджеров
+offers:
+- name: Установка файловых менеджеров
+  price: 350
+  type: eq
 phoneCallToActionTitle: Нужна установка файловых менеджеров? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: help-install
+popular: 'false'
 section: /services
-folder: help/install
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 1300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Компьютерная помощь", "url": "/services/help/"},{"name": "Установка ПО", "url": "/services/help/install/"}]
-alias: ustanovka-failovykh-menedzherov
-banner: /assets/images/upload/services/help/install/ustanovka-failovykh-menedzherov.jpg
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-failovykh-menedzherov.jpg
+title: Установка файловых менеджеров
+typePost: help-install
 ---

@@ -1,20 +1,36 @@
 ---
+alias: ustanovka-dopolnitelnoi-perednei-paneli
+altimage: Установка дополнительной передней панели
+banner: /assets/images/upload/services/repair/computer/ustanovka-dopolnitelnoi-perednei-paneli.jpg
+breadcrumbs:
+- name: Услуги
+  url: /services/
+- name: Ремонт устройств
+  url: /services/repair/
+- name: Компьютер
+  url: /services/repair/computer/
+folder: repair/computer
+guarantee:
+- title: ''
 id: 49
-title: Установка дополнительной передней панели
+layout: service
 listtitle: Установка дополнительной передней панели
 longtitle: Установка дополнительной передней панели
-altimage: Установка дополнительной передней панели
-phoneCallToActionTitle: Хотите вывести дополнительную информацию на переднюю панель компьютера? Звоните!
-seo_title: 
-seo_h1: 
-seo_description: 
-layout: service
-typePost: repair-computer
+offers:
+- name: Установка дополнительной передней панели
+  price: 800
+  type: low
+phoneCallToActionTitle: Хотите вывести дополнительную информацию на переднюю панель
+  компьютера? Звоните!
+popular: 'false'
 section: /services
-folder: repair/computer
+seo:
+  description: ''
+  h1: ''
+  keywords: []
+  title: ''
 sort: 2300
-breadcrumbs: [{"name": "Услуги", "url": "/services/"},{"name": "Ремонт устройств", "url": "/services/repair/"},{"name": "Компьютер", "url": "/services/repair/computer/"}]
-alias: ustanovka-dopolnitelnoi-perednei-paneli
-banner: /assets/images/upload/services/repair/computer/ustanovka-dopolnitelnoi-perednei-paneli.jpg
 thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-dopolnitelnoi-perednei-paneli.jpg
+title: Установка дополнительной передней панели
+typePost: repair-computer
 ---
