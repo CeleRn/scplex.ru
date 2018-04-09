@@ -35,7 +35,7 @@ offers:
 - name: Регистрация аккаунта в LinkedIn
   price: 2300
   type: eq
-phoneCallToActionTitle: Нужен аккаунт в сощиальной сети? Звоните!
+phoneCallToActionTitle: Нужен аккаунт в социальной сети? Звоните!
 popular: 'true'
 section: /services
 seo:

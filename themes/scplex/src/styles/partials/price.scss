@@ -1,0 +1,64 @@
+.price-list {
+    .offers {
+        font-size: .85em;
+    }
+}
+.price-list-section {
+    @extend .box-block;
+    margin-bottom: 15px;
+    padding: 15px;
+    &__title {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 1em;
+        @include media-breakpoint-down(sm) {
+            font-size: 1.25em;
+        }
+    }
+    &__link {
+        color: #666;
+        &:hover {
+            text-decoration: none;
+            color: #333333;
+        }        
+    }
+    &__text {
+        color: #fff;
+        font-weight: 300;
+        line-height: 1.3em;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+}
+
+.cost-list {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 5px 5px 5px;
+    margin: 0;
+    &:last-child {
+        border-bottom-color: transparent;
+    }
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+    &__text {
+        flex: 0 0 80%;
+        @include media-breakpoint-down(xs) {
+            flex-basis: 100%;
+        }
+    }
+    &__price {
+        flex: 0 0 20%;
+        text-align: right;
+        margin-left: 0;
+        color: $main-color;
+        font-weight: 700;
+        @include media-breakpoint-down(xs) {
+            flex-basis: 100%;
+            text-align: right;
+        }
+    }
+}

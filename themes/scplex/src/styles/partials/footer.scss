@@ -130,37 +130,3 @@
     }
 }
 
-.organization {
-    color: #888;
-    &__description {
-        font-weight: 300;
-        line-height: 1.2em;
-        font-size: 0.8em;
-    }
-    &__address {
-        font-weight: 300;
-        line-height: 1.2;
-        margin-bottom: 1rem;
-        margin-bottom: 5px;
-    }
-    &__city {
-        display: block;
-    }
-    &__street {
-        display: block;
-    }
-    &__phone {
-        display: block;
-        font-size: 1.4em;
-        margin-bottom: 5px;
-        color: #999999;
-    }
-    &__email {
-        display: block;
-        color: #888;
-        font-weight: 300;
-        &:hover {
-            color: #fff;
-        }
-    }
-}

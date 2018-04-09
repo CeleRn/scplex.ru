@@ -1,0 +1,84 @@
+.contacts {
+    @extend .box-block;
+    display: flex;
+    flex-wrap: wrap;
+    &__text {
+        flex: 0 0 50%;
+        padding: 15px;
+        @include media-breakpoint-down(lg) {
+            flex-basis: 100%;
+        }
+    }
+    &__map {
+        flex: 0 0 50%;
+        @include media-breakpoint-down(lg) {
+            flex-basis: 100%;
+        }
+        .map {
+            background-color: transparent;
+            box-shadow: none;
+            margin: 0;
+            max-width: 100%;
+        }
+    }
+}
+
+.organization {
+    color: #888;
+    &__name {
+        font-size: 2.2em;
+        color: #333333;
+        margin-bottom: 25px;
+        @include media-breakpoint-down(lg) {
+            text-align: center;
+        }
+        @include media-breakpoint-down(md) {
+            font-size: 1.5em;
+        }
+    }
+    &__description {
+        font-weight: 300;
+        line-height: 1.2em;
+        font-size: 0.8em;
+    }
+    &__address {
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        margin-bottom: 5px;
+        .contacts & {
+            margin-bottom: 20px;
+        }
+    }
+    &__city {
+        display: block;
+    }
+    &__street {
+        display: block;
+    }
+    &__phone {
+        display: block;
+        font-size: 1.4em;
+        margin-bottom: 5px;
+        color: #999999;
+        .contacts & {
+            color: #333;
+            font-size: 2em;
+        }
+    }
+    &__email {
+        display: block;
+        color: #888;
+        font-weight: 300;
+        &:hover {
+            color: #fff;
+        }
+        .contacts & {
+            color: #333333;
+            margin-bottom: 20px;
+            &:hover {
+                color: #000000;
+            }
+        }
+    }
+}
