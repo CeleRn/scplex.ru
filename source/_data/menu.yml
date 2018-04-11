@@ -15,7 +15,7 @@ top:
   - name: Контакты
     url: /service-center/contacts/
 main:
-  - name: Ремонт устройств
+  - name: Аппаратный ремонт
     url: /services/repair/
     itemsName: Устройства
     childs: 

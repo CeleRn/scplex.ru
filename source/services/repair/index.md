@@ -12,8 +12,8 @@ phoneCallToActionTitle: Нужен ремонт техники? Звоните!
 thumbnail: /assets/images/upload/sections/repair-icon.jpg
 banner: /assets/images/upload/sections/repair.jpg
 seo:
-  title: Ремонт компьютерных устройств
-  h1: Ремонт компьютерных устройств
+  title: Аппаратный ремонт компьютерных устройств
+  h1: Аппаратный ремонт компьютерных устройств
   keywords: 
     - Ремонт устройств
     - Ремонт компьютерных устройств
