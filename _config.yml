@@ -89,6 +89,9 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: scplex
 
+# plugins:
+# - hexo-generator-cname
+
 html_minifier:
   collapseWhitespace: true
   conservativeCollapse: true
@@ -115,6 +118,9 @@ robotstxt:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+netlify:
+  name: plex
+
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'

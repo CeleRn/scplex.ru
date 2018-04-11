@@ -67,6 +67,8 @@ robotstxt:
   useragent: '*'
   sitemap: 'https://reutov.scplex.ru/sitemap.xml'
   host: 'https://reutov.scplex.ru'
+netlify:
+  name: plex
 deploy:
   type: git
   repo: 'git@github.com:CeleRn/html_scplex.ru.git'
