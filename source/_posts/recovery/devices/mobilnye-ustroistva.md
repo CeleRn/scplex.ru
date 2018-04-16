@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: При поломке телефона самое дорогое - это личные данные, которые в нем
+    остались. Обращайтесь и мы поможем их 'вытащить' из поломанного устройства.
+  h1: Восстановление данных с мобильных устройств
   keywords: []
-  title: ''
+  title: Восстановление данных с мобильных устройств
 sort: 600
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_mobilnye-ustroistva.jpg
 title: Мобильные устройства

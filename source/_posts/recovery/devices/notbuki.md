@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Ваш ноутбук не включается, но срочно нужны данные с него? Обращайтесь
+    и мы их достанем для Вас в сжатые сроки {% inCity %}.
+  h1: Восстановление данных с ноутбука
   keywords: []
-  title: ''
+  title: Восстановление данных с ноутбука
 sort: 800
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_notbuki.jpg
 title: Нотбуки

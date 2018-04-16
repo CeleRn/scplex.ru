@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нудна защита от сетевых атак? З
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Просто установить межсетевой экран мало, его надо уметь настроить.
+    Мы это сможем сделать у Вас на дому {% inCity %}.
+  h1: Настройка межсетевого экрана (Firewall)
   keywords: []
-  title: ''
+  title: Настройка межсетевого экрана (Firewall)
 sort: 1400
 thumbnail: /assets/images/upload/services/help/config/thumb_nastroika-mezhsetevogo-ekrana-(firewall).jpg
 title: Настройка Firewall

@@ -33,10 +33,11 @@ phoneCallToActionTitle: Хотите более удобно работать с
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Почтовый клиент позволяет собирать почту со всех почтовых ящиков в
+    одном месте и сортировать ее и хранить, делать резервные копии и т.д.
+  h1: Настройка почтового клиента
   keywords: []
-  title: ''
+  title: Настройка почтового клиента
 sort: 900
 thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-pochtovogo-clienta.jpg
 title: Настройка почтового клиента

@@ -27,10 +27,11 @@ phoneCallToActionTitle: Сгорела сетевая карта компьют�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Сломалась сетевая плата? После грозы нет сети и интернета? Мы решим
+    Вашу проблему в самые короткие сроки {% inCity %}.
+  h1: Замена сетевой карты компьютера
   keywords: []
-  title: ''
+  title: Замена сетевой карты компьютера
 sort: 1400
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-setevoi-karty-kompiutera.jpg
 title: Замена сетевой карты

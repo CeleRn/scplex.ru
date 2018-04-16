@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужна замена оптического прив�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Компьютер не записывает или не читает диски? Если чистка лазера не
+    помогла, то надо менять привод.
+  h1: Замена оптического привода
   keywords: []
-  title: ''
+  title: Замена оптического привода
 sort: 1600
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-opticheskogo-privoda.jpg
 title: Замена оптического привода

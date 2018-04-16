@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно восстановление базы дан�
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Не читается база данных вашей информационной системы? Мы можем ее восстановлить
+    в сжатые сроки {% inCity %}.
+  h1: Восстановление баз данных
   keywords: []
-  title: ''
+  title: Восстановление баз данных
 sort: 200
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_bazy-dannykh.jpg
 title: Базы данных

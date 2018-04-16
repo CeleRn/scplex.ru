@@ -27,10 +27,13 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: В последнее время SSD диски стали очень распространены. И они тоже
+    ломаются, что приводит к потере данных. Восстановление данных с SSD сложная процедура,
+    но осуществимая. Если данные Вам нужны обращайтесь поможем с восстановлением {%
+    inCity %}.
+  h1: Восстановление данных с SSD
   keywords: []
-  title: ''
+  title: Восстановление данных с SSD
 sort: 400
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_ssd.jpg
 title: SSD

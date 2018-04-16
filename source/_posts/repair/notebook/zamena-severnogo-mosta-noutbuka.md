@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужна замена северного моста н
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Замена или реболинг северного моста ноутбука {% inCity %}. У нас  есть
+    все необходимое оборудование. Работаем {% inCity %}.
+  h1: Замена северного моста ноутбука
   keywords: []
-  title: ''
+  title: Замена северного моста ноутбука
 sort: 2400
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-severnogo-mosta-noutbuka.jpg
 title: Замена северного моста

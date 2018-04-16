@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно восстановление фотограф
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Не читаются файлы фотографий или изображений. Обращайтесь и мы восстановим
+    их {% inCity %}.
+  h1: Восстановление файлов изображений и фотографий
   keywords: []
-  title: ''
+  title: Восстановление файлов изображений и фотографий
 sort: 500
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_fotografii.jpg
 title: Фотографии

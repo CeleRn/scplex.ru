@@ -33,10 +33,12 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Потерянные данные с видеорегистратора обычно содержат жизненноважные
+    данные. Обращайтесь и мы поможем восстановить их {% inCity %} и с автомобильного
+    видеорегистратора и со стационарного.
+  h1: Восстановление данных с видеорегистратора
   keywords: []
-  title: ''
+  title: Восстановление данных с видеорегистратора
 sort: 700
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_videoregistratory.jpg
 title: Видеорегистраторы

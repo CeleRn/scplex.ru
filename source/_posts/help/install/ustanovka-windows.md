@@ -30,12 +30,14 @@ phoneCallToActionTitle: Нужна установка Windows? Звоните!
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Переустановка Windows решает большинство проблем с компьютером. Обращайтесь
+    и мы переустановим систему у Вас на дому {% inCity %}.
+  h1: Установка Windows
   keywords: []
-  title: ''
+  title: Установка Windows
 sort: 100
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-windows.jpg
 title: Установка Windows
 typePost: help-install
 ---
+

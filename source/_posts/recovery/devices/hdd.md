@@ -40,10 +40,11 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Восстановление данных не легкая процедура, но вполне осуществимая.
+    Если данные Вам нужны обращайтесь поможем {% inCity %} с восстановлением.
+  h1: Восстановление данных с жесткого диска
   keywords: []
-  title: ''
+  title: Восстановление данных с жесткого диска
 sort: 100
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_hdd.jpg
 title: HDD

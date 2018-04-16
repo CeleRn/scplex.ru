@@ -27,10 +27,12 @@ phoneCallToActionTitle: Восстановим корпусные детали. 
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Проклейка, пайка, восстановление поломанных пластиковых корпусных деталей
+    {% inCity %} в сжатые сроки. Чаще, конечно, корпусные детали лучше поменять на
+    новые, но не всегда они есть в наличии, даже в Китае.
+  h1: Восстановление корпусных деталей ноутбука
   keywords: []
-  title: ''
+  title: Восстановление корпусных деталей ноутбука
 sort: 2600
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_vosstanovlenie-korpusnykh-detalei-noutbuka.jpg
 title: Восстановление корпусных деталей

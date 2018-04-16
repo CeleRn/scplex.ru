@@ -24,10 +24,12 @@ phoneCallToActionTitle: Нормально не работает звук или
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Без драйверов звуковой карты у Вашего компьютера не будет звука или
+    звук будет не надлежащего качества. Мы установим все необходимые драйвера у Вас
+    дома {% inCity %}.
+  h1: Установка драйверов звуковой карты
   keywords: []
-  title: ''
+  title: Установка драйверов звуковой карты
 sort: 1800
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-zvukovoi-karty.jpg
 title: Установка драйверов звуковой карты

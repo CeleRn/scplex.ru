@@ -31,10 +31,11 @@ phoneCallToActionTitle: Нужна перепрошивка БИОС'а мате
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Многие неполадки, тормоза и несовместимости решаются перепрошивкой
+    БИОСа. Перепрошьем даже на нестартующей материнской плате.
+  h1: Перепрошивка БИОСа материнской платы
   keywords: []
-  title: ''
+  title: Перепрошивка БИОСа материнской платы
 sort: 1700
 thumbnail: /assets/images/upload/services/repair/computer/thumb_pereproshivka-biosa-materinskoi-platy.jpg
 title: Перепрошивка БИОСа материнской платы

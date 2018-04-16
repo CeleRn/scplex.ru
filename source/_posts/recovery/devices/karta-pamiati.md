@@ -28,10 +28,11 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Если Вы не часто скидываете фотографии с карты памяти фотоаппарата,
+    то возможна ситуация, когда Вы потеряете все данные с карты.'
+  h1: Восстановление данных с карты памяти
   keywords: []
-  title: ''
+  title: Восстановление данных с карты памяти
 sort: 300
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_karta-pamiati.jpg
 title: Карта памяти

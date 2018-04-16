@@ -24,10 +24,12 @@ phoneCallToActionTitle: ''
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Для настройки интернет соединения на компьютере или в роутере необходимо
+    знать параметры подключения. Их надо уточнять у Вашего интернет провайдера {%
+    inCity %}.
+  h1: Получение сетевых настроек от Интернет провайдера
   keywords: []
-  title: ''
+  title: Получение сетевых настроек от Интернет провайдера
 sort: 700
 thumbnail: /assets/images/upload/services/net/config/thumb_poluchenie-setevykh-nastroek-ot-internet-provaidera.jpg
 title: Получение сетевых настроек от Интернет провайдера

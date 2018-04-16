@@ -27,10 +27,11 @@ phoneCallToActionTitle: Не включается нотбук? Звоните!
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Не включается ноутбук? Что не так с питанием или зарядкой. Обращайтесь
+    - отремонтируем в сжатые сроки {% inCity %}.
+  h1: Ремонт цепи питания ноутбука
   keywords: []
-  title: ''
+  title: Ремонт цепи питания ноутбука
 sort: 2100
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_remont-tcepi-pitaniia-noutbuka.jpg
 title: Ремонт цепи питания

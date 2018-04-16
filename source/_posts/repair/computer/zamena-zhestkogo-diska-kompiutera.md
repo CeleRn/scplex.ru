@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужна замена жесткого диска ко
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Сломался жесткий диск? Не хватает объема старого? Мы поможем подобрать
+    и установить новый жесткий диск {% inCity %}.
+  h1: Замена жесткого диска компьютера
   keywords: []
-  title: ''
+  title: Замена жесткого диска компьютера
 sort: 1100
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-zhestkogo-diska-kompiutera.jpg
 title: Замена жесткого диска

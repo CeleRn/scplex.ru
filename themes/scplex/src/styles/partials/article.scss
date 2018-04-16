@@ -1,0 +1,16 @@
+.article {
+    padding-bottom: 40px;
+    &__body {
+        font-size: 1.2em;
+        font-weight: 300;
+        @include media-breakpoint-down(sm) {
+            font-size: 1em;
+        }
+        a {
+            color: $second-color;
+            &:hover, &:focus {
+                text-decoration: underline;
+            }
+        }
+    }
+}

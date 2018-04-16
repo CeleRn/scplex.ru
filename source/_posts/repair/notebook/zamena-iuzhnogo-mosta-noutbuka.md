@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужна замена южного моста ноут
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Замена или реболинг южного моста ноутбука {% inCity %}. У нас  есть
+    все необходимое оборудование. Работаем {% inCity %}.
+  h1: Замена южного моста ноутбука
   keywords: []
-  title: ''
+  title: Замена южного моста ноутбука
 sort: 2300
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-iuzhnogo-mosta-noutbuka.jpg
 title: Замена южного моста

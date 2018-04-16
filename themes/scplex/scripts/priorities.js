@@ -40,6 +40,10 @@ hexo.extend.helper.register('descriptionEscape', function (page) {
             seoDescription = '<meta name="description" content="' + page.seo.description + '" />';
         }
     }
+    seoDescription = seoDescription.replace("{% inCity %}", hexo.config.subdomain.inCity);
+    seoDescription = seoDescription.replace("{%inCity %}", hexo.config.subdomain.inCity);
+    seoDescription = seoDescription.replace("{% inCity%}", hexo.config.subdomain.inCity);
+    seoDescription = seoDescription.replace("{%inCity%}", hexo.config.subdomain.inCity);
     return seoDescription || '';
 });
 
@@ -50,7 +54,6 @@ hexo.extend.helper.register('keywordsEscape', function (page) {
         if (page.seo.keywords && page.seo.keywords != "") {
             seoKeywords = '<meta name="keywords" content="' + page.seo.keywords + '" />';
         }
-        
     }
     return seoKeywords || '';
 });

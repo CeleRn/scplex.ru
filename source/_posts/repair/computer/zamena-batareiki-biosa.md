@@ -24,10 +24,11 @@ phoneCallToActionTitle: 'Села батарейка БИОС''а? Звонит�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Сбрасывается время компьютера? Загружается не каждый раз? Похоже пришло
+    время менять батарейку БИОСа.
+  h1: Замена батарейки БИОСа
   keywords: []
-  title: ''
+  title: Замена батарейки БИОСа
 sort: 1500
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-batareiki-biosa.jpg
 title: Замена батарейки БИОСа

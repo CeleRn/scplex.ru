@@ -24,10 +24,12 @@ phoneCallToActionTitle: Не работает Wi-Fi? Звоните!
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Без драйверов беспроводного адаптера ваш ноутбук не сможет подключаться
+    к беспроводным сетям у Вас дома, в ресторанах и вокзалах. Мы установим драйвера
+    и Возможности Вашего ноутбука заметно расширятся. Работаем {% inCity %}.
+  h1: Установка драйверов Wi-Fi адаптера
   keywords: []
-  title: ''
+  title: Установка драйверов Wi-Fi адаптера
 sort: 2000
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-wi-fi-adaptera.jpg
 title: Установка драйверов Wi-Fi адаптера

@@ -1,1 +1,8 @@
-<%- partial('common/main-title', {area: false, container: true}) %>
+<article class="article">
+    <div class="container">
+        <%- partial('common/main-title', {area: false, container: false}) %>
+        <div class="article__body">
+            <%- markdown(page.content) %>
+        </div>
+    </div>
+</article>

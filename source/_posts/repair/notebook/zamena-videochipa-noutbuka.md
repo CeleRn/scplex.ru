@@ -27,10 +27,11 @@ phoneCallToActionTitle: Проблемы с видеочипом нотбука?
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Необходима замена или реболинг видеочипа? Обращайтесь. У нас  есть
+    все необходимое оборудование. Работаем {% inCity %}.
+  h1: Замена видеочипа ноутбука
   keywords: []
-  title: ''
+  title: Замена видеочипа ноутбука
 sort: 2200
 thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-videochipa-noutbuka.jpg
 title: Замена видеочипа

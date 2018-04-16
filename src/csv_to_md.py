@@ -163,7 +163,6 @@ for i in range(1, count_services):
                 service_data[j]['front_matter']['seo']['keywords'] += [keyword[2]]
     except:
         print('сказал же нету файла')
-
     service_data[j]['front_matter']['breadcrumbs'] = json.loads(service[index_breadcrumbs])
     # Наполение словаря front_matter параметрами из CSV файлов
     for k in range(0,count_services_params):

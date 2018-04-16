@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно восстановление файлов д�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Не читаются файлы документов Word, Excel, PDF и т.д? Мы поможем Вам
+    вернуть важные данные {% inCity %}.
+  h1: Восстановление файлов документов
   keywords: []
-  title: ''
+  title: Восстановление файлов документов
 sort: 300
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_dokumenty.jpg
 title: Документы

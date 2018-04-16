@@ -24,10 +24,12 @@ phoneCallToActionTitle: Нет всех возможностей тачпада?
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Тачпад без драйверов работает, но с ними, из-за возможности более тонкой
+    настройки,  пользоваться им гораздо удобней. Что увеличивает скорость вашей работы
+    за ноутбуком.
+  h1: Установка драйверов тачпада
   keywords: []
-  title: ''
+  title: Установка драйверов тачпада
 sort: 2100
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-tachpada.jpg
 title: Установка драйверов тачпада

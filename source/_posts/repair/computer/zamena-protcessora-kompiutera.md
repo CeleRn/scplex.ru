@@ -24,10 +24,11 @@ phoneCallToActionTitle: Хотите более мощный процессор?
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Хотите более мощный процессор? Тормозят игры? Занимаетесь обработкой
+    видео? Мы поможем подобрать и заменить процессор компьютера {% inCity %}.
+  h1: Замена процессора компьютера
   keywords: []
-  title: ''
+  title: Замена процессора компьютера
 sort: 1300
 thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-protcessora-kompiutera.jpg
 title: Замена процессора

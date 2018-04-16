@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно установить сканер? Звони
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Сканирование документов становиться невозможным без правильно установленных
+    драйверов. Мы поможем с этой проблемой у Вас на дому {% inCity %}.
+  h1: Установка драйвера сканера
   keywords: []
-  title: ''
+  title: Установка драйвера сканера
 sort: 2400
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draivera-skanera.jpg
 title: Установка драйвера сканера

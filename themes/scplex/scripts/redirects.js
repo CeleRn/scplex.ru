@@ -4,12 +4,18 @@ var nameSiteInNetlify = config.netlify.name;
 
 var currentUrl = config.url;
 
+
+var netlifyMasterAddress = 'https://' + nameSiteInNetlify + '.netlify.com';
+var netlifyAddressWithAlias = 'https://' + subdomainAlias + '--' + nameSiteInNetlify + '.netlify.com';
+
 if (subdomainAlias == 'master') {
-    var netlifyAddress = 'https://' + nameSiteInNetlify + '.netlify.com';
+    var redirectRule = netlifyAddressWithAlias + '/*' + ' ' +  currentUrl + '/:splat 301!' + "\n"
+    redirectRule += netlifyMasterAddress + '/*' + ' ' +  currentUrl + '/:splat 301!'
 } else {
-    var netlifyAddress = 'https://' + subdomainAlias + '--' + nameSiteInNetlify + '.netlify.com';
+    var redirectRule = netlifyAddressWithAlias + '/*' + ' ' +  currentUrl + '/:splat 301!'
 };
-var redirectRule = netlifyAddress + '/*' + ' ' +  currentUrl + '/:splat 301!'
+
+
 
 hexo.extend.generator.register('redirects', function(locals){
     return {

@@ -33,10 +33,11 @@ phoneCallToActionTitle: Нужен электронный постовый ящ�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Почтовый ящик нужен для переписки и регистрации на других сайтах. Мы
+    можем завести Вам его {% inCity %}.
+  h1: Регистрация почтового ящика
   keywords: []
-  title: ''
+  title: Регистрация почтового ящика
 sort: 100
 thumbnail: /assets/images/upload/services/net/help/thumb_registratciia-pochtovogo-iashchika.jpg
 title: Регистрация почтового ящика

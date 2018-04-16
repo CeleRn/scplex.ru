@@ -24,10 +24,11 @@ phoneCallToActionTitle: Хотите чтобы передняя панель к
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Не все умеют подключать разъемы передней панели, а без них возникает
+    много неудобств. Мы подключим ее у Вас на дому {% inCity %}.
+  h1: Подключение передней панели
   keywords: []
-  title: ''
+  title: Подключение передней панели
 sort: 2200
 thumbnail: /assets/images/upload/services/repair/computer/thumb_podcliuchenie-perednei-paneli.jpg
 title: Подключение передней панели

@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно восстановление данных п�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Вас взломали? И зашифровали все нужные файлы? Обращайтесь и мы восстановим
+    их {% inCity %}.
+  h1: Восстановление данных после шифрования
   keywords: []
-  title: ''
+  title: Восстановление данных после шифрования
 sort: 300
 thumbnail: /assets/images/upload/services/recovery/causes/thumb_shifrovanie.jpg
 title: Шифрование

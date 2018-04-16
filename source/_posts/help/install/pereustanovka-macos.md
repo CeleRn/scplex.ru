@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужна переустановка MacOS? Звони�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Если Ваш Macbook или iMac начинает работать с проблемами, то часто
+    помогает переустановка операционной системы.
+  h1: Переустановка MacOS
   keywords: []
-  title: ''
+  title: Переустановка MacOS
 sort: 200
 thumbnail: /assets/images/upload/services/help/install/thumb_pereustanovka-macos.jpg
 title: Переустановка MacOS

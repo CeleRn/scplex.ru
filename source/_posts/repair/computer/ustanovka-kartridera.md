@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужна установка картридера в к
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Часто возникает необходимость читать карты памяти с различных гаджетов?
+    Поможем подобрать и установить встроенный картридер {% inCity %}.
+  h1: Установка картридера
   keywords: []
-  title: ''
+  title: Установка картридера
 sort: 2100
 thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-kartridera.jpg
 title: Установка картридера

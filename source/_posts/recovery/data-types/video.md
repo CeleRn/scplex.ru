@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно восстановление видео фа�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Не читаются файлы с видеозаписями? Обращайтесь и мы восстановим их
+    {% inCity %}.
+  h1: Восстановление видео файлов
   keywords: []
-  title: ''
+  title: Восстановление видео файлов
 sort: 600
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_video.jpg
 title: Видео

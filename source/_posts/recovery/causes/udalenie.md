@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно восстановление данных п�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Вы удалили файлы с компьютера? Обращайтесь и мы восстановим их {% inCity
+    %}.
+  h1: Восстановление данных после удаления
   keywords: []
-  title: ''
+  title: Восстановление данных после удаления
 sort: 200
 thumbnail: /assets/images/upload/services/recovery/causes/thumb_udalenie.jpg
 title: Удаление

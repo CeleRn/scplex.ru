@@ -36,10 +36,11 @@ phoneCallToActionTitle: Нужно установить браузер? Звон
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Серфинг в интернете комфортнее с обновленным браузером с необходимыми
+    расширениями. Установим у Вас дома {% inCity %}.
+  h1: Установка интернет браузера
   keywords: []
-  title: ''
+  title: Установка интернет браузера
 sort: 500
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-internet-brauzera.jpg
 title: Установка браузера

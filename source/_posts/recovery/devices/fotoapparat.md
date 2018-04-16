@@ -27,10 +27,11 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Потерялись важные фотографии? Фотоаппарат пишет, что карта памяти неотформатирована?
+    Обращайтесь и мы вернем ваши фото в сжатые сроки {% inCity %}.
+  h1: Восстановление данных с фотоаппарата
   keywords: []
-  title: ''
+  title: Восстановление данных с фотоаппарата
 sort: 1000
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_fotoapparat.jpg
 title: Фотоаппарат

@@ -25,10 +25,11 @@ phoneCallToActionTitle: Хотите вывести дополнительную
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Вам нужно вывести дополнительные функционал на переднюю панель компьютера?
+    Обращайтесь. Проконсультируем и поможем {% inCity %}.
+  h1: Установка дополнительной передней панели
   keywords: []
-  title: ''
+  title: Установка дополнительной передней панели
 sort: 2300
 thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-dopolnitelnoi-perednei-paneli.jpg
 title: Установка дополнительной передней панели

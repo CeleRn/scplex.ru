@@ -33,10 +33,11 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: На флешках часто переносят важные данные. Мы поможем их восстановить
+    {% inCity %} при их повреждении.
+  h1: Восстановление данных с флешки
   keywords: []
-  title: ''
+  title: Восстановление данных с флешки
 sort: 200
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_fleshka.jpg
 title: Флешка

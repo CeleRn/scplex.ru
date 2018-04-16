@@ -27,10 +27,12 @@ phoneCallToActionTitle: Хотите ускорить компьютер? Зво
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Хотите чтобы Ваш компьютер быстрее отзывался на Ваши действия, то необходимо
+    установить SSD диск для установки операционной системы. Обращайтесь и мы подберем
+    и установим его {% inCity %}.
+  h1: Установка SSD-диска
   keywords: []
-  title: ''
+  title: Установка SSD-диска
 sort: 1200
 thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-ssd-diska.jpg
 title: Установка SSD-диска

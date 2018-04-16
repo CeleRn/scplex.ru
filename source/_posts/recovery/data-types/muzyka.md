@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно восстановление аудиофай
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Не читаются файлы с аудиозаписями? Обращайтесь и мы восстановим их
+    {% inCity %}.
+  h1: Восстановление аудиофайлов
   keywords: []
-  title: ''
+  title: Восстановление аудиофайлов
 sort: 400
 thumbnail: /assets/images/upload/services/recovery/data-types/thumb_muzyka.jpg
 title: Музыка

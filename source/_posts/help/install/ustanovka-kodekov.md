@@ -24,10 +24,11 @@ phoneCallToActionTitle: Хотите открывать любые медиа ф
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Установка кодеков необходимы для проигрывания всех видов видео и аудио.
+    Сделаем это в сжатые сроки у Вас дома {% inCity %}.
+  h1: Установка кодеков
   keywords: []
-  title: ''
+  title: Установка кодеков
 sort: 700
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-kodekov.jpg
 title: Установка кодеков

@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужно восстановление данных п�
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: После падения устройства с него не читаются файлы? Обращайтесь и мы
+    восстановим их {% inCity %}.
+  h1: Восстановление данных после падения
   keywords: []
-  title: ''
+  title: Восстановление данных после падения
 sort: 100
 thumbnail: /assets/images/upload/services/recovery/causes/thumb_padenie.jpg
 title: Падение

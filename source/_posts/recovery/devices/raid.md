@@ -36,10 +36,13 @@ phoneCallToActionTitle: Нужно восстановление данных с 
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: RAID массивы используются для сохраннасти данных, но при выходе из
+    строя одного из дисков массива, восстановить данные с него не тривиальная задача.
+    Чаще всего необходимо специализированное оборудование. Обращайтесь и мы вернем
+    ваши данные {% inCity %}.
+  h1: Восстановление данных с RAID массива
   keywords: []
-  title: ''
+  title: Восстановление данных с RAID массива
 sort: 500
 thumbnail: /assets/images/upload/services/recovery/devices/thumb_raid.jpg
 title: RAID

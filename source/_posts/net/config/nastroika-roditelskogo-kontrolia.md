@@ -27,10 +27,11 @@ phoneCallToActionTitle: Беспокоитесь за детей? Звоните
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Хотите оградить своих детей от нежелетельного контента, 'плохих' сайтов.
+    Поможем настроить ваше интернет соединение {% inCity %}.
+  h1: Настройка родительского контроля
   keywords: []
-  title: ''
+  title: Настройка родительского контроля
 sort: 1100
 thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-roditelskogo-kontrolia.jpg
 title: Настройка родительского контроля

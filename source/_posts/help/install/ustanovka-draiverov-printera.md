@@ -24,10 +24,12 @@ phoneCallToActionTitle: Нужно установить принтер? Звон
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Принтер уже стоит у многих дома, не говоря уже про офисы. Не всегда
+    получается самостоятельно установить драйвера на него самостоятельно. Мы поможем.
+    Работаем {% inCity %}.
+  h1: Установка драйверов принтера
   keywords: []
-  title: ''
+  title: Установка драйверов принтера
 sort: 2300
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov-printera.jpg
 title: Установка драйверов принтера

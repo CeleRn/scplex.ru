@@ -24,10 +24,11 @@ phoneCallToActionTitle: Нужны красивые шрифты на компь
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: При создании объявлений, плакатов, открыток необходимы красивые шрифты.
+    Мы установим Вам пакет шрифтов на все случаи жизни.
+  h1: Установка шрифтов
   keywords: []
-  title: ''
+  title: Установка шрифтов
 sort: 1500
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-shriftov.jpg
 title: Установка шрифтов

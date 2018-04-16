@@ -39,10 +39,10 @@ phoneCallToActionTitle: Нужен аккаунт в социальной сет
 popular: 'true'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Мы поможем зарегистрировать аккаунт ВКонтакте {% inCity %}.
+  h1: Регистрация аккаунта в социальной сети
   keywords: []
-  title: ''
+  title: Регистрация аккаунта в социальной сети
 sort: 200
 thumbnail: /assets/images/upload/services/net/help/thumb_registratciia-akkaunta-v-sotcialnoi-seti.jpg
 title: Регистрация аккаунта в социальной сети

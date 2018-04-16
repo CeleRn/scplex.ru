@@ -24,10 +24,11 @@ phoneCallToActionTitle: Хотите смотреть любые медиа фа
 popular: 'false'
 section: /services
 seo:
-  description: ''
-  h1: ''
+  description: Компьютер нужен не только для работы, но и для развлечений. Без мультимедиа
+    проигрывателя не возможно слушать музыку и смотреть фильмы.
+  h1: Установка мультимедиа проигрывателя
   keywords: []
-  title: ''
+  title: Установка мультимедиа проигрывателя
 sort: 600
 thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-multimedia-proigryvatelia.jpg
 title: Установка проигрывателя
