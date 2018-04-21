@@ -1,0 +1,18 @@
+logo: /assets/images/logo_plex.svg
+altLogo: Компьютерный сервис Plex 
+name: СЦ "PLEX"
+fullname: Сервисный компьютерный центр "PLEX"
+slogan: Компьютерный сервис
+# image: /assets/images/uploads/logo-artmusicpro.svg
+phone: 84954093741
+
+email: info@scplex.ru
+city: г. Москва
+address: Ленинградское шоссе, 52Б
+paymentMethods:
+  - name: Visa
+  - name: MasterCard
+  - name: Yandex Деньги
+  - name: Qiwi
+defaultPrice: По договоренности
+priceRange: $$

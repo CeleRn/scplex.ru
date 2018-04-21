@@ -3,6 +3,8 @@
     <div class="home-description"><%- markdown(page.content) %></div>
     <%- partial('partials/home/populars-list') %>
     <%- partial('common/call-to-action/phone') %>
-    <%- partial('partials/home/map-one') %>
+    <% if (config.subdomain.alias != 'master') { %>
+        <%- partial('partials/home/map-one') %>
+    <% } %>
     <%- partial('common/call-to-action/order', {}, {cache: true}) %>
 </div>

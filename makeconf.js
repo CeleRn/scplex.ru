@@ -12,7 +12,7 @@ var file = 'subdomains.json' // Файл со списком поддомено�
 var protocol = 'https'; // Протокол по умолчанию
 var domain = 'scplex.ru'; // Домен
 var aliasMain = 'master' // Алиас главного домена
-var source = 'source'; // Контент поддоменов
+var source = 'source_subdomain'; // Контент поддоменов
 var sourceMain = 'source_main' //Контент главного домена
 var gitRepo = 'git@github.com:CeleRn/html_scplex.ru.git'; // Репозиторий для результата (HTML)
 

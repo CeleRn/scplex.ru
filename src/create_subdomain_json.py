@@ -38,7 +38,6 @@ subdomains_data = {}
 subdomains_data['master'] = {}
 
 for subdomain in cities_list[1:]:
-    # subdomains_data[subdomain[alias_id]] = {}
     vals = {}
     for sub_element in subdomain:
 
@@ -55,16 +54,5 @@ for subdomain in cities_list[1:]:
 
 print(subdomains_data)
 
-# file = open(file_name,'w',encoding='utf-8')
-# file.write('---\n')
-# file.write(front_matter_yaml)
-# file.write('---\n')
-# file.write(content)
-# file.close
-
 with codecs.open('../subdomains.json', 'w', encoding='utf-8') as outfile:
     json.dump(subdomains_data, outfile, ensure_ascii=False, indent=2)
-    # json.dump(subdomains_data, outfile, indent=4)
-
-# with codecs.open('your_file.txt', 'w', encoding='utf-8') as f:
-#     json.dump({"message":"xin chào việt nam"}, f, ensure_ascii=False)

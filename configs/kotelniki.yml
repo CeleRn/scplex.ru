@@ -11,7 +11,7 @@ url: 'https://kotelniki.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
-source_dir: source
+source_dir: source_subdomain
 public_dir: public/kotelniki
 tag_dir: tags
 archive_dir: null

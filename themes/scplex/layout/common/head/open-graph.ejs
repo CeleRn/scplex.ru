@@ -6,6 +6,9 @@
 <meta property="og:image" content="<%= config.url %>/assets/images/visitka.jpg" />
 <% if (page.seo) {
     var description = page.seo.description;
+    if (typeof description == 'string') {
+        description = description.replace("{% inCity %}", config.subdomain.inCity);
+    }
 } else {
     var description = '';
 }; %>

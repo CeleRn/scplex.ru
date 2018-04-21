@@ -11,7 +11,7 @@ url: 'https://ilinskoe.scplex.ru'
 root: /
 permalink: ':section/:title.html'
 permalink_defaults: null
-source_dir: source
+source_dir: source_subdomain
 public_dir: public/ilinskoe
 tag_dir: tags
 archive_dir: null
@@ -91,7 +91,7 @@ subdomain:
     - 55.766136
     - 37.220265
   city: Ильинское-Усово
-  inCity: в Ильинско-Усово
+  inCity: в Ильинское-Усово
   address: ''
   phone: 84954093741
   yandex: 5cd156b9ffe3ec64

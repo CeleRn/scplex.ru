@@ -51,9 +51,17 @@ hexo.extend.helper.register('descriptionEscape', function (page) {
 hexo.extend.helper.register('keywordsEscape', function (page) {
     var seoKeywords = "";
     if (page.seo) {
-        if (page.seo.keywords && page.seo.keywords != "") {
-            seoKeywords = '<meta name="keywords" content="' + page.seo.keywords + '" />';
+        if (Array.isArray(page.seo.keywords)) {
+            for (var keyword in page.seo.keywords) {
+                seoKeywords += page.seo.keywords[keyword] + ',';
+                seoKeywords += page.seo.keywords[keyword] + ' ' + hexo.config.subdomain.city + ',';
+                seoKeywords += page.seo.keywords[keyword] + ' ' + hexo.config.subdomain.inCity + ',';
+            }
+            seoKeywords = '<meta name="keywords" content="' + seoKeywords + '" />'
         }
+        // if (page.seo.keywords && page.seo.keywords != "") {
+        //     seoKeywords = '<meta name="keywords" content="' + page.seo.keywords + '" />';
+        // }
     }
     return seoKeywords || '';
 });
