@@ -51,7 +51,7 @@ for (var i = 0; i < subdomainsList.length; i++) {
     args = dataSubdomains[alias];
     subdomainsData[alias] = args['city'];
 }
-yaml.sync(__dirname + "/source/_data/subdomains.yml", subdomainsData)
+yaml.sync(__dirname + "/" + source + "/_data/subdomains.yml", subdomainsData)
 
 // Создание файла _data/regions.yml
 var regionsData = [];
@@ -69,7 +69,7 @@ for (var i = 0; i < subdomainsList.length; i++) {
         yandex: args['yandex']
     };
 }
-yaml.sync(__dirname + "/source/_data/regions.yml", regionsData)
+yaml.sync(__dirname + "/" + source + "/_data/regions.yml", regionsData)
 
 // Создание конфигов для поддоменов
 for (var i = 0; i < subdomains.length; i++) {
