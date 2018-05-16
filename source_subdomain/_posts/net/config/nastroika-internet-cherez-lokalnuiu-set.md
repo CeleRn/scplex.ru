@@ -38,3 +38,4 @@ thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-internet-ch
 title: Настройка интернета через локальную сеть
 typePost: net-config
 ---
+Если у Вас один компьютер, то Вам не нужен роутер. Достаточно просто правильно настроить интернет соединения на компьютере.

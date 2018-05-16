@@ -37,3 +37,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-protcesso
 title: Замена процессора
 typePost: repair-computer
 ---
+Хотите более мощный процессор? Тормозят игры? Занимаетесь обработкой видео? Мы поможем подобрать и заменить процессор компьютера {% inCity %}.

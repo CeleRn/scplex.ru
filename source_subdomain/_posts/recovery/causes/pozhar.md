@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/recovery/causes/thumb_pozhar.jpg
 title: Пожар
 typePost: recovery-causes
 ---
+Ваше устройство сгорело? Нужны с него файлы? Обращайтесь и мы восстановим их {% inCity %}.

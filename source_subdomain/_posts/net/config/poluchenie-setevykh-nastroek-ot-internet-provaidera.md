@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/net/config/thumb_poluchenie-setevykh-n
 title: Получение сетевых настроек от Интернет провайдера
 typePost: net-config
 ---
+Для настройки интернет соединения на компьютере или в роутере необходимо знать параметры подключения. Их надо уточнять у Вашего интернет провайдера {% inCity %}.

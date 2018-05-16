@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/help/config/thumb_nastroika-antivirusa
 title: Настройка антивируса
 typePost: help-config
 ---
+Часто из-за антивирусов очень сильно тормозит компьютер. Для комфортной работы необходимы правильные настройки антивируса. Мы можем это сделать у Вас дома {% inCity %}.

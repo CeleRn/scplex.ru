@@ -48,3 +48,4 @@ thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-pochtovogo-
 title: Настройка почтового клиента
 typePost: net-config
 ---
+Почтовый клиент позволяет собирать почту со всех почтовых ящиков в одном месте и сортировать ее и хранить, делать резервные копии и т.д.

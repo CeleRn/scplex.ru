@@ -39,3 +39,4 @@ thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-severnogo
 title: Замена северного моста
 typePost: repair-notebook
 ---
+Замена или реболинг северного моста ноутбука {% inCity %}. У нас  есть все необходимое оборудование. Работаем {% inCity %}.

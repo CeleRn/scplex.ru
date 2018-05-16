@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov
 title: Установка драйверов тачпада
 typePost: help-install
 ---
+Тачпад без драйверов работает, но с ними, из-за возможности более тонкой настройки,  пользоваться им гораздо удобней. Что увеличивает скорость вашей работы за ноутбуком.

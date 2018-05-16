@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov
 title: Установка драйверов чипсета
 typePost: help-install
 ---
+Без драйверов чипсета ваш компьютер или ноутбук не будет работать на всю мощность. Мы установим в считанные минуты уже сегодня {% inCity %}.

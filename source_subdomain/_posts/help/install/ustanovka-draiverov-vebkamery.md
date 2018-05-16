@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov
 title: Установка драйверов вебкамеры
 typePost: help-install
 ---
+Часто без правильно установленных драйверов веб камера может работать не правильно. Изображение плохого качества, перевернутое и другие проблемы. Исправим. Работаем {% inCity %}.

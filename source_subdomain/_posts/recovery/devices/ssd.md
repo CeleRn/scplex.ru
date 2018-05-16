@@ -41,3 +41,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_ssd.jpg
 title: SSD
 typePost: recovery-devices
 ---
+В последнее время SSD диски стали очень распространены. И они тоже ломаются, что приводит к потере данных. Восстановление данных с SSD сложная процедура, но осуществимая. Если данные Вам нужны обращайтесь поможем с восстановлением {% inCity %}.

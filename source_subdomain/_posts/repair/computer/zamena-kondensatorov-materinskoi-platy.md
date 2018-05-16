@@ -37,3 +37,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-kondensat
 title: Замена конденсаторов материнской платы
 typePost: repair-computer
 ---
+Неисправные конденсаторы необходимо менять, как можно быстрее, так как нормальная работа компьютера не гарантирована.

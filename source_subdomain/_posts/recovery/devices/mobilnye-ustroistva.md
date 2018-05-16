@@ -42,3 +42,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_mobilnye-ustroi
 title: Мобильные устройства
 typePost: recovery-devices
 ---
+При поломке телефона самое дорогое - это личные данные, которые в нем остались. Обращайтесь и мы поможем их 'вытащить' из поломанного устройства.

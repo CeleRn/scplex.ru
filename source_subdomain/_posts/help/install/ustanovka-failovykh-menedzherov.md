@@ -37,3 +37,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-failovykh
 title: Установка файловых менеджеров
 typePost: help-install
 ---
+Для некоторых задач удобней пользоваться не проводником а специальными файловыми менеджерами. Если Вам такие необходимы, то мы их установим Вам на дому {% inCity %}.

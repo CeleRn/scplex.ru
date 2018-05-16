@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-ssd-di
 title: Установка SSD-диска
 typePost: repair-computer
 ---
+Хотите чтобы Ваш компьютер быстрее отзывался на Ваши действия, то необходимо установить SSD диск для установки операционной системы. Обращайтесь и мы подберем и установим его {% inCity %}.

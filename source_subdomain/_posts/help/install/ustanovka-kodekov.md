@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-kodekov.j
 title: Установка кодеков
 typePost: help-install
 ---
+Установка кодеков необходимы для проигрывания всех видов видео и аудио. Сделаем это в сжатые сроки у Вас дома {% inCity %}.

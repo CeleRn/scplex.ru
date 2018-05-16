@@ -37,3 +37,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov
 title: Установка драйверов принтера
 typePost: help-install
 ---
+Принтер уже стоит у многих дома, не говоря уже про офисы. Не всегда получается самостоятельно установить драйвера на него самостоятельно. Мы поможем. Работаем {% inCity %}.

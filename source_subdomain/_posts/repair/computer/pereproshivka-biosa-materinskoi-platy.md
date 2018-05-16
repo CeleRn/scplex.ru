@@ -45,3 +45,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_pereproshivka-bi
 title: Перепрошивка БИОСа материнской платы
 typePost: repair-computer
 ---
+Многие неполадки, тормоза и несовместимости решаются перепрошивкой БИОСа. Перепрошьем даже на нестартующей материнской плате.

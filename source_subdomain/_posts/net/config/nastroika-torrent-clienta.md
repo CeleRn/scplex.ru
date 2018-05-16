@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-torrent-cli
 title: Настройка торрент клиента
 typePost: net-config
 ---
+Вы часто качаете с торрент трекеров? Вам необходим правильно настроенный торрент клиент? Обращайтесь, поможем {% inCity %}

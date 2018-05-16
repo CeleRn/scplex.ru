@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_podcliuchenie-pe
 title: Подключение передней панели
 typePost: repair-computer
 ---
+Не все умеют подключать разъемы передней панели, а без них возникает много неудобств. Мы подключим ее у Вас на дому {% inCity %}.

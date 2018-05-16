@@ -58,3 +58,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_raid.jpg
 title: RAID
 typePost: recovery-devices
 ---
+RAID массивы используются для сохраннасти данных, но при выходе из строя одного из дисков массива, восстановить данные с него не тривиальная задача. Чаще всего необходимо специализированное оборудование. Обращайтесь и мы вернем ваши данные {% inCity %}.

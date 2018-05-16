@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-shriftov.
 title: Установка шрифтов
 typePost: help-install
 ---
+При создании объявлений, плакатов, открыток необходимы красивые шрифты. Мы установим Вам пакет шрифтов на все случаи жизни.

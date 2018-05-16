@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-ili-dobav
 title: Замена или добавление оперативной памяти
 typePost: repair-computer
 ---
+Не хватает оперативной памяти? Компьютер тормозит? Поможем подобрать и установить модули ОЗУ {% inCity %}.

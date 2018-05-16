@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/recovery/causes/thumb_zarazhenie-virus
 title: Заражение вирусами
 typePost: recovery-causes
 ---
+Нахватали вирусов? Не можете открыть нужные файлы? Обращайтесь и мы восстановим их {% inCity %}.

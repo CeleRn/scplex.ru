@@ -49,3 +49,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-messedzhe
 title: Установка месседжеров
 typePost: help-install
 ---
+Компьютер удобно использовать для общения с родными и коллегами. Мы проконсультируем и установим все необходимые Вам программы на дому {% inCity %}.

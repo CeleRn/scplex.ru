@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov
 title: Установка драйверов звуковой карты
 typePost: help-install
 ---
+Без драйверов звуковой карты у Вашего компьютера не будет звука или звук будет не надлежащего качества. Мы установим все необходимые драйвера у Вас дома {% inCity %}.

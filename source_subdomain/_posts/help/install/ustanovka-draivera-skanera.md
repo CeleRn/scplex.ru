@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draivera-
 title: Установка драйвера сканера
 typePost: help-install
 ---
+Сканирование документов становиться невозможным без правильно установленных драйверов. Мы поможем с этой проблемой у Вас на дому {% inCity %}.

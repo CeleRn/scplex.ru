@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/recovery/causes/thumb_shifrovanie.jpg
 title: Шифрование
 typePost: recovery-causes
 ---
+Вас взломали? И зашифровали все нужные файлы? Обращайтесь и мы восстановим их {% inCity %}.

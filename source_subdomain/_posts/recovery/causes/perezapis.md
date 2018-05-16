@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/recovery/causes/thumb_perezapis.jpg
 title: Перезапись
 typePost: recovery-causes
 ---
+Перезаписали нужные документы на компьютере? Обращайтесь и мы постараемся их восстановить {% inCity %}.

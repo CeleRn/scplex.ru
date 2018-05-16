@@ -38,3 +38,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_notbuki.jpg
 title: Нотбуки
 typePost: recovery-devices
 ---
+Ваш ноутбук не включается, но срочно нужны данные с него? Обращайтесь и мы их достанем для Вас в сжатые сроки {% inCity %}.

@@ -38,3 +38,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_podcliuchenie-do
 title: Подключение дополнительного жесткого диска
 typePost: repair-computer
 ---
+Не хватает места на установленном жестком диске? Мы поможем подобрать, установить и настроить дополнительный жесткий диск {% inCity %}.

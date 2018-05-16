@@ -39,3 +39,4 @@ thumbnail: /assets/images/upload/services/repair/notebook/thumb_zamena-videochip
 title: Замена видеочипа
 typePost: repair-notebook
 ---
+Необходима замена или реболинг видеочипа? Обращайтесь. У нас  есть все необходимое оборудование. Работаем {% inCity %}.

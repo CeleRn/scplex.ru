@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-igry.jpg
 title: Установка игры
 typePost: help-install
 ---
+Компьютер нужен не только для работы, но и для развлечений. Не всегда получается поставить и настроить игру, чтобы она комфортно шла на вашем компьютере.

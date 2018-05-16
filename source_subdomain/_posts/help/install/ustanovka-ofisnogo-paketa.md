@@ -38,3 +38,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-ofisnogo-
 title: Установка офисного пакета
 typePost: help-install
 ---
+Офисный пакет - это набор программ для работ с документами. Мы установим все необходимые компоненты для комфортной работы.

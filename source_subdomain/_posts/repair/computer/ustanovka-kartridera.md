@@ -39,3 +39,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-kartri
 title: Установка картридера
 typePost: repair-computer
 ---
+Часто возникает необходимость читать карты памяти с различных гаджетов? Поможем подобрать и установить встроенный картридер {% inCity %}.

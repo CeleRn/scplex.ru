@@ -49,3 +49,4 @@ thumbnail: /assets/images/upload/services/net/help/thumb_registratciia-akkaunta-
 title: Регистрация аккаунта в социальной сети
 typePost: net-help
 ---
+Мы поможем зарегистрировать аккаунт ВКонтакте {% inCity %}.

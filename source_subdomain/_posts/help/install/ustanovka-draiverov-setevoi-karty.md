@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov
 title: Установка драйверов сетевой карты
 typePost: help-install
 ---
+Без драйверов сетевой карты (или с неправильно установленными) Вы не сможете выйти в интернет, соединить компьютеры в локальную сеть, Мы поможем устранить эти проблемы у Вас на дому {% inCity %}.

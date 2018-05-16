@@ -41,3 +41,4 @@ thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-brauzera.jp
 title: Настройка браузера
 typePost: net-config
 ---
+Правильно настроенный браузер гарантирует сохранность ваших закладок, истории посещений и т.д. Мы поможем настроить браузер так, как необходимо именно Вам.

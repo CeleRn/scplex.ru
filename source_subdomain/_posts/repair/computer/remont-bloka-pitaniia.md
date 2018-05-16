@@ -38,3 +38,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_remont-bloka-pit
 title: Ремонт блока питания
 typePost: repair-computer
 ---
+Ремонтировать стоит только дорогие блоки питания. Если у Вас он не дорогой (до 1500 руб.), то лучше его просто поменять.

@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/recovery/causes/thumb_formatirovanie.j
 title: Форматирование
 typePost: recovery-causes
 ---
+ Если Вы отформатировали диск или флешку, то данные еще возможно восстановить. Обращайтесь. Поможем {% inCity %}. 

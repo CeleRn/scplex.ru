@@ -38,3 +38,4 @@ thumbnail: /assets/images/upload/services/recovery/data-types/thumb_muzyka.jpg
 title: Музыка
 typePost: recovery-data-types
 ---
+Не читаются файлы с аудиозаписями? Обращайтесь и мы восстановим их {% inCity %}.

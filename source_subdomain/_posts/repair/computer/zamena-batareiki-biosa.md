@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-batareiki
 title: Замена батарейки БИОСа
 typePost: repair-computer
 ---
+Сбрасывается время компьютера? Загружается не каждый раз? Похоже пришло время менять батарейку БИОСа.

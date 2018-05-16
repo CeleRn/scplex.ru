@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/repair/notebook/thumb_vosstanovlenie-k
 title: Восстановление корпусных деталей
 typePost: repair-notebook
 ---
+Проклейка, пайка, восстановление поломанных пластиковых корпусных деталей {% inCity %} в сжатые сроки. Чаще, конечно, корпусные детали лучше поменять на новые, но не всегда они есть в наличии, даже в Китае.

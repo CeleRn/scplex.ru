@@ -48,3 +48,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_karta-pamiati.j
 title: Карта памяти
 typePost: recovery-devices
 ---
+Если Вы не часто скидываете фотографии с карты памяти фотоаппарата, то возможна ситуация, когда Вы потеряете все данные с карты.'

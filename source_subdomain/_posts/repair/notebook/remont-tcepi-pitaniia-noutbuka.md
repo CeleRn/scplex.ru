@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/repair/notebook/thumb_remont-tcepi-pit
 title: Ремонт цепи питания
 typePost: repair-notebook
 ---
+Не включается ноутбук? Что не так с питанием или зарядкой. Обращайтесь - отремонтируем в сжатые сроки {% inCity %}.

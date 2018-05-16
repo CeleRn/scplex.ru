@@ -51,3 +51,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-internet-
 title: Установка браузера
 typePost: help-install
 ---
+Серфинг в интернете комфортнее с обновленным браузером с необходимыми расширениями. Установим у Вас дома {% inCity %}.

@@ -39,3 +39,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_fotoapparat.jpg
 title: Фотоаппарат
 typePost: recovery-devices
 ---
+Потерялись важные фотографии? Фотоаппарат пишет, что карта памяти неотформатирована? Обращайтесь и мы вернем ваши фото в сжатые сроки {% inCity %}.

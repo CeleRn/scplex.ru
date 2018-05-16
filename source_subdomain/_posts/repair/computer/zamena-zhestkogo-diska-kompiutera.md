@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-zhestkogo
 title: Замена жесткого диска
 typePost: repair-computer
 ---
+Сломался жесткий диск? Не хватает объема старого? Мы поможем подобрать и установить новый жесткий диск {% inCity %}.

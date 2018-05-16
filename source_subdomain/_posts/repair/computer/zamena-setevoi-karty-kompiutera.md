@@ -38,3 +38,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-setevoi-k
 title: Замена сетевой карты
 typePost: repair-computer
 ---
+Сломалась сетевая плата? После грозы нет сети и интернета? Мы решим Вашу проблему в самые короткие сроки {% inCity %}.

@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-vodian
 title: Установка водяного охлаждения
 typePost: repair-computer
 ---
+Любите тишину? Занимаетесь оверклокингом? Мы поможем Вам подобрать и установить водяной системы охлаждения {% inCity %}.

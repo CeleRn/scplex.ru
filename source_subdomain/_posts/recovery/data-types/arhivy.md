@@ -41,3 +41,4 @@ thumbnail: /assets/images/upload/services/recovery/data-types/thumb_arhivy.jpg
 title: Архивы
 typePost: recovery-data-types
 ---
+Прислали архив по почте с документами, а он не открывается? Проблемы с разархивированием важных данных? Обращайтесь и мы поможем {% inCity %}.

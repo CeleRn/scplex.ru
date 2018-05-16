@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-internet-ch
 title: Настройка интернета через мобильный телефон
 typePost: net-config
 ---
+Пользование ноутбуком вне дома омрачается отсутствием интернета. Мы поможем настроить интернет через мобильный телефон {% inCity %}.

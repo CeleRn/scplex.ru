@@ -50,3 +50,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-sistemnyk
 title: Установка системных пакетов
 typePost: help-install
 ---
+Для работы большинства программ необходимы системные пакеты, как DirectX или .NET Framework. Мы поможем выяснить какие пакеты Вам нужны и установим их на дому {% inCity %}.

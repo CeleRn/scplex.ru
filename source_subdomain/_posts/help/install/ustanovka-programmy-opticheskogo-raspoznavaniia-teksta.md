@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-programmy
 title: Установка программы оптического распознавания текста
 typePost: help-install
 ---
+Тратите много времени на набор текста с распечатанных документов? Вам поможет программа распознавания текста и сканер.

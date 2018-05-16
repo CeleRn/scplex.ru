@@ -39,3 +39,4 @@ thumbnail: /assets/images/upload/services/recovery/data-types/thumb_bazy-dannykh
 title: Базы данных
 typePost: recovery-data-types
 ---
+Не читается база данных вашей информационной системы? Мы можем ее восстановлить в сжатые сроки {% inCity %}.

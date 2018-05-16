@@ -38,3 +38,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-razemov-p
 title: Замена разъемов передней панели
 typePost: repair-computer
 ---
+Самые часто используемые разъемы находятся на передней панели компьюетра. Они довольно быстро изнашиваются. Звоните - Исправим {% inCity %}.

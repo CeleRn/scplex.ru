@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_zamena-optichesk
 title: Замена оптического привода
 typePost: repair-computer
 ---
+Компьютер не записывает или не читает диски? Если чистка лазера не помогла, то надо менять привод.

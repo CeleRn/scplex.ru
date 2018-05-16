@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/repair/computer/thumb_ustanovka-dopoln
 title: Установка дополнительной передней панели
 typePost: repair-computer
 ---
+Вам нужно вывести дополнительные функционал на переднюю панель компьютера? Обращайтесь. Проконсультируем и поможем {% inCity %}.

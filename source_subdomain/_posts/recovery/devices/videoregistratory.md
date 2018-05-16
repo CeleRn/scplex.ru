@@ -48,3 +48,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_videoregistrato
 title: Видеорегистраторы
 typePost: recovery-devices
 ---
+Потерянные данные с видеорегистратора обычно содержат жизненноважные данные. Обращайтесь и мы поможем восстановить их {% inCity %} и с автомобильного видеорегистратора и со стационарного.

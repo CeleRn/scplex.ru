@@ -39,3 +39,4 @@ thumbnail: /assets/images/upload/services/net/config/thumb_nastroika-roditelskog
 title: Настройка родительского контроля
 typePost: net-config
 ---
+Хотите оградить своих детей от нежелетельного контента, 'плохих' сайтов. Поможем настроить ваше интернет соединение {% inCity %}.

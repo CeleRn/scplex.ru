@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/recovery/causes/thumb_udalenie.jpg
 title: Удаление
 typePost: recovery-causes
 ---
+Вы удалили файлы с компьютера? Обращайтесь и мы восстановим их {% inCity %}.

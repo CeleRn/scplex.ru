@@ -27,7 +27,7 @@ phoneCallToActionTitle: Не открываются архивы? Звоните
 popular: 'false'
 section: /services
 seo:
-  description: Обычно данные передаются в сжатом виде. Для работы с такой информацией
+  description: Обычно данные передаются в сжатом виде. Работа с такой информацией
     не возможно без архиватора. Поставим его уже сегодня на дому {% inCity %}.
   h1: Установка архиватора
   keywords:
@@ -41,3 +41,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-arhivator
 title: Установка архиватора
 typePost: help-install
 ---
+Обычно данные передаются в сжатом виде. Работа с такой информацией не возможно без архиватора. Поставим его уже сегодня на дому {% inCity %}.

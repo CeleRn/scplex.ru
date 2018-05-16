@@ -43,3 +43,4 @@ thumbnail: /assets/images/upload/services/repair/notebook/thumb_sniatie-parolia-
 title: Снятие пароля жесткого диска
 typePost: repair-notebook
 ---
+Не можете получить доступ к данным на своем жестком диске? Требует пароль? Обращайтесь, мы поможем {% inCity %}.

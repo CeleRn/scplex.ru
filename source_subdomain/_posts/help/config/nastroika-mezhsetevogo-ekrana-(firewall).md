@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/help/config/thumb_nastroika-mezhsetevo
 title: Настройка Firewall
 typePost: help-config
 ---
+Просто установить межсетевой экран мало, его надо уметь настроить. Мы это сможем сделать у Вас на дому {% inCity %}.

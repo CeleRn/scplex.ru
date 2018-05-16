@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/recovery/causes/thumb_vlaga.jpg
 title: Влага
 typePost: recovery-causes
 ---
+Залили компьютер? Нужны с него файлы? Обращайтесь и мы восстановим их {% inCity %}.

@@ -39,3 +39,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_pereustanovka-macos
 title: Переустановка MacOS
 typePost: help-install
 ---
+Если Ваш Macbook или iMac начинает работать с проблемами, то часто помогает переустановка операционной системы.

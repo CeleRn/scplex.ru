@@ -40,3 +40,4 @@ thumbnail: /assets/images/upload/services/recovery/data-types/thumb_fotografii.j
 title: Фотографии
 typePost: recovery-data-types
 ---
+Не читаются файлы фотографий или изображений. Обращайтесь и мы восстановим их {% inCity %}.

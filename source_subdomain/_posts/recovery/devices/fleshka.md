@@ -47,3 +47,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_fleshka.jpg
 title: Флешка
 typePost: recovery-devices
 ---
+На флешках часто переносят важные данные. Мы поможем их восстановить {% inCity %} при их повреждении.

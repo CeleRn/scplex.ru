@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-draiverov
 title: Установка драйверов видеокарты
 typePost: help-install
 ---
+Без драйвера видеокарты Ваш компьютер не будет работать на всю мощность. Мы установим их у Вас дома {% inCity %}.

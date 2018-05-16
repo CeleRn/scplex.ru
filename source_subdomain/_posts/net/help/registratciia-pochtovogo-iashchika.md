@@ -44,3 +44,4 @@ thumbnail: /assets/images/upload/services/net/help/thumb_registratciia-pochtovog
 title: Регистрация почтового ящика
 typePost: net-help
 ---
+Почтовый ящик нужен для переписки и регистрации на других сайтах. Мы можем завести Вам его {% inCity %}.

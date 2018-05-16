@@ -41,3 +41,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_nas.jpg
 title: NAS
 typePost: recovery-devices
 ---
+Сетевое хранилище обычно содержит большой объем личных и рабочих данных. При его поломке данные становятся недоступны. Обращайтесь и мы оперативно восстановим их {% inCity %}.

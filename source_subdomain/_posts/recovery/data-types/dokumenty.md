@@ -39,3 +39,4 @@ thumbnail: /assets/images/upload/services/recovery/data-types/thumb_dokumenty.jp
 title: Документы
 typePost: recovery-data-types
 ---
+Не читаются файлы документов Word, Excel, PDF и т.д? Мы поможем Вам вернуть важные данные {% inCity %}.

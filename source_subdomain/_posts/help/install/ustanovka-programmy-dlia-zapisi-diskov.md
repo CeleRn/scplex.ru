@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-programmy
 title: Установка программы для записи дисков
 typePost: help-install
 ---
+Люди все реже пользуются дисками, но все равно эти программы еще актуальны. Установим все необходимое у Вас дома {% inCity %}.

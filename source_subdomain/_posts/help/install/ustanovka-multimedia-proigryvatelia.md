@@ -36,3 +36,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-multimedi
 title: Установка проигрывателя
 typePost: help-install
 ---
+Компьютер нужен не только для работы, но и для развлечений. Без мультимедиа проигрывателя не возможно слушать музыку и смотреть фильмы.

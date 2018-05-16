@@ -35,3 +35,4 @@ thumbnail: /assets/images/upload/services/recovery/causes/thumb_padenie.jpg
 title: Падение
 typePost: recovery-causes
 ---
+После падения устройства с него не читаются файлы? Обращайтесь и мы восстановим их {% inCity %}.

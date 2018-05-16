@@ -57,3 +57,4 @@ thumbnail: /assets/images/upload/services/recovery/devices/thumb_hdd.jpg
 title: HDD
 typePost: recovery-devices
 ---
+Восстановление данных не легкая процедура, но вполне осуществимая. Если данные Вам нужны обращайтесь поможем {% inCity %} с восстановлением.

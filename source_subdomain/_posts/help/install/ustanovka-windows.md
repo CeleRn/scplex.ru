@@ -44,4 +44,4 @@ thumbnail: /assets/images/upload/services/help/install/thumb_ustanovka-windows.j
 title: Установка Windows
 typePost: help-install
 ---
-
+Переустановка Windows решает большинство проблем с компьютером. Обращайтесь и мы переустановим систему у Вас на дому {% inCity %}.
