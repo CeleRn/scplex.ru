@@ -8,6 +8,8 @@ import json
 # Конфигурация
 services_file = 'csv/services.csv'
 
+source_main_dir = 'source_subdomain'
+
 services_build_dir = '_posts'
 
 keywords_file = 'csv/keywords.csv'
@@ -121,7 +123,7 @@ def save_file_md(file_name, front_matter, content):
 
 # Создание корневой папки
 os.chdir('..')
-create_dir('source')
+create_dir(source_main_dir)
 create_dir(services_build_dir)
 
 # print(services_list)
