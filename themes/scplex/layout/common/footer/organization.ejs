@@ -12,6 +12,8 @@
   <% var phoneInFooter = config.subdomain.phone || site.data.company.phone; %>
   <span class="organization__phone" itemprop="telephone"><%- formatPhone(phoneInFooter) %></span>
 
+  <span class="organization__worktime"><%= site.data.company.worktime %></span>
+
   <% var emailInFooter = config.subdomain.email || site.data.company.email; %>
   <meta itemprop="email" content="<%= emailInFooter %>">
   <a href="mailto:<%= emailInFooter %>" class="organization__email"><%= emailInFooter %></a>

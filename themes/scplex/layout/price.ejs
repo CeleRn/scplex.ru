@@ -3,59 +3,33 @@
     <%- markdown(page.content) %>
 </div>
 
-<% var postsList = site.posts; %>
+<% 
+var priceSection = site.data.priceSection
+var postsList = site.posts; 
+%>
 
 <div class="price-list">
     <div class="container">
-        <% postsList.each(function (post, i) { %>
-        <div class="price-list__section price-list-section" itemscope="" itemtype="http://schema.org/Service">
-            <h3 class="price-list-section__title">
-                <a href="<%= post.path %>" class="price-list-section__link" itemprop="url"><%= post.longtitle %></a>
-            </h3>
-            <div class="offers">
-                <!-- Блок с таблицей цен -->
-                <% if(typeof post.offers != "undefined") { %>
-                    <div class="offers__list" itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
-                        <% for (let index in post.offers) { 
-                            let offer = post.offers[index];
-                            
-                            switch (offer.type) {
-                            case 'low': 
-                                var itemtype= 'AggregateOffer';
-                                var priceBlock = 'от <span itemprop="lowPrice">' + offer.price + '</span><span itemprop="priceCurrency" content="RUB"> ₽</span>';
-                            break;
-                            case 'high':
-                                var itemtype= 'AggregateOffer';
-                                var priceBlock = 'до <span itemprop="highPrice">' + offer.price + '</span><span itemprop="priceCurrency" content="RUB"> ₽</span>'
-                            break;
-                            case 'eq':
-                                var itemtype= 'Offer';
-                                var priceBlock = '<span itemprop="price">' + offer.price + '</span> <span itemprop="priceCurrency" content="RUB"> ₽</span>'
-                            break;
-                            default: 
-                                var itemtype= 'Offer';
-                                var priceBlock = '<span itemprop="price">' + site.data.company.defaultPrice + '</span>';
-                            } %>
-                            <div class="offer" itemprop="offers" itemscope="" itemtype="http://schema.org/<%= itemtype %>">
-                                <meta itemprop="name" content="<%= offer.name %> <%= config.subdomain.inCity %>">
-                                <span class="sr-only" itemprop="areaServed" itemscope itemtype="http://schema.org/City">
-                                <meta itemprop="name" content="<%= config.subdomain.city %>" />
-                                <span class="sr-only" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                                    <meta itemprop="streetAddress" content="<%= config.subdomain.address %>"/>
-                                    <meta itemprop="telephone" content="<%= config.subdomain.phone %>"/>
-                                </span>
-                                </span>
-                                <div class="offer__text"><%= offer.name %></div>
-                                <div class="offer__price"><%- priceBlock %></div>
-                            </div>
-                        <% } %>
-                        <meta itemprop="lowPrice" content="<%= minPrice(post.offers) %>"/>
-                        <meta itemprop="priceCurrency" content="RUB"/>
-                    </div>
+        
+        <% priceSection.forEach(function (section, index) { %>
+            <div class="price-list-section">
+                <h2 class="price-list-section__title"><%= section.name %></h2>
+                <div class="price-list-section__list">
+                    <% section.children.forEach(function (subSection, index) { %>
+                        <%- partial('partials/price/sub-section', {subSection: subSection}) %>
+                    <% }); %>
                 </div>
-                <% } %>
             </div>
-            
         <% }); %>
+        
+        <% var paymentsList = site.data.paymentsList %>
+        <div class="price-list__bottom">
+            <ul class="price-list__bottom-list">
+                <% for (let element in paymentsList) { %>
+                    <li><%- markdown(paymentsList[element]) %></li>
+                <% } %>
+            </ul>
+            
+        </div>
     </div>
 </div>

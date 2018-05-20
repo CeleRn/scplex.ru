@@ -2,8 +2,61 @@
     .offers {
         font-size: .85em;
     }
+    &__bottom {
+        padding-bottom: 35px;
+    }
+    &__bottom-list {
+        font-size: .95em;
+        li {
+
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
 }
 .price-list-section {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    &:last-child {
+        margin-bottom: 40px;
+    }
+    &__title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2em;
+        width: 100%;
+        @include media-breakpoint-down(md) {
+            font-size: 1.5em
+        }
+        @include media-breakpoint-down(sm) {
+            font-size: 1.4em
+        }
+        @include media-breakpoint-down(xs) {
+            font-size: 1.3em
+        }
+    }
+}
+.price-sub-secton {
+    margin-top: 50px;
+    &__title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.6em;
+        width: 100%;
+        margin-bottom: 20px;
+        @include media-breakpoint-down(md) {
+            font-size: 1.3em
+        }
+        @include media-breakpoint-down(sm) {
+            font-size: 1.2em
+        }
+        @include media-breakpoint-down(xs) {
+            font-size: 1.1em
+        }
+    }
+}
+.price-list-element {
     @extend .box-block;
     margin-bottom: 15px;
     padding: 15px;

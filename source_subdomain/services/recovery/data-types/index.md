@@ -15,8 +15,8 @@ phoneCallToActionTitle: Нужно восстановление данных? З
 banner: /assets/images/upload/sections/recovery_data-types.jpg
 thumbnail: /assets/images/upload/sections/recovery_data-types-icon.jpg
 seo:
-  title: Восстановление данных
-  h1: Восстановление данных
+  title: Восстановление различных типов данных
+  h1: Восстановление различных типов данных
   keywords: 
     - Восстановление данных различных типов
     - Восстановление различных файлов

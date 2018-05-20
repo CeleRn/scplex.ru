@@ -15,8 +15,8 @@ phoneCallToActionTitle: Нужно восстановление данных? З
 banner: /assets/images/upload/sections/recovery_devices.jpg
 thumbnail: /assets/images/upload/sections/recovery_devices-icon.jpg
 seo:
-  title: Восстановление данных
-  h1: Восстановление данных
+  title: Восстановление данных с различных устройств
+  h1: Восстановление данных с различных устройств
   keywords: 
     - Восстановление данных с утройств
     - Восстановление файлов с утройств

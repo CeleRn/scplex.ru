@@ -12,6 +12,11 @@
                 margin-left: 10px;
             }
         }
+        &_hidden-sm-down {
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
+        }
     }
     &__link {
         font-size: 12px;

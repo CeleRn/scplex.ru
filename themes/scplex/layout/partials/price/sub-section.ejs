@@ -1,0 +1,33 @@
+<% 
+function filterByTypePost(obj) {
+  if (obj.typePost == subSection.typePost) {
+    return true;
+  } else {
+    return false;
+  }
+}
+var subSectionServices = site.posts.filter(filterByTypePost); 
+
+// Сборка массива, который потом можно отсортировать по значению sort
+var htmlListPosts = [];
+subSectionServices.each(function (post, i) {
+  htmlListPosts[htmlListPosts.length] = {
+  title: listTitle(post),
+  sort: post.sort,
+  link: url_for(post.path),
+  offers: post.offers
+  }  
+});
+// Сортировка
+htmlListPosts.sort(function(a, b){return a.sort - b.sort});
+%>
+
+<div class="price-sub-secton">
+  <h3 class="price-sub-secton__title"><%= subSection.name %></h3>
+  <div class="price-sub-secton__services-list">
+    <% // Вывод списка услуг подкатегории
+      htmlListPosts.forEach(function (service, index) { %>
+      <%- partial('element', {post: service}) %>
+    <% }); %>
+  </div>
+</div>

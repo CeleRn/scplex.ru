@@ -59,12 +59,18 @@
     &__phone {
         display: block;
         font-size: 1.4em;
-        margin-bottom: 5px;
+        // margin-bottom: 5px;
         color: #999999;
         .contacts & {
             color: #333;
             font-size: 2em;
         }
+    }
+    &__worktime {
+        display: block;
+        font-size: .9em;
+        margin-bottom: 10px;
+        font-weight: 300;
     }
     &__email {
         display: block;

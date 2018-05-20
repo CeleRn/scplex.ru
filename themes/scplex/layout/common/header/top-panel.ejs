@@ -5,6 +5,14 @@
         <span class="top-panel__text" id="change-city-name"><%= config.subdomain.city %></span>
     </a>
   </li>
+  <li class="top-panel__item top-panel__item_hidden-sm-down">
+    <span class="top-panel__link top-panel__link_time">
+      <%- partial('../svg-sprite-element', {icon: "time", cssSelector: "top-panel__icon"}) %>
+        <span class="top-panel__text">
+          <%= site.data.company.worktime %>
+        </span>
+    </span>
+  </li>
   <li class="top-panel__item">
     <a href="mailto:<%= site.data.company.email %>" class="top-panel__link">
       <%- partial('../svg-sprite-element', {icon: "mail", cssSelector: "top-panel__icon"}) %>

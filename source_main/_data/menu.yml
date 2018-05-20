@@ -8,8 +8,6 @@ top:
         url: https://scplex.ru/clients/diagnostic/
       - name: Способы оплаты
         url: https://scplex.ru/clients/payment/
-      - name: Гарантия
-        url: https://scplex.ru/clients/guarantee/
   - name: Прайс лист
     url: /services/price/
   - name: Контакты

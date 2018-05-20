@@ -21,7 +21,7 @@ permalink: :section/:title.html
 permalink_defaults:
 
 # Directory
-source_dir: source
+source_dir: source_subdomain
 public_dir: public
 tag_dir: tags
 archive_dir: 
@@ -128,6 +128,7 @@ deploy:
 
 browsersync:
   logLevel: "warn"
+  reloadDelay: 250
   ghostMode:
     scroll: true
 

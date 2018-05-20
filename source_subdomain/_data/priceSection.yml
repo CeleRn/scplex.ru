@@ -1,0 +1,36 @@
+- name: Аппаратный ремонт устройств
+  children: 
+    - name: Ремонт ноутбуков
+      typePost: repair-notebook
+    - name: Ремонт компьютеров
+      typePost: repair-computer
+- name: Компьютерная помощь
+  children: 
+    - name: Установка программного обеспечения
+      typePost: help-install
+    - name: Настройка программного обеспечения
+      typePost: help-config
+    - name: Удаление программного обеспечения
+      typePost: help-remove
+    - name: Обслуживание и профилактика компьютерной техники
+      typePost: help-maintenance
+    - name: Сборка компьютеров под заказ
+      typePost: help-build
+- name: Восстановление данных
+  children: 
+    - name: Восстановление данных с устройств
+      typePost: recovery-devices
+    - name: Восстановление различных типов данных
+      typePost: recovery-data-types
+    - name: Восстановление данных после происшествий
+      typePost: recovery-causes
+- name: Сети и интернет
+  children: 
+    - name: Проектирование и монтаж локальных сетей
+      typePost: net-build
+    - name: Настройка сетевого оборудования
+      typePost: net-config
+    - name: Помощь при работе в интернете
+      typePost: net-help
+    - name: Решение проблем с локальными сетями и интернетом
+      typePost: net-troubleshoot
