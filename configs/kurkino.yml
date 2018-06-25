@@ -75,6 +75,7 @@ deploy:
   branch: kurkino
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.891239
-    - 37.389661
+    - 55.883191
+    - 37.40822
   city: Куркино
   inCity: в Куркино
-  address: ''
+  address: 'Куркинское шоссе, 13к1с1'
+  fullAddress: 'Москва, Куркинское шоссе, 13к1с1'
   phone: 84954093741
   yandex: 7e5c16031370918a
   alias: kurkino

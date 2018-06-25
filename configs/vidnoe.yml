@@ -75,6 +75,7 @@ deploy:
   branch: vidnoe
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.557174
-    - 37.708644
+    - 55.549959
+    - 37.721211
   city: Видное
   inCity: в Видном
-  address: ''
+  address: 'проспект Ленинского Комсомола, 1Д'
+  fullAddress: 'Видное, проспект Ленинского Комсомола, 1Д'
   phone: 84954093741
   yandex: f8274b102e2d7c34
   alias: vidnoe

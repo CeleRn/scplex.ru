@@ -75,6 +75,7 @@ deploy:
   branch: himki
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.888796
-    - 37.430328
+    - 55.886292
+    - 37.432654
   city: Химки
   inCity: в Химках
-  address: ''
+  address: 'улица Горшина, 3к2'
+  fullAddress: 'Химки, улица Горшина, 3к2'
   phone: 84954093741
   yandex: 8cbe21192e0cf796
   alias: himki

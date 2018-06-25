@@ -75,6 +75,7 @@ deploy:
   branch: nahabino
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,14 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.847149
-    - 37.180138
+    - 55.841372
+    - 37.177182
   city: Нахабино
   inCity: в Нахабино
-  address: ''
+  address: 'Институтская улица, 17Ас1'
+  fullAddress: >-
+    городской округ Красногорск, рабочий посёлок Нахабино, Институтская улица,
+    17Ас1
   phone: 84954093741
   yandex: da1b7e04f8ae4955
   alias: nahabino

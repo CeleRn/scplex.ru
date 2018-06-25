@@ -75,6 +75,7 @@ deploy:
   branch: korolev
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.922212
-    - 37.854629
+    - 55.910003
+    - 37.799643
   city: Королев
   inCity: в Королеве
-  address: ''
+  address: 'Пионерская улица, 4к83'
+  fullAddress: 'Королёв, Пионерская улица, 4к83'
   phone: 84954093741
   yandex: 3fedfea67e4288ca
   alias: korolev

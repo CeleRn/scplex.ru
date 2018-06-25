@@ -75,6 +75,7 @@ deploy:
   branch: balashiha
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.796339
-    - 37.938199
+    - 55.808705
+    - 37.95736
   city: Балашиха
   inCity: в Балашихе
-  address: ''
+  address: 'улица Текстильщиков, 16'
+  fullAddress: 'Балашиха, улица Текстильщиков, 16'
   phone: 84954093741
   yandex: d0ce310cd887e38f
   alias: balashiha

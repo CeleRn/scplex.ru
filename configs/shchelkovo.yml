@@ -75,6 +75,7 @@ deploy:
   branch: shchelkovo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.923387
-    - 37.978399
+    - 55.913818
+    - 38.035478
   city: Щелково
   inCity: в Щелково
-  address: ''
+  address: 'Заводская улица, 2к88'
+  fullAddress: 'Щёлково, Заводская улица, 2к88'
   phone: 84954093741
   yandex: 86b36d35b4d7ca20
   alias: shchelkovo

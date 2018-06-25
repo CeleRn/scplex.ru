@@ -75,6 +75,7 @@ deploy:
   branch: zelenograd
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.991893
-    - 37.214382
+    - 56.006603
+    - 37.192382
   city: Зеленоград
   inCity: в Зеленограде
-  address: ''
+  address: '2-й Западный проезд, 1с4'
+  fullAddress: 'Зеленоград, 2-й Западный проезд, 1с4'
   phone: 84954093741
   yandex: 25badd0012883cae
   alias: zelenograd

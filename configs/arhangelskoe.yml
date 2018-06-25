@@ -75,6 +75,7 @@ deploy:
   branch: arhangelskoe
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.789406
-    - 37.301204
+    - 55.789031
+    - 37.2962
   city: Архангельское
   inCity: в Архангельском
-  address: ''
+  address: 24А
+  fullAddress: 'городской округ Красногорск, посёлок Архангельское, 24А'
   phone: 84954093741
   yandex: 77f5407e36dc2699
   alias: arhangelskoe

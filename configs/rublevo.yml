@@ -75,6 +75,7 @@ deploy:
   branch: rublevo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.786288
-    - 37.35539
+    - 55.793019
+    - 37.353674
   city: Рублево
   inCity: в Рублево
-  address: ''
+  address: 'улица Василия Ботылёва, 52с248'
+  fullAddress: 'посёлок Рублёво, улица Василия Ботылёва, 52с248'
   phone: 84954093741
   yandex: 5ac9fe07c7ad2fb1
   alias: rublevo

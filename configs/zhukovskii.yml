@@ -75,6 +75,7 @@ deploy:
   branch: zhukovskii
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.59778
-    - 38.119497
+    - 55.61209
+    - 38.107163
   city: Жуковский
   inCity: в Жуковском
-  address: ''
+  address: 'улица Чапаева, 24'
+  fullAddress: 'Жуковский, улица Чапаева, 24'
   phone: 84954093741
   yandex: 8becc8ae3ec6f4c5
   alias: zhukovskii

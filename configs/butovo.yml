@@ -75,6 +75,7 @@ deploy:
   branch: butovo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.545044
-    - 37.589976
+    - 55.530872
+    - 37.57104
   city: Бутово
   inCity: в Бутово
-  address: ''
+  address: 'Проектируемый проезд 185,владение 8с5'
+  fullAddress: 'Москва, Проектируемый проезд № 185, вл8с5'
   phone: 84954093741
   yandex: 1db01d8fee1a247a
   alias: butovo

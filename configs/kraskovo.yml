@@ -75,6 +75,7 @@ deploy:
   branch: kraskovo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,14 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.658886
-    - 37.98846
+    - 55.663888
+    - 37.993922
   city: Красково
   inCity: в Красково
-  address: ''
+  address: 'улица Карла Маркса, 121с1'
+  fullAddress: >-
+    городской округ Люберцы, посёлок городского типа Красково, улица Карла
+    Маркса, 121с1
   phone: 84954093741
   yandex: 8a10270707cdfba6
   alias: kraskovo

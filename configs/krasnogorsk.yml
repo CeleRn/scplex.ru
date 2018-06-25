@@ -75,6 +75,7 @@ deploy:
   branch: krasnogorsk
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.831099
-    - 37.330192
+    - 55.8289
+    - 37.343209
   city: Красногорск
   inCity: в Красногорске
-  address: ''
+  address: 'Оптический проезд, 1'
+  fullAddress: 'Красногорск, Оптический проезд, 1'
   phone: 84954093741
   yandex: 8c5cc48cb1a897f6
   alias: krasnogorsk

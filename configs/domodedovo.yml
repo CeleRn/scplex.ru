@@ -75,6 +75,7 @@ deploy:
   branch: domodedovo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.437112
-    - 37.768049
+    - 55.33257
+    - 37.843427
   city: Домодево
   inCity: в Домодедово
-  address: ''
+  address: 'улица Авенариуса, 5'
+  fullAddress: 'Домодедово, микрорайон Белые Столбы, улица Авенариуса, 5'
   phone: 84954093741
   yandex: 9d6c05103a6eb952
   alias: domodedovo

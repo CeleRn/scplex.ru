@@ -75,6 +75,7 @@ deploy:
   branch: reutov
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.760515
-    - 37.855141
+    - 55.759881
+    - 37.875649
   city: Реутов
   inCity: в Реутове
-  address: ''
+  address: 'улица Гагарина, 33/2Б'
+  fullAddress: 'Реутов, улица Гагарина, 33/2Б'
   phone: 84954093741
   yandex: 1ac525cf216ea481
   alias: reutov

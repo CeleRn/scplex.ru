@@ -75,6 +75,7 @@ deploy:
   branch: petrovo-dalnee
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.751366
-    - 37.178691
+    - 55.75974
+    - 37.168055
   city: Петрово-Дальнее
   inCity: в Петрово-Дальнее
-  address: ''
+  address: 'Промышленная улица, с1'
+  fullAddress: 'городской округ Красногорск, село Петрово-Дальнее, Промышленная улица, с1'
   phone: 84954093741
   yandex: 9feace978aa44106
   alias: petrovo-dalnee

@@ -75,6 +75,7 @@ deploy:
   branch: saltykovka
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.762713
-    - 37.922461
+    - 55.752485
+    - 37.939313
   city: Салтыковка
   inCity: в Салтыковке
-  address: ''
+  address: 'Носовихинское шоссе, вл255'
+  fullAddress: 'Балашиха, микрорайон Салтыковка, Носовихинское шоссе, вл255'
   phone: 84954093741
   yandex: c027362d0e481fa9
   alias: saltykovka

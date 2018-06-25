@@ -75,6 +75,7 @@ deploy:
   branch: troitck
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.485469
-    - 37.305327
+    - 55.454902
+    - 37.274757
   city: Троицк
   inCity: в Троицке
-  address: ''
+  address: 'Физическая улица, 27с35'
+  fullAddress: 'Троицк, Физическая улица, 27с35'
   phone: 84954093741
   yandex: ffe5becdfb7e1366
   alias: troitck

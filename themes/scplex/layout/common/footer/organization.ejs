@@ -4,9 +4,9 @@
   <p class="organization__description"><%= site.data.company.slogan %></p>
 
   <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" class="organization__address">
-    <span class="organization__city" itemprop="addressLocality"><%= config.subdomain.city %></span>
+    <meta itemprop="addressLocality" content="<%= config.subdomain.city %>"/>
     <% if (config.subdomain.city != '') { %>
-      <span class="organization__street" itemprop="streetAddress"><%= config.subdomain.address %></span>
+      <span class="organization__street" itemprop="streetAddress"><%= config.subdomain.fullAddress %></span>
     <% } %>
   </address>
   <% var phoneInFooter = config.subdomain.phone || site.data.company.phone; %>

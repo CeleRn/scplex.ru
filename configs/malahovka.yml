@@ -75,6 +75,7 @@ deploy:
   branch: malahovka
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,14 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.64258
-    - 38.009373
+    - 55.637083
+    - 38.008124
   city: Малаховка
   inCity: в Малаховке
-  address: ''
+  address: 'Шоссейная улица, 40с5'
+  fullAddress: >-
+    городской округ Люберцы, посёлок городского типа Малаховка, Шоссейная улица,
+    40с5
   phone: 84954093741
   yandex: 0a8d939850b04ce2
   alias: malahovka

@@ -75,6 +75,7 @@ deploy:
   branch: barviha
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -93,6 +94,7 @@ subdomain:
   city: Барвиха
   inCity: в Барвихе
   address: ''
+  fullAddress: 'Одинцовский район, сельское поселение Барвихинское'
   phone: 84954093741
   yandex: 3855baf2a49e4205
   alias: barviha

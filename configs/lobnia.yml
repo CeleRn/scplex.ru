@@ -75,6 +75,7 @@ deploy:
   branch: lobnia
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 56.012053
-    - 37.475082
+    - 56.01944
+    - 37.462613
   city: Лобня
   inCity: в Лобне
-  address: ''
+  address: 'улица Гагарина, 9с7'
+  fullAddress: 'Лобня, улица Гагарина, 9с7'
   phone: 84954093741
   yandex: 7ed18d8cf571b331
   alias: lobnia

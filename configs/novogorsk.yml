@@ -75,6 +75,7 @@ deploy:
   branch: novogorsk
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.892178
-    - 37.350279
+    - 55.905068
+    - 37.340487
   city: Новогорск
   inCity: в Новогорске
-  address: ''
+  address: 'Ивановская улица, 15Вс1'
+  fullAddress: 'Химки, микрорайон Новогорск, Ивановская улица, 15Вс1'
   phone: 84954093741
   yandex: 49619a45dd2597f8
   alias: novogorsk

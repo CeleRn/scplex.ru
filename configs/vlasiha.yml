@@ -75,6 +75,7 @@ deploy:
   branch: vlasiha
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -93,6 +94,7 @@ subdomain:
   city: Власиха
   inCity: во Власихе
   address: ''
+  fullAddress: 'Московская область, посёлок Власиха'
   phone: 84954093741
   yandex: 63557712985a0c10
   alias: vlasiha

@@ -75,6 +75,7 @@ deploy:
   branch: shcherbinka
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.508743
-    - 37.563314
+    - 55.492156
+    - 37.560484
   city: Щербинка
   inCity: в Щербинке
-  address: ''
+  address: 'Южная улица, 14'
+  fullAddress: 'Щербинка, Южная улица, 14'
   phone: 84954093741
   yandex: 3fb91ed8cae84553
   alias: shcherbinka

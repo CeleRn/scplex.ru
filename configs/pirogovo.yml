@@ -75,6 +75,7 @@ deploy:
   branch: pirogovo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.97872
-    - 37.729727
+    - 55.974181
+    - 37.734704
   city: Пирогово
   inCity: в Пирогово
-  address: ''
+  address: 'Совхозная улица, 27/2'
+  fullAddress: 'городской округ Мытищи, деревня Пирогово, Совхозная улица, 27/2'
   phone: 84954093741
   yandex: c5744df0ccd47aef
   alias: pirogovo

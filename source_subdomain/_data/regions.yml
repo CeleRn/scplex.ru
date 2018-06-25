@@ -2,27 +2,27 @@
   city: Апаринки
   inCity: в Апаринках
   coordinates:
-    - 55.572029
-    - 37.760557
-  address: ''
+    - 55.570008
+    - 37.75956
+  address: владение 5
   phone: 84954093741
   yandex: 94bc7c3ca7b6e2dc
 - alias: arhangelskoe
   city: Архангельское
   inCity: в Архангельском
   coordinates:
-    - 55.789406
-    - 37.301204
-  address: ''
+    - 55.789031
+    - 37.2962
+  address: 24А
   phone: 84954093741
   yandex: 77f5407e36dc2699
 - alias: balashiha
   city: Балашиха
   inCity: в Балашихе
   coordinates:
-    - 55.796339
-    - 37.938199
-  address: ''
+    - 55.808705
+    - 37.95736
+  address: 'улица Текстильщиков, 16'
   phone: 84954093741
   yandex: d0ce310cd887e38f
 - alias: barviha
@@ -38,18 +38,18 @@
   city: Бутово
   inCity: в Бутово
   coordinates:
-    - 55.545044
-    - 37.589976
-  address: ''
+    - 55.530872
+    - 37.57104
+  address: 'Проектируемый проезд 185,владение 8с5'
   phone: 84954093741
   yandex: 1db01d8fee1a247a
 - alias: vidnoe
   city: Видное
   inCity: в Видном
   coordinates:
-    - 55.557174
-    - 37.708644
-  address: ''
+    - 55.549959
+    - 37.721211
+  address: 'проспект Ленинского Комсомола, 1Д'
   phone: 84954093741
   yandex: f8274b102e2d7c34
 - alias: vlasiha
@@ -74,81 +74,81 @@
   city: Вёшки
   inCity: в Вёшках
   coordinates:
-    - 55.926408
-    - 37.605876
-  address: ''
+    - 55.928071
+    - 37.608792
+  address: 'Абрикосовая улица, 29'
   phone: 84954093741
   yandex: 0eb127a91e39b2c6
 - alias: dedovsk
   city: Дедовск
   inCity: в Дедовске
   coordinates:
-    - 55.859984
-    - 37.120669
-  address: ''
+    - 55.860787
+    - 37.108605
+  address: 'улица Набережная Речфлота, 1'
   phone: 84954093741
   yandex: 94aeb6da31677c80
 - alias: dzerzhinskii
   city: Дзержинский
   inCity: в Дзержинском
   coordinates:
-    - 55.63096
-    - 37.849679
-  address: ''
+    - 55.629155
+    - 37.842798
+  address: 'улица Стройгородок, вл5'
   phone: 84954093741
   yandex: 1268fae8f8a876b0
 - alias: dolgoprudnyi
   city: Долгопрудный
   inCity: в Долгопрудном
   coordinates:
-    - 55.93362
-    - 37.514401
-  address: ''
+    - 55.924219
+    - 37.499902
+  address: 'Промышленный проезд, 8'
   phone: 84954093741
   yandex: b215cb0d7fa2cb8a
 - alias: domodedovo
   city: Домодево
   inCity: в Домодедово
   coordinates:
-    - 55.437112
-    - 37.768049
-  address: ''
+    - 55.33257
+    - 37.843427
+  address: 'улица Авенариуса, 5'
   phone: 84954093741
   yandex: 9d6c05103a6eb952
 - alias: zheleznodorozhnyi
   city: Железнодорожный
   inCity: в Железнодорожном
   coordinates:
-    - 55.746436
-    - 38.009049
-  address: ''
+    - 55.738556
+    - 38.013613
+  address: 'Автозаводская улица, 13Б'
   phone: 84954093741
   yandex: 79fee4fe1995073d
 - alias: zhukovskii
   city: Жуковский
   inCity: в Жуковском
   coordinates:
-    - 55.59778
-    - 38.119497
-  address: ''
+    - 55.61209
+    - 38.107163
+  address: 'улица Чапаева, 24'
   phone: 84954093741
   yandex: 8becc8ae3ec6f4c5
 - alias: zelenograd
   city: Зеленоград
   inCity: в Зеленограде
   coordinates:
-    - 55.991893
-    - 37.214382
-  address: ''
+    - 56.006603
+    - 37.192382
+  address: '2-й Западный проезд, 1с4'
   phone: 84954093741
   yandex: 25badd0012883cae
 - alias: ivanteevka
   city: Ивантеевка
   inCity: в Ивантеевке
   coordinates:
-    - 55.97
-    - 37.917574
-  address: ''
+    - 55.960256
+    - 37.930105
+  address: 'улица Толмачёва, 104с1'
   phone: 84954093741
   yandex: dc2ae4d2b3cdafdf
 - alias: ilinskoe
@@ -160,114 +160,96 @@
   address: ''
   phone: 84954093741
   yandex: 5cd156b9ffe3ec64
-- alias: istra
-  city: Истра
-  inCity: в Истре
-  coordinates:
-    - 55.914287
-    - 36.860284
-  address: ''
-  phone: 84954093741
-  yandex: a254f0fff61dc41a
 - alias: cliazma
   city: Клязьма
   inCity: в Клязьме
   coordinates:
-    - 55.978161
-    - 37.833842
-  address: ''
+    - 55.977743
+    - 37.85197
+  address: 'Костомаровская улица, 5/1с11'
   phone: 84954093741
   yandex: afa6add859d548e1
 - alias: korolev
   city: Королев
   inCity: в Королеве
   coordinates:
-    - 55.922212
-    - 37.854629
-  address: ''
+    - 55.910003
+    - 37.799643
+  address: 'Пионерская улица, 4к83'
   phone: 84954093741
   yandex: 3fedfea67e4288ca
 - alias: kotelniki
   city: Котельники
   inCity: в Котельниках
   coordinates:
-    - 55.65984
-    - 37.863199
-  address: ''
+    - 55.665071
+    - 37.862696
+  address: 'Новая улица, 19с3'
   phone: 84954093741
   yandex: ef8bd46bc5d60c04
 - alias: kraskovo
   city: Красково
   inCity: в Красково
   coordinates:
-    - 55.658886
-    - 37.98846
-  address: ''
+    - 55.663888
+    - 37.993922
+  address: 'улица Карла Маркса, 121с1'
   phone: 84954093741
   yandex: 8a10270707cdfba6
 - alias: krasnogorsk
   city: Красногорск
   inCity: в Красногорске
   coordinates:
-    - 55.831099
-    - 37.330192
-  address: ''
+    - 55.8289
+    - 37.343209
+  address: 'Оптический проезд, 1'
   phone: 84954093741
   yandex: 8c5cc48cb1a897f6
 - alias: kurkino
   city: Куркино
   inCity: в Куркино
   coordinates:
-    - 55.891239
-    - 37.389661
-  address: ''
+    - 55.883191
+    - 37.40822
+  address: 'Куркинское шоссе, 13к1с1'
   phone: 84954093741
   yandex: 7e5c16031370918a
 - alias: lobnia
   city: Лобня
   inCity: в Лобне
   coordinates:
-    - 56.012053
-    - 37.475082
-  address: ''
+    - 56.01944
+    - 37.462613
+  address: 'улица Гагарина, 9с7'
   phone: 84954093741
   yandex: 7ed18d8cf571b331
 - alias: lytkarino
   city: Лыткарино
   inCity: в Лыткарино
   coordinates:
-    - 55.577856
-    - 37.90347
-  address: ''
+    - 55.589762
+    - 37.91424
+  address: 'улица Степана Степанова, 9Е'
   phone: 84954093741
   yandex: c73b7631a14e192c
 - alias: lyubertcy
   city: Люберцы
   inCity: в Люберцах
   coordinates:
-    - 55.676494
-    - 37.898116
-  address: ''
+    - 55.664609
+    - 37.887327
+  address: 'Котельнический проезд, 25'
   phone: 84954093741
   yandex: b5a9f2fa4fe1ec1e
 - alias: malahovka
   city: Малаховка
   inCity: в Малаховке
   coordinates:
-    - 55.64258
-    - 38.009373
-  address: ''
+    - 55.637083
+    - 38.008124
+  address: 'Шоссейная улица, 40с5'
   phone: 84954093741
   yandex: 0a8d939850b04ce2
-- alias: mechnikovo
-  city: Мечниково
-  inCity: в Мечниково
-  coordinates:
-    - 55.749831
-    - 37.162252
-  address: ''
-  phone: 84954093741
-  yandex: 05e9e89c5b940154
 - alias: moscow
   city: Москва
   inCity: в Москве
@@ -281,188 +263,188 @@
   city: Московский
   inCity: в Московском
   coordinates:
-    - 55.602144
-    - 37.346551
-  address: ''
+    - 55.593354
+    - 37.371524
+  address: 'Радужная улица, 3'
   phone: 84954093741
   yandex: 94b70e3f40bd1d91
 - alias: mytishchi
   city: Мытищи
   inCity: в Мытищах
   coordinates:
-    - 55.910503
-    - 37.73633
-  address: ''
+    - 55.923544
+    - 37.715516
+  address: 'улица Колпакова, 50с1'
   phone: 84954093741
   yandex: 14c3722a9abe9fd5
 - alias: nahabino
   city: Нахабино
   inCity: в Нахабино
   coordinates:
-    - 55.847149
-    - 37.180138
-  address: ''
+    - 55.841372
+    - 37.177182
+  address: 'Институтская улица, 17Ас1'
   phone: 84954093741
   yandex: da1b7e04f8ae4955
 - alias: novogorsk
   city: Новогорск
   inCity: в Новогорске
   coordinates:
-    - 55.892178
-    - 37.350279
-  address: ''
+    - 55.905068
+    - 37.340487
+  address: 'Ивановская улица, 15Вс1'
   phone: 84954093741
   yandex: 49619a45dd2597f8
 - alias: odintcovo
   city: Одинцово
   inCity: в Одинцово
   coordinates:
-    - 55.678895
-    - 37.26387
-  address: ''
+    - 55.671372
+    - 37.249209
+  address: 'Западная улица, 7'
   phone: 84954093741
   yandex: 7e30f3c57b5e4385
 - alias: opaliha
   city: Опалиха
   inCity: в Опалихе
   coordinates:
-    - 55.827732
-    - 37.252731
-  address: ''
+    - 55.825168
+    - 37.265954
+  address: 'улица Мира, 25'
   phone: 84954093741
   yandex: 2f4973a377beb836
 - alias: petrovo-dalnee
   city: Петрово-Дальнее
   inCity: в Петрово-Дальнее
   coordinates:
-    - 55.751366
-    - 37.178691
-  address: ''
+    - 55.75974
+    - 37.168055
+  address: 'Промышленная улица, с1'
   phone: 84954093741
   yandex: 9feace978aa44106
 - alias: pirogovo
   city: Пирогово
   inCity: в Пирогово
   coordinates:
-    - 55.97872
-    - 37.729727
-  address: ''
+    - 55.974181
+    - 37.734704
+  address: 'Совхозная улица, 27/2'
   phone: 84954093741
   yandex: c5744df0ccd47aef
 - alias: podolsk
   city: Подольск
   inCity: в Подольске
   coordinates:
-    - 55.431177
-    - 37.544737
-  address: ''
+    - 55.427428
+    - 37.570429
+  address: 'Рощинская улица, 3с2'
   phone: 84954093741
   yandex: 3a81c0bc0bc88339
 - alias: putilkovo
   city: Путилково
   inCity: в Путилково
   coordinates:
-    - 55.863636
-    - 37.392113
-  address: ''
+    - 55.867874
+    - 37.387604
+  address: 'Путилковское шоссе, 28'
   phone: 84954093741
   yandex: c389d10ce50ccb85
 - alias: pushkino
   city: Пушкино
   inCity: в Пушкине
   coordinates:
-    - 56.010428
-    - 37.847155
-  address: ''
+    - 55.990891
+    - 37.853811
+  address: 'Кудринское шоссе, 6с6'
   phone: 84954093741
   yandex: 12877f19048be05a
 - alias: rastorguevo
   city: Расторгуево
   inCity: в Расторгуево
   coordinates:
-    - 55.544509
-    - 37.672136
-  address: ''
+    - 55.53859
+    - 37.669432
+  address: 'Сосновая улица, 15к1'
   phone: 84954093741
   yandex: 17e9bb6208af8824
 - alias: reutov
   city: Реутов
   inCity: в Реутове
   coordinates:
-    - 55.760515
-    - 37.855141
-  address: ''
+    - 55.759881
+    - 37.875649
+  address: 'улица Гагарина, 33/2Б'
   phone: 84954093741
   yandex: 1ac525cf216ea481
 - alias: rublevo
   city: Рублево
   inCity: в Рублево
   coordinates:
-    - 55.786288
-    - 37.35539
-  address: ''
+    - 55.793019
+    - 37.353674
+  address: 'улица Василия Ботылёва, 52с248'
   phone: 84954093741
   yandex: 5ac9fe07c7ad2fb1
 - alias: saltykovka
   city: Салтыковка
   inCity: в Салтыковке
   coordinates:
-    - 55.762713
-    - 37.922461
-  address: ''
+    - 55.752485
+    - 37.939313
+  address: 'Носовихинское шоссе, вл255'
   phone: 84954093741
   yandex: c027362d0e481fa9
 - alias: shodnya
   city: Сходня
   inCity: в Сходне
   coordinates:
-    - 55.951572
-    - 37.295607
-  address: ''
+    - 55.948977
+    - 37.306854
+  address: 'Железнодорожная улица, 8'
   phone: 84954093741
   yandex: ef8f844f56c5cb83
 - alias: tomilino
   city: Томилино
   inCity: в Томилино
   coordinates:
-    - 55.663126
-    - 37.949931
-  address: ''
+    - 55.663167
+    - 37.963172
+  address: 'улица Гаршина, 11с7'
   phone: 84954093741
   yandex: ae657c223c8012cf
 - alias: troitck
   city: Троицк
   inCity: в Троицке
   coordinates:
-    - 55.485469
-    - 37.305327
-  address: ''
+    - 55.454902
+    - 37.274757
+  address: 'Физическая улица, 27с35'
   phone: 84954093741
   yandex: ffe5becdfb7e1366
 - alias: himki
   city: Химки
   inCity: в Химках
   coordinates:
-    - 55.888796
-    - 37.430328
-  address: ''
+    - 55.886292
+    - 37.432654
+  address: 'улица Горшина, 3к2'
   phone: 84954093741
   yandex: 8cbe21192e0cf796
 - alias: shchelkovo
   city: Щелково
   inCity: в Щелково
   coordinates:
-    - 55.923387
-    - 37.978399
-  address: ''
+    - 55.913818
+    - 38.035478
+  address: 'Заводская улица, 2к88'
   phone: 84954093741
   yandex: 86b36d35b4d7ca20
 - alias: shcherbinka
   city: Щербинка
   inCity: в Щербинке
   coordinates:
-    - 55.508743
-    - 37.563314
-  address: ''
+    - 55.492156
+    - 37.560484
+  address: 'Южная улица, 14'
   phone: 84954093741
   yandex: 3fb91ed8cae84553

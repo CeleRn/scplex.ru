@@ -75,6 +75,7 @@ deploy:
   branch: dedovsk
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.859984
-    - 37.120669
+    - 55.860787
+    - 37.108605
   city: Дедовск
   inCity: в Дедовске
-  address: ''
+  address: 'улица Набережная Речфлота, 1'
+  fullAddress: 'городской округ Истра, Дедовск, улица Набережная Речфлота, 1'
   phone: 84954093741
   yandex: 94aeb6da31677c80
   alias: dedovsk

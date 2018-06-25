@@ -75,6 +75,7 @@ deploy:
   branch: odintcovo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.678895
-    - 37.26387
+    - 55.671372
+    - 37.249209
   city: Одинцово
   inCity: в Одинцово
-  address: ''
+  address: 'Западная улица, 7'
+  fullAddress: 'Одинцово, Западная улица, 7'
   phone: 84954093741
   yandex: 7e30f3c57b5e4385
   alias: odintcovo

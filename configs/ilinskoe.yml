@@ -75,6 +75,7 @@ deploy:
   branch: ilinskoe
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -93,6 +94,7 @@ subdomain:
   city: Ильинское-Усово
   inCity: в Ильинское-Усово
   address: ''
+  fullAddress: 'городской округ Красногорск, посёлок Ильинское-Усово'
   phone: 84954093741
   yandex: 5cd156b9ffe3ec64
   alias: ilinskoe

@@ -75,6 +75,7 @@ deploy:
   branch: pushkino
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 56.010428
-    - 37.847155
+    - 55.990891
+    - 37.853811
   city: Пушкино
   inCity: в Пушкине
-  address: ''
+  address: 'Кудринское шоссе, 6с6'
+  fullAddress: 'Московская область, Пушкино, Кудринское шоссе, 6с6'
   phone: 84954093741
   yandex: 12877f19048be05a
   alias: pushkino

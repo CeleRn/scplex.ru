@@ -75,6 +75,7 @@ deploy:
   branch: cliazma
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.978161
-    - 37.833842
+    - 55.977743
+    - 37.85197
   city: Клязьма
   inCity: в Клязьме
-  address: ''
+  address: 'Костомаровская улица, 5/1с11'
+  fullAddress: 'Пушкино, микрорайон Клязьма, Костомаровская улица, 5/1с11'
   phone: 84954093741
   yandex: afa6add859d548e1
   alias: cliazma

@@ -75,6 +75,7 @@ deploy:
   branch: aparinki
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.572029
-    - 37.760557
+    - 55.570008
+    - 37.75956
   city: Апаринки
   inCity: в Апаринках
-  address: ''
+  address: владение 5
+  fullAddress: 'деревня Апаринки, вл5'
   phone: 84954093741
   yandex: 94bc7c3ca7b6e2dc
   alias: aparinki

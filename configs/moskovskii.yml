@@ -75,6 +75,7 @@ deploy:
   branch: moskovskii
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.602144
-    - 37.346551
+    - 55.593354
+    - 37.371524
   city: Московский
   inCity: в Московском
-  address: ''
+  address: 'Радужная улица, 3'
+  fullAddress: 'Московский, микрорайон Град Московский, Радужная улица, 3'
   phone: 84954093741
   yandex: 94b70e3f40bd1d91
   alias: moskovskii

@@ -75,6 +75,7 @@ deploy:
   branch: podolsk
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.431177
-    - 37.544737
+    - 55.427428
+    - 37.570429
   city: Подольск
   inCity: в Подольске
-  address: ''
+  address: 'Рощинская улица, 3с2'
+  fullAddress: 'Подольск, Рощинская улица, 3с2'
   phone: 84954093741
   yandex: 3a81c0bc0bc88339
   alias: podolsk

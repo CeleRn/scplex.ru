@@ -75,6 +75,7 @@ deploy:
   branch: rastorguevo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.544509
-    - 37.672136
+    - 55.53859
+    - 37.669432
   city: Расторгуево
   inCity: в Расторгуево
-  address: ''
+  address: 'Сосновая улица, 15к1'
+  fullAddress: 'Видное, район Расторгуево, Сосновая улица, 15к1'
   phone: 84954093741
   yandex: 17e9bb6208af8824
   alias: rastorguevo

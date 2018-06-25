@@ -75,6 +75,7 @@ deploy:
   branch: opaliha
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.827732
-    - 37.252731
+    - 55.825168
+    - 37.265954
   city: Опалиха
   inCity: в Опалихе
-  address: ''
+  address: 'улица Мира, 25'
+  fullAddress: 'Красногорск, микрорайон Опалиха, улица Мира, 25'
   phone: 84954093741
   yandex: 2f4973a377beb836
   alias: opaliha

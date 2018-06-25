@@ -75,6 +75,7 @@ deploy:
   branch: tomilino
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,14 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.663126
-    - 37.949931
+    - 55.663167
+    - 37.963172
   city: Томилино
   inCity: в Томилино
-  address: ''
+  address: 'улица Гаршина, 11с7'
+  fullAddress: >-
+    городской округ Люберцы, посёлок городского типа Томилино, улица Гаршина,
+    11с7
   phone: 84954093741
   yandex: ae657c223c8012cf
   alias: tomilino

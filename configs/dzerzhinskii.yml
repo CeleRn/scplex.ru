@@ -75,6 +75,7 @@ deploy:
   branch: dzerzhinskii
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.63096
-    - 37.849679
+    - 55.629155
+    - 37.842798
   city: Дзержинский
   inCity: в Дзержинском
-  address: ''
+  address: 'улица Стройгородок, вл5'
+  fullAddress: 'Московская область, Дзержинский, улица Стройгородок, вл5'
   phone: 84954093741
   yandex: 1268fae8f8a876b0
   alias: dzerzhinskii

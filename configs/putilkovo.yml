@@ -75,6 +75,7 @@ deploy:
   branch: putilkovo
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.863636
-    - 37.392113
+    - 55.867874
+    - 37.387604
   city: Путилково
   inCity: в Путилково
-  address: ''
+  address: 'Путилковское шоссе, 28'
+  fullAddress: 'городской округ Красногорск, деревня Путилково, Путилковское шоссе, 28'
   phone: 84954093741
   yandex: c389d10ce50ccb85
   alias: putilkovo

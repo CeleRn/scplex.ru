@@ -75,6 +75,7 @@ deploy:
   branch: lytkarino
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.577856
-    - 37.90347
+    - 55.589762
+    - 37.91424
   city: Лыткарино
   inCity: в Лыткарино
-  address: ''
+  address: 'улица Степана Степанова, 9Е'
+  fullAddress: 'Лыткарино, квартал 3А, улица Степана Степанова, 9Е'
   phone: 84954093741
   yandex: c73b7631a14e192c
   alias: lytkarino

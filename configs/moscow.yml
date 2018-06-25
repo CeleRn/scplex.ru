@@ -75,6 +75,7 @@ deploy:
   branch: moscow
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:

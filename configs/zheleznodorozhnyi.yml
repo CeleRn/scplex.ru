@@ -75,6 +75,7 @@ deploy:
   branch: zheleznodorozhnyi
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.746436
-    - 38.009049
+    - 55.738556
+    - 38.013613
   city: Железнодорожный
   inCity: в Железнодорожном
-  address: ''
+  address: 'Автозаводская улица, 13Б'
+  fullAddress: 'Балашиха, микрорайон Железнодорожный, Автозаводская улица, 13Б'
   phone: 84954093741
   yandex: 79fee4fe1995073d
   alias: zheleznodorozhnyi

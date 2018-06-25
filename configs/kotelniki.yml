@@ -75,6 +75,7 @@ deploy:
   branch: kotelniki
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.65984
-    - 37.863199
+    - 55.665071
+    - 37.862696
   city: Котельники
   inCity: в Котельниках
-  address: ''
+  address: 'Новая улица, 19с3'
+  fullAddress: 'Котельники, Новая улица, 19с3'
   phone: 84954093741
   yandex: ef8bd46bc5d60c04
   alias: kotelniki

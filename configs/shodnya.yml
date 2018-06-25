@@ -75,6 +75,7 @@ deploy:
   branch: shodnya
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.951572
-    - 37.295607
+    - 55.948977
+    - 37.306854
   city: Сходня
   inCity: в Сходне
-  address: ''
+  address: 'Железнодорожная улица, 8'
+  fullAddress: 'Химки, микрорайон Сходня, Железнодорожная улица, 8'
   phone: 84954093741
   yandex: ef8f844f56c5cb83
   alias: shodnya

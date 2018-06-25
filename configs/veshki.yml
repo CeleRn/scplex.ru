@@ -75,6 +75,7 @@ deploy:
   branch: veshki
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.926408
-    - 37.605876
+    - 55.928071
+    - 37.608792
   city: Вёшки
   inCity: в Вёшках
-  address: ''
+  address: 'Абрикосовая улица, 29'
+  fullAddress: 'городской округ Мытищи, посёлок Вёшки, Абрикосовая улица, 29'
   phone: 84954093741
   yandex: 0eb127a91e39b2c6
   alias: veshki

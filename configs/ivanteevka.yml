@@ -75,6 +75,7 @@ deploy:
   branch: ivanteevka
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.97
-    - 37.917574
+    - 55.960256
+    - 37.930105
   city: Ивантеевка
   inCity: в Ивантеевке
-  address: ''
+  address: 'улица Толмачёва, 104с1'
+  fullAddress: 'Ивантеевка, улица Толмачёва, 104с1'
   phone: 84954093741
   yandex: dc2ae4d2b3cdafdf
   alias: ivanteevka

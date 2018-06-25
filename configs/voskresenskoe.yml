@@ -75,6 +75,7 @@ deploy:
   branch: voskresenskoe
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -93,6 +94,7 @@ subdomain:
   city: Воскресенское
   inCity: в Воскресенском
   address: ''
+  fullAddress: 'Москва, поселение Воскресенское'
   phone: 84954093741
   yandex: d936dd177a893ce6
   alias: voskresenskoe

@@ -75,6 +75,7 @@ deploy:
   branch: lyubertcy
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.676494
-    - 37.898116
+    - 55.664609
+    - 37.887327
   city: Люберцы
   inCity: в Люберцах
-  address: ''
+  address: 'Котельнический проезд, 25'
+  fullAddress: 'Люберцы, Котельнический проезд, 25'
   phone: 84954093741
   yandex: b5a9f2fa4fe1ec1e
   alias: lyubertcy

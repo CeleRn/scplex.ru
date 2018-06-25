@@ -75,6 +75,7 @@ deploy:
   branch: dolgoprudnyi
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.93362
-    - 37.514401
+    - 55.924219
+    - 37.499902
   city: Долгопрудный
   inCity: в Долгопрудном
-  address: ''
+  address: 'Промышленный проезд, 8'
+  fullAddress: 'Долгопрудный, Промышленный проезд, 8'
   phone: 84954093741
   yandex: b215cb0d7fa2cb8a
   alias: dolgoprudnyi

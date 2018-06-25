@@ -75,6 +75,7 @@ deploy:
   branch: mytishchi
 browsersync:
   logLevel: warn
+  reloadDelay: 250
   ghostMode:
     scroll: true
 server:
@@ -88,11 +89,12 @@ server:
       - html
 subdomain:
   coordinates:
-    - 55.910503
-    - 37.73633
+    - 55.923544
+    - 37.715516
   city: Мытищи
   inCity: в Мытищах
-  address: ''
+  address: 'улица Колпакова, 50с1'
+  fullAddress: 'Мытищи, улица Колпакова, 50с1'
   phone: 84954093741
   yandex: 14c3722a9abe9fd5
   alias: mytishchi
