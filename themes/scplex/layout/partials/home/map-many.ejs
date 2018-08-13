@@ -23,14 +23,14 @@ var dataMap = {
                 },
                 "properties": {
                     "balloonContentHeader": "<h3><%= site.data.company.name %> <%= region.inCity %></h3>",
-                    "balloonContentBody": "<a href='<%= region.url %>'><%= region.url %></a>",
+                    "balloonContentBody": "<p><%= region.fullAddress %></p><p><a href='<%= region.url %>'><%= region.url %></a></p>",
                     "balloonContentFooter": "<a href='tel:<%= region.phone %>'><%= formatPhone(region.phone) %></a>",
                     "clusterCaption": "<%= region.city %>",
                     "hintContent": "<%= site.data.company.name %> <%= region.inCity %>"
                 }
             },
         <% } %>
-        ]
+    ]
 }
 </script>
 

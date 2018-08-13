@@ -65,6 +65,7 @@ for (var i = 0; i < subdomainsList.length; i++) {
         inCity: args['inCity'],
         coordinates: args['coordinates'],
         address: args['address'],
+        fullAddress: args['fullAddress'],
         phone: args['phone'],
         yandex: args['yandex']
     };

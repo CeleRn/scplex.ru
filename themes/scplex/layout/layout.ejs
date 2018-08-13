@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <%- partial('common/head') %>
-  <body<% if ((page.layout == "index") || (page.layout == "main-index")) { %> class="body_home"<% } %>>
-    <%- partial('common/header') %>
-    <%- body %>
-    <%- partial('common/footer', {}, {cache: true}) %>
-    <script src="/assets/js/commons.js"></script>
-    <%- partial('common/counters', {}, {cache: true}) %>
-    <%- partial('common/modals') %> 
-  </body>
-</html>
+<% if (page.path != "turbo.xml") { %>
+  <!DOCTYPE html>
+  <html lang="ru">
+    <%- partial('common/head') %>
+    <body<% if ((page.layout == "index") || (page.layout == "main-index")) { %> class="body_home"<% } %>>
+      <%- partial('common/header') %>
+      <%- body %>
+      <%- partial('common/footer', {}, {cache: true}) %>
+      <script src="/assets/js/commons.js"></script>
+      <%- partial('common/counters', {}, {cache: true}) %>
+      <%- partial('common/modals') %> 
+    </body>
+  </html>
+
+<% } else { %>
+  <%- body %>
+<% } %>
+

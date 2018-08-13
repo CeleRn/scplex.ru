@@ -43,6 +43,8 @@ marked:
   smartypants: true
   modifyAnchors: ''
   autolink: true
+metrika: 48243125
+analytics: UA-116577650-1
 index_generator:
   path: ''
   per_page: 10

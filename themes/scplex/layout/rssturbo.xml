@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+
+<channel>
+	<title>Услуги сервисного центра "PLEX" {{ config.subdomain.inCity }}</title>
+	<link>{{ url }}</link>
+	<turbo:analytics type="Yandex" id="{{ config.metrika }}"></turbo:analytics>
+	<turbo:analytics type="Google" id="{{ config.analytics }}"></turbo:analytics>
+	<language>{{ config.language }}</language>
+	
+
+    {% for post in posts %}
+        <item turbo="true">
+            <link>{{ url }}{{ post.path }}</link>
+            <turbo:source>{{ url }}{{ post.path | uriencode }}</turbo:source>
+            <turbo:topic>{{ post.longtitle }} {{ config.subdomain.inCity }}</turbo:topic>
+            <turbo:content>
+                <![CDATA[
+                    <header>
+                        <figure><img src="{{ url }}{{ post.banner }}" /></figure>
+                        <h1>{{ post.longtitle }} {{ config.subdomain.inCity }}</h1>
+                        <menu><!--Элементы меню-->
+                            <a href="{{ url }}/services/repair/computer/">Ремонт компьютеров</a>
+                            <a href="{{ url }}/services/repair/notebook/">Ремонт ноутбуков</a>
+                            <a href="{{ url }}/services/help/">Компьютерная помощь</a>
+                            <a href="{{ url }}/services/recovery/">Восстановление данных</a>
+                            <a href="{{ url }}/services/net/">Сети и интернет</a>
+                        </menu>
+                    </header>
+                    {{ post.content | md | safe }} 
+                    <h2>Стоимость</h2>
+                    <ul>
+                        {% for offer in post.offers %}
+                            <li>
+                                {{ offer.name }} - 
+                                {% if (offer.type == "eq") %}
+                                    <b>{{ offer.price }} ₽</b>
+                                {% elif (offer.type == "low") %}
+                                    <b>от {{ offer.price }} ₽</b>
+                                {% elif (offer.type == "high") %}
+                                    <b>до {{ offer.price }} ₽</b>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                    <h2>{{ post.phoneCallToActionTitle }}</h2>
+                    <p><b>{{ data.company.phone }}</b></p>
+                    <p><small>Режим работы: {{ data.company.worktime }}</small></p>
+                    <h2>Алгоритм работы</h2>
+                    {% if (post.scheme !== undefined) %}
+                        {% set scheme = post.scheme %}
+                    {% else %}
+                        {% set scheme = data.scheme.default %}
+                    {% endif %}
+                    <ol>
+                        {% for itemSchema in scheme %}
+                            <li>{{ itemSchema.description }}</li>
+                        {% endfor %}
+                    </ol>
+                    <h2>Закажите выезд мастера</h2>
+                    <p>Мастер приедет в течение часа после подтверждения заказа.</p>
+                    <a href="{{ url }}/services/order/"><b>Вызвать мастера</b></a>
+                ]]>
+            </turbo:content>
+            <yandex:related type="infinity">
+                <link url="{{ url }}/services/price/">Прайс-лист</link>
+                <link url="{{ url }}/service-center/contacts/">Контактная информация</link>
+            </yandex:related>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>

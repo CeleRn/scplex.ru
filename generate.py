@@ -17,5 +17,3 @@ for subdomain in subdomains_json:
     print("Создается контент поддомена: " + subdomain)
     proc = subprocess.Popen("hexo generate --config configs/" + subdomain + ".yml", shell=True, stdout=subprocess.PIPE)
     out = proc.stdout.readlines()
-
-

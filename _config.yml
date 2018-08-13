@@ -57,6 +57,10 @@ marked:
   modifyAnchors: ''
   autolink: true
 
+# Analitycs
+
+metrika: 48243125
+analytics: UA-116577650-1
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

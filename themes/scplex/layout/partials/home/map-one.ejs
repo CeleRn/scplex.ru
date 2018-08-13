@@ -23,7 +23,7 @@ function init () {
         { 
             hintContent: '<%= site.data.company.name %> <%= config.subdomain.inCity %>',
             balloonContentHeader: "<h3><%= site.data.company.name %> <%= config.subdomain.inCity %></h3>",
-            balloonContentBody: "<a href='tel:<%= config.subdomain.phone %>'><%= formatPhone(config.subdomain.phone) %></a>",
+            balloonContentBody: "<p><%= config.subdomain.fullAddress %></p><p><a href='tel:<%= config.subdomain.phone %>'><%= formatPhone(config.subdomain.phone) %></a></p>",
         
         // balloonContent: '<%= config.subdomain.phone %>'
     });
