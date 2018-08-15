@@ -23,7 +23,7 @@ hexo.extend.generator.register(function(locals) {
     mdFilter.install(env, 'md');
     // env.addFilter('md', mdFilter);
 
-
+    
 
     var searchTmplSrc = pathFn.join(__dirname, '../layout/rssturbo.xml');
     var searchTmpl = nunjucks.compile(fs.readFileSync(searchTmplSrc, 'utf8'), env);

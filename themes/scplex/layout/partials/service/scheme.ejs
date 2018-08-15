@@ -4,21 +4,19 @@
   var scheme = site.data.scheme.default;
 } %>
 
-<div class="scheme" itemscope itemtype="http://schema.org/ItemList">
+<div class="scheme">
 <div class="container">
-  <h2 class="scheme__title" itemprop="name">Алгоритм работы</h2>
-  <meta itemprop="itemListOrder" content="Ascending" />
-  <meta itemprop="numberOfItems" content="<%= scheme.length %>" />
+  <h2 class="scheme__title">Алгоритм работы</h2>
   <div class="scheme__list" id="scheme-list">
       <% for (let index in scheme) { 
         let schemeItem = scheme[index]; %>
-        <div class="scheme__item scheme-item" itemprop="itemListElement" data-size-line="200" data-top-for-arrow="200" itemscope itemtype="http://schema.org/ListItem">
-          <span class="scheme-item__number" itemprop="position"><%= Number(index) + 1 %></span>
-          <div class="scheme-item__content" itemprop="item" itemscope itemtype="http://schema.org/InteractAction">
-            <h3 class="scheme-item__title" itemprop="name"><%= schemeItem.name %></h3>
-            <p class="scheme-item__description" itemprop="description"><%= schemeItem.description %></p>
+        <div class="scheme__item scheme-item" data-size-line="200" data-top-for-arrow="200">
+          <span class="scheme-item__number"><%= Number(index) + 1 %></span>
+          <div class="scheme-item__content">
+            <h3 class="scheme-item__title"><%= schemeItem.name %></h3>
+            <p class="scheme-item__description"><%= schemeItem.description %></p>
             <% if(typeof schemeItem.link != "undefined") { %>
-              <a href="<%= schemeItem.link.url %>" itemprop="url" class="scheme-item__link<% if (schemeItem.link.accent) { %> scheme-item__link_accent<% } %>"><%= schemeItem.link.name %></a>
+              <a href="<%= schemeItem.link.url %>" class="scheme-item__link<% if (schemeItem.link.accent) { %> scheme-item__link_accent<% } %>"><%= schemeItem.link.name %></a>
             <% } %>
           </div>
         </div>

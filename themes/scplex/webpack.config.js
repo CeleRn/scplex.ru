@@ -2,6 +2,7 @@
 
 // Зависимости
 const webpack = require("webpack");
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const path = require('path');
 const yml = require("require-yml");
 const autoprefixer = require('autoprefixer');
@@ -12,8 +13,8 @@ const cssnano = require('cssnano');
 // Окружение 
 const NODE_ENV = process.env.NODE_ENV || 'developer';
 
-const isProduction = (NODE_ENV == 'production');
-const isDeveloper = (NODE_ENV == 'developer');
+const isProduction = true;
+// const isDeveloper = (argv.mode === 'development');
 
 // Конфиг Hexo
 const hexoConfig = yml("../../_config.yml");
@@ -81,19 +82,19 @@ module.exports = {
                     path.join(__dirname, "node_modules", "svg-sprite-loader", "lib", "plugin.js")
                 ],
                 use: "babel?presets[]=es2015"
-            }, /* { // SCSS в файлы
-                test: /\.(sass|scss)$/,
-                use: extractCSS.extract('css!sass')
-            }, */
+            },
+            /* { // SCSS в файлы
+                           test: /\.(sass|scss)$/,
+                           use: extractCSS.extract('css!sass')
+                       }, */
             { // SCSS в файлы
                 test: /\.(sass|scss)$/,
                 use: extractCSS.extract({
                     fallback: 'style-loader',
-                    use: [
-                        {
+                    use: [{
                             loader: 'css-loader',
                             options: {
-                                minimize: isProduction || {/* CSSNano Options */ }
+                                minimize: isProduction || { /* CSSNano Options */ }
                             }
                         },
                         {
@@ -116,30 +117,30 @@ module.exports = {
                 use: [
                     'file-loader?name=images/[name].[ext]',
                     {
-                      loader: 'image-webpack-loader',
-                      options: {
-                        mozjpeg: {
-                          progressive: true,
-                          quality: 65
-                        },
-                        // optipng.enabled: false will disable optipng
-                        optipng: {
-                          enabled: false,
-                        },
-                        pngquant: {
-                          quality: '65-90',
-                          speed: 4
-                        },
-                        gifsicle: {
-                          interlaced: false,
-                        },
-                        // the webp option will enable WEBP
-                        webp: {
-                          quality: 75
+                        loader: 'image-webpack-loader',
+                        options: {
+                            mozjpeg: {
+                                progressive: true,
+                                quality: 65
+                            },
+                            // optipng.enabled: false will disable optipng
+                            optipng: {
+                                enabled: false,
+                            },
+                            pngquant: {
+                                quality: '65-90',
+                                speed: 4
+                            },
+                            gifsicle: {
+                                interlaced: false,
+                            },
+                            // the webp option will enable WEBP
+                            webp: {
+                                quality: 75
+                            }
                         }
-                      }
                     },
-                  ],
+                ],
             }, { // Копируем шрифты
                 test: /\.(ttf|eot|woff|woff2)$/,
                 use: 'file?name=assets/fonts/[path][name].[ext]'
@@ -161,13 +162,53 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|json|xml|ico)$/,
+                test: /\.(png|xml|ico)$/,
                 include: path.join(__dirname, "src", "images", "favicons"),
                 loader: 'file-loader?name=images/favicons/[name].[ext]'
+            },
+            {
+                test: /\.json$/,
+                include: path.join(__dirname, "src", "images", "favicons"),
+                loader: 'file-loader?name=images/favicons/[name].[ext]|raw-loader'
             }
 
         ]
     },
+    // optimization: {
+    //     minimizer: [
+    //         new UglifyJSPlugin({
+    //             uglifyOptions: {
+    //                 output: {
+    //                     comments: false
+    //                 },
+    //                 compress: {
+    //                     unsafe_comps: true,
+    //                     properties: true,
+    //                     keep_fargs: false,
+    //                     pure_getters: true,
+    //                     collapse_vars: true,
+    //                     unsafe: true,
+    //                     warnings: false,
+    //                     screw_ie8: true,
+    //                     sequences: true,
+    //                     dead_code: true,
+    //                     drop_debugger: true,
+    //                     comparisons: true,
+    //                     conditionals: true,
+    //                     evaluate: true,
+    //                     booleans: true,
+    //                     loops: true,
+    //                     unused: true,
+    //                     hoist_funs: true,
+    //                     if_return: true,
+    //                     join_vars: true,
+    //                     cascade: true,
+    //                     drop_console: true
+    //                 }
+    //             }
+    //         }),
+    //     ]
+    // },
     plugins: [
         new webpack.NoEmitOnErrorsPlugin(),
         new extractCSS({
@@ -221,14 +262,14 @@ module.exports = {
     }
 };
 
-if (isProduction) {
-    module.exports.plugins.push(
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: false,
-                drop_console: true,
-                unsafe: true
-            }
-        })
-    );
-}
+// if (isProduction) {
+//     module.exports.plugins.push(
+//         new webpack.optimize.UglifyJsPlugin({
+//             compress: {
+//                 warnings: false,
+//                 drop_console: true,
+//                 unsafe: true
+//             }
+//         })
+//     );
+// };

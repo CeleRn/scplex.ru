@@ -95,7 +95,7 @@ require('./images/favicons/favicon.ico');
 require('./images/favicons/favicon-16x16.png');
 require('./images/favicons/favicon-32x32.png');
 require('./images/favicons/favicon-96x96.png');
-require('./images/favicons/manifest.json');
+// require('./images/favicons/manifest.json');
 require('./images/favicons/ms-icon-70x70.png');
 require('./images/favicons/ms-icon-144x144.png');
 require('./images/favicons/ms-icon-150x150.png');
